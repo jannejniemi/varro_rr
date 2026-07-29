@@ -1,0 +1,3941 @@
+# source = Varro RR, Teubner/Loeb
+# edition = RR
+# edition_aliases = Rust.; DRR
+# edition_source_file = all.html
+# meta: FieldStatus[1-10] legend
+# meta: slots 1..10 correspond to ID,FORM,LEMMA,UPOS,XPOS,FEATS,HEAD,DEPREL,DEPS,MISC
+# meta: letters g=gold, p=production, s=silver, r=reviewed, q=questionable, _=ignored
+# meta: example FieldStatus3=g --> lemma verified as "gold"# sent_id = S000001
+# speaker = Narrator
+# edition_loc = 1.1.1
+# text_old = Otium si essem consecutus, Fundania, commodius tibi haec scriberem, quae nunc, ut potero, exponam cogitans esse properandum, quod, ut dicitur, si est homo bulla, eo magis senex.
+# text = otium si essem consecutus, Fundania, commodius tibi haec scriberem, quae nunc, ut potero, exponam cogitans esse properandum, quod, ut dicitur, si est homo bulla, eo magis senex.
+# text_en = If leisure had been granted to me, Fundania, I would write these things to you more suitably; these things I shall now explain, insofar as I am able, thinking that one must make haste; for, as they say, if man is a bubble, an old man even more so.
+# text_fr = Si du loisir m'avait été accordé, Fundania, je t'écrirais ces choses plus commodément ; celles-ci, maintenant, je les exposerai dans la mesure où je le pourrai, pensant qu'il faut se hâter ; car, comme on le dit, si l'homme est une bulle, le vieillard l'est encore davantage.
+# text_fi = Jos minulle olisi suotu vapaa-aikaa, Fundania, kirjoittaisin sinulle kunnollisemmin nämä asiat, jotka nyt, sikäli kuin pystyn, selitän ajatellen, että on pidettävä kiirettä; sillä, kuten sanotaan, jos ihminen on kupla, vanhus vielä enemmän.
+# review_status = silver
+# review_notes = RN_S000001
+1	otium	otium	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	Discourse=Preface|OrigForm=Otium|Speaker=Narrator
+2	si	si	SCONJ	_	_	4	mark	_	Discourse=Preface|Speaker=Narrator
+3	essem	sum	AUX	_	Aspect=Imp|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	Discourse=Preface|Speaker=Narrator
+4	consecutus	consequor	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	advcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+5	,	,	PUNCT	_	_	4	punct	_	Discourse=Preface|Speaker=Narrator
+6	Fundania	Fundania	PROPN	_	Case=Voc|Gender=Fem|Number=Sing	11	vocative	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+7	,	,	PUNCT	_	_	6	punct	_	Discourse=Preface|Speaker=Narrator
+8	commodius	commode	ADV	_	Degree=Cmp	11	advmod	_	Discourse=Preface|Speaker=Narrator
+9	tibi	tu	PRON	_	Case=Dat|Number=Sing	11	obl:arg	_	Discourse=Preface|Speaker=Narrator
+10	haec	hic	PRON	_	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	Discourse=Preface|Speaker=Narrator
+11	scriberem	scribo	VERB	_	Aspect=Imp|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+12	,	,	PUNCT	_	_	19	punct	_	Discourse=Preface|Speaker=Narrator
+13	quae	qui	PRON	_	Case=Acc|Gender=Neut|Number=Plur	19	obj	_	Discourse=Preface|Speaker=Narrator
+14	nunc	nunc	ADV	_	_	19	advmod:tmod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+15	,	,	PUNCT	_	_	14	punct	_	Discourse=Preface|Speaker=Narrator
+16	ut	ut	SCONJ	_	_	17	mark	_	Discourse=Preface|Speaker=Narrator
+17	potero	possum	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	19	advcl:cmp	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+18	,	,	PUNCT	_	_	17	punct	_	Discourse=Preface|Speaker=Narrator
+19	exponam	expono	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	Discourse=Preface|Speaker=Narrator
+20	cogitans	cogito	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	19	advcl	_	Discourse=Preface|Speaker=Narrator
+21	esse	sum	VERB	_	Tense=Pres|VerbForm=Inf|Voice=Act	22	cop	_	Discourse=Preface|Speaker=Narrator
+22	properandum	propero	VERB	_	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Gdv|Voice=Pass	20	ccomp	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+23	,	,	PUNCT	_	_	32	punct	_	Discourse=Preface|Speaker=Narrator
+24	quod	quod	SCONJ	_	_	32	mark	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+25	,	,	PUNCT	_	_	27	punct	_	Discourse=Preface|Speaker=Narrator
+26	ut	ut	SCONJ	_	_	27	mark	_	Discourse=Preface|Speaker=Narrator
+27	dicitur	dico	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	32	advcl:cmp	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+28	,	,	PUNCT	_	_	27	punct	_	Discourse=Preface|Speaker=Narrator
+29	si	si	SCONJ	_	_	32	mark	_	Discourse=Preface|Speaker=Narrator
+30	est	sum	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	cop	_	Discourse=Preface|Speaker=Narrator
+31	homo	homo	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	Discourse=Preface|Speaker=Narrator
+32	bulla	bulla	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	22	advcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+33	,	,	PUNCT	_	_	32	punct	_	Discourse=Preface|Speaker=Narrator
+34	eo	is	PRON	_	Case=Abl|Gender=Masc|Number=Sing	35	advmod	36.1:advmod	Discourse=Preface|Speaker=Narrator|ReviewNote=RN_S000001_01|ReviewTags=ComparativeEllipsis;RecoverablePredication
+35	magis	magis	ADV	_	_	36	advmod	36.1:advmod	Discourse=Preface|Speaker=Narrator|ReviewNote=RN_S000001_01|ReviewTags=ComparativeEllipsis;RecoverablePredication
+36	senex	senex	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	32	advcl:cmp	36.1:nsubj	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|ReviewNote=RN_S000001_01|ReviewTags=ComparativeEllipsis;RecoverablePredication
+36.1	bulla	bulla	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	32:advcl:cmp	_
+37	.	.	PUNCT	_	_	11	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000002
+# speaker = Narrator
+# edition_loc = 1.1.1
+# text_old = Annus enim octogesimus admonet me ut sarcinas conligam, antequam proficiscar e vita.
+# text = annus enim octogesimus admonet me ut sarcinas conligam, antequam proficiscar e vita.
+# text_en = For my eightieth year reminds me to gather my baggage before I depart from life.
+# text_fr = Car ma quatre-vingtième année me rappelle qu'il me faut plier bagage avant de quitter la vie.
+# text_fi = Kahdeksaskymmenes ikävuoteni muistuttaa minua kokoamaan matkatavarani ennen kuin lähden elämästä.
+# review_status = silver
+# review_notes = RN_S000002
+1	annus	annus	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Discourse=Preface|OrigForm=Annus|Speaker=Narrator
+2	enim	enim	PART	_	_	4	discourse	_	Discourse=Preface|Speaker=Narrator
+3	octogesimus	octogesimus	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	1	amod	_	Discourse=Preface|Speaker=Narrator
+4	admonet	admoneo	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Preface|Speaker=Narrator
+5	me	ego	PRON	_	Case=Acc|Number=Sing	4	obj	_	Discourse=Preface|Speaker=Narrator
+6	ut	ut	SCONJ	_	_	8	mark	_	Discourse=Preface|Speaker=Narrator
+7	sarcinas	sarcina	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	Discourse=Preface|Speaker=Narrator
+8	conligam	colligo	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+9	,	,	PUNCT	_	_	11	punct	_	Discourse=Preface|Speaker=Narrator
+10	antequam	antequam	SCONJ	_	_	11	mark	_	Discourse=Preface|Speaker=Narrator
+11	proficiscar	proficiscor	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	Discourse=Preface|Speaker=Narrator
+12	e	ex	ADP	_	_	13	case	_	Discourse=Preface|Speaker=Narrator
+13	vita	vita	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	11	obl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+14	.	.	PUNCT	_	_	4	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000003
+# speaker = Narrator
+# edition_loc = 1.1.2
+# text_old = Quare, quoniam emisti fundum, quem bene colendo fructuosum cum facere velis, meque ut id mihi habeam curare roges, experiar;
+# text = quare, quoniam emisti fundum, quem bene colendo fructuosum cum facere velis, meque ut id mihi habeam curare roges, experiar;
+# text_en = Therefore, since you have bought a farm, which you wish to make productive by cultivating it well, and since you ask me to undertake this matter, I shall make the attempt.
+# text_fr = C'est pourquoi, puisque tu as acheté un domaine, que tu souhaites rendre productif en le cultivant bien, et puisque tu me demandes de prendre cette affaire en charge, je vais essayer.
+# text_fi = Sen vuoksi, koska olet ostanut maatilan, jonka tahdot tehdä tuottoisaksi viljelemällä sitä hyvin, ja koska pyydät minua huolehtimaan tästä asiasta, ryhdyn yrittämään.
+# review_status = silver
+# review_notes = RN_S000003,RN_ALT000003_4
+1	quare	quare	ADV	_	_	24	advmod	_	Discourse=Preface|OrigForm=Quare|SpaceAfter=No|Speaker=Narrator
+2	,	,	PUNCT	_	_	1	punct	_	Discourse=Preface|Speaker=Narrator
+3	quoniam	quoniam	SCONJ	_	_	4	mark	_	Discourse=Preface|Speaker=Narrator
+4	emisti	emo	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	24	advcl	_	Discourse=Preface|Speaker=Narrator
+5	fundum	fundus	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+6	,	,	PUNCT	_	_	13	punct	_	Discourse=Preface|Speaker=Narrator
+7	quem	qui	PRON	_	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	Discourse=Preface|Speaker=Narrator
+8	bene	bene	ADV	_	_	9	advmod	_	Discourse=Preface|Speaker=Narrator
+9	colendo	colo	VERB	_	Case=Abl|VerbForm=Ger	12	advcl	_	Discourse=Preface|Speaker=Narrator
+10	fructuosum	fructuosus	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	12	xcomp	_	Discourse=Preface|Speaker=Narrator
+11	cum	cum	SCONJ	_	_	13	mark	_	Discourse=Preface|Speaker=Narrator
+12	facere	facio	VERB	_	Tense=Pres|VerbForm=Inf|Voice=Act	13	xcomp	_	Discourse=Preface|Speaker=Narrator
+13	velis	volo	VERB	_	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+14	,	,	PUNCT	_	_	22	punct	_	Discourse=Preface|Speaker=Narrator
+15-16	meque	_	_	_	_	_	_	_	_
+15	me	ego	PRON	_	Case=Acc|Number=Sing	22	obj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+16	que	que	CCONJ	_	_	22	cc	_	Discourse=Preface|Speaker=Narrator
+17	ut	ut	SCONJ	_	_	20	mark	_	Discourse=Preface|Speaker=Narrator
+18	id	is	PRON	_	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	Discourse=Preface|Speaker=Narrator
+19	mihi	ego	PRON	_	Case=Dat|Number=Sing	20	obl:arg	_	Discourse=Preface|Speaker=Narrator
+20	habeam	habeo	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	21	ccomp	_	Discourse=Preface|Speaker=Narrator
+21	curare	curo	VERB	_	Tense=Pres|VerbForm=Inf|Voice=Act	22	xcomp	_	Discourse=Preface|Speaker=Narrator
+22	roges	rogo	VERB	_	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|ReviewNote=RN_S000003_01|ReviewTags=EditorialVariant;Conjecture
+23	,	,	PUNCT	_	_	24	punct	_	Discourse=Preface|Speaker=Narrator
+24	experiar	experior	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+25	;	;	PUNCT	_	_	24	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000004
+# speaker = Narrator
+# edition_loc = 1.1.2
+# text_old = et non solum, ut ipse quoad vivam, quid fieri oporteat ut te moneam, sed etiam post mortem.
+# text = et non solum, ut ipse quoad vivam, quid fieri oporteat ut te moneam, sed etiam post mortem.
+# text_en = And not only while I myself live, that I may advise you what ought to be done, but also after my death.
+# text_fr = Et non seulement, pour ma part, tant que je vivrai, afin de t'avertir de ce qu'il faut faire, mais aussi après ma mort.
+# text_fi = Eikä ainoastaan siksi aikaa, kun itse elän, jotta voisin neuvoa sinua siinä, mitä tulee tehdä, vaan myös kuolemani jälkeen.
+# review_status = silver
+# review_notes = RN_S000004,RN_ALT000003_4
+1	et	et	CCONJ	_	_	15	cc	_	Discourse=Preface|Speaker=Narrator
+2	non	non	ADV	_	Polarity=Neg	3	advmod:neg	_	Discourse=Preface|Speaker=Narrator
+3	solum	solum	ADV	_	_	15	advmod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+4	,	,	PUNCT	_	_	8	punct	_	Discourse=Preface|Speaker=Narrator
+5	ut	ut	SCONJ	_	_	8	mark	_	Discourse=Preface|Speaker=Narrator|ReviewNote=RN_S000004_01|ReviewTags=UtUsage;PostponedSubordinator
+6	ipse	ipse	PRON	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	Discourse=Preface|Speaker=Narrator
+7	quoad	quoad	SCONJ	_	_	8	mark	_	Discourse=Preface|Speaker=Narrator
+8	vivam	vivo	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+9	,	,	PUNCT	_	_	8	punct	_	Discourse=Preface|Speaker=Narrator
+10	quid	quis	PRON	_	Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	Discourse=Preface|Speaker=Narrator
+11	fieri	fio	VERB	_	Tense=Pres|VerbForm=Inf|Voice=Pass	12	csubj	_	Discourse=Preface|Speaker=Narrator
+12	oporteat	oportet	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	ccomp	_	Discourse=Preface|Speaker=Narrator
+13	ut	ut	SCONJ	_	_	15	mark	_	Discourse=Preface|Speaker=Narrator
+14	te	tu	PRON	_	Case=Acc|Number=Sing	15	obj	_	Discourse=Preface|Speaker=Narrator
+15	moneam	moneo	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+16	,	,	PUNCT	_	_	20	punct	_	Discourse=Preface|Speaker=Narrator
+17	sed	sed	CCONJ	_	_	20	cc	_	Discourse=Preface|Speaker=Narrator
+18	etiam	etiam	ADV	_	_	20	advmod:emph	_	Discourse=Preface|Speaker=Narrator
+19	post	post	ADP	_	_	20	case	_	Discourse=Preface|Speaker=Narrator
+20	mortem	mors	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	obl:tmod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+21	.	.	PUNCT	_	_	15	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = ALT000003_4
+# speaker = Narrator
+# edition_loc = 1.1.2
+# source_sentences = S000003,S000004
+# text_old = Quare, quoniam emisti fundum, quem bene colendo fructuosum cum facere velis, meque ut id mihi habeam curare roges, experiar; et non solum, ut ipse quoad vivam, quid fieri oporteat ut te moneam, sed etiam post mortem.
+# text = quare, quoniam emisti fundum, quem bene colendo fructuosum cum facere velis, meque ut id mihi habeam curare roges, experiar; et non solum, ut ipse quoad vivam, quid fieri oporteat ut te moneam, sed etiam post mortem.
+# review_status = experimental
+# review_notes = RN_ALT000003_4
+1	quare	quare	ADV	_	_	24	advmod	_	Discourse=Preface|OrigForm=Quare|SpaceAfter=No|Speaker=Narrator
+2	,	,	PUNCT	_	_	1	punct	_	Discourse=Preface|Speaker=Narrator
+3	quoniam	quoniam	SCONJ	_	_	4	mark	_	Discourse=Preface|Speaker=Narrator
+4	emisti	emo	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	24	advcl	_	Discourse=Preface|Speaker=Narrator
+5	fundum	fundus	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+6	,	,	PUNCT	_	_	13	punct	_	Discourse=Preface|Speaker=Narrator
+7	quem	qui	PRON	_	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	Discourse=Preface|Speaker=Narrator
+8	bene	bene	ADV	_	_	9	advmod	_	Discourse=Preface|Speaker=Narrator
+9	colendo	colo	VERB	_	Case=Abl|VerbForm=Ger	12	advcl	_	Discourse=Preface|Speaker=Narrator
+10	fructuosum	fructuosus	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	12	xcomp	_	Discourse=Preface|Speaker=Narrator
+11	cum	cum	SCONJ	_	_	13	mark	_	Discourse=Preface|Speaker=Narrator
+12	facere	facio	VERB	_	Tense=Pres|VerbForm=Inf|Voice=Act	13	xcomp	_	Discourse=Preface|Speaker=Narrator
+13	velis	volo	VERB	_	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+14	,	,	PUNCT	_	_	22	punct	_	Discourse=Preface|Speaker=Narrator
+15-16	meque	_	_	_	_	_	_	_	_
+15	me	ego	PRON	_	Case=Acc|Number=Sing	22	obj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+16	que	que	CCONJ	_	_	22	cc	_	Discourse=Preface|Speaker=Narrator
+17	ut	ut	SCONJ	_	_	20	mark	_	Discourse=Preface|Speaker=Narrator
+18	id	is	PRON	_	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	Discourse=Preface|Speaker=Narrator
+19	mihi	ego	PRON	_	Case=Dat|Number=Sing	20	obl:arg	_	Discourse=Preface|Speaker=Narrator
+20	habeam	habeo	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	21	ccomp	_	Discourse=Preface|Speaker=Narrator
+21	curare	curo	VERB	_	Tense=Pres|VerbForm=Inf|Voice=Act	22	xcomp	_	Discourse=Preface|Speaker=Narrator
+22	roges	rogo	VERB	_	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+23	,	,	PUNCT	_	_	24	punct	_	Discourse=Preface|Speaker=Narrator
+24	experiar	experior	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+25	;	;	PUNCT	_	_	24	punct	_	Discourse=Preface|Speaker=Narrator
+26	et	et	CCONJ	_	_	40	cc	_	Discourse=Preface|Speaker=Narrator
+27	non	non	ADV	_	Polarity=Neg	28	advmod:neg	_	Discourse=Preface|Speaker=Narrator
+28	solum	solum	ADV	_	_	40	advmod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+29	,	,	PUNCT	_	_	33	punct	_	Discourse=Preface|Speaker=Narrator
+30	ut	ut	SCONJ	_	_	33	mark	_	Discourse=Preface|Speaker=Narrator
+31	ipse	ipse	PRON	_	Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	Discourse=Preface|Speaker=Narrator
+32	quoad	quoad	SCONJ	_	_	33	mark	_	Discourse=Preface|Speaker=Narrator
+33	vivam	vivo	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	40	advcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+34	,	,	PUNCT	_	_	33	punct	_	Discourse=Preface|Speaker=Narrator
+35	quid	quis	PRON	_	Case=Nom|Gender=Neut|Number=Sing	36	nsubj:pass	_	Discourse=Preface|Speaker=Narrator
+36	fieri	fio	VERB	_	Tense=Pres|VerbForm=Inf|Voice=Pass	37	csubj	_	Discourse=Preface|Speaker=Narrator
+37	oporteat	oportet	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	ccomp	_	Discourse=Preface|Speaker=Narrator
+38	ut	ut	SCONJ	_	_	40	mark	_	Discourse=Preface|Speaker=Narrator
+39	te	tu	PRON	_	Case=Acc|Number=Sing	40	obj	_	Discourse=Preface|Speaker=Narrator
+40	moneam	moneo	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	24	advcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+41	,	,	PUNCT	_	_	45	punct	_	Discourse=Preface|Speaker=Narrator
+42	sed	sed	CCONJ	_	_	45	cc	_	Discourse=Preface|Speaker=Narrator
+43	etiam	etiam	ADV	_	_	45	advmod:emph	_	Discourse=Preface|Speaker=Narrator
+44	post	post	ADP	_	_	45	case	_	Discourse=Preface|Speaker=Narrator
+45	mortem	mors	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	40	obl:tmod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+46	.	.	PUNCT	_	_	24	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000005
+# speaker = Narrator
+# edition_loc = 1.1.3
+# text_old = Neque patiar Sibyllam non solum cecinisse quae, dum viveret, prodessent hominibus, sed etiam quae cum perisset ipsa, et id etiam ignotissimis quoque hominibus;
+# text = neque patiar Sibyllam non solum cecinisse quae, dum viveret, prodessent hominibus, sed etiam quae cum perisset ipsa, et id etiam ignotissimis quoque hominibus;
+# text_en = Nor shall I allow that the Sibyl prophesied only things that were beneficial to people while she was alive, but also things that would be beneficial after she herself had died, and that too even for the most unknown people.
+# text_fr = Je ne permettrai pas non plus que la Sibylle ait prophétisé seulement des choses utiles aux hommes durant sa vie, mais aussi des choses utiles même après sa propre mort, et cela même pour les hommes les plus obscurs.
+# text_fi = En myöskään myönnä Sibyllan ennustaneen ainoastaan sellaisia asioita, joista oli ihmisille hyötyä hänen eläessään, vaan myös sellaisia, joista olisi hyötyä hänen oman kuolemansa jälkeenkin, vieläpä kaikkein tuntemattomimmille ihmisille.
+# review_status = silver
+# review_notes = RN_S000005,RN_ALT000005
+1	neque	neque	CCONJ	_	_	2	cc	_	Discourse=Preface|OrigForm=Neque|Speaker=Narrator
+2	patiar	patior	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	Discourse=Preface|Speaker=Narrator
+3	Sibyllam	Sibylla	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	6	nsubj	_	Discourse=Preface|Speaker=Narrator
+4	non	non	ADV	_	Polarity=Neg	5	advmod:neg	_	Discourse=Preface|Speaker=Narrator
+5	solum	solum	ADV	_	_	6	advmod	_	Discourse=Preface|Speaker=Narrator
+6	cecinisse	cano	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	2	ccomp	_	Discourse=Preface|Speaker=Narrator
+7	quae	qui	PRON	_	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+8	,	,	PUNCT	_	_	12	punct	_	Discourse=Preface|Speaker=Narrator
+9	dum	dum	SCONJ	_	_	10	mark	_	Discourse=Preface|Speaker=Narrator
+10	viveret	vivo	VERB	_	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+11	,	,	PUNCT	_	_	10	punct	_	Discourse=Preface|Speaker=Narrator
+12	prodessent	prosum	VERB	_	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	ccomp	_	Discourse=Preface|Speaker=Narrator
+13	hominibus	homo	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	12	obl:arg	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+14	,	,	PUNCT	_	_	12	punct	_	Discourse=Preface|Speaker=Narrator
+15	sed	sed	CCONJ	_	_	17	cc	_	Discourse=Preface|Speaker=Narrator
+16	etiam	etiam	ADV	_	_	17	advmod:emph	_	Discourse=Preface|Speaker=Narrator
+17	quae	qui	PRON	_	Case=Nom|Gender=Neut|Number=Plur	6	ccomp	17.1:nsubj	Discourse=Preface|Speaker=Narrator|ReviewNote=RN_S000005_01|ReviewTags=RecoverablePredication;ALTRelevant
+17.1	prodessent	prosum	VERB	_	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	12:conj	_
+18	cum	cum	SCONJ	_	_	19	mark	_	Discourse=Preface|Speaker=Narrator
+19	perisset	pereo	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	17	advcl	17.1:advcl	Discourse=Preface|Speaker=Narrator
+20	ipsa	ipse	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp	19	nsubj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+21	,	,	PUNCT	_	_	23	punct	_	Discourse=Preface|Speaker=Narrator
+22	et	et	CCONJ	_	_	23	cc	_	Discourse=Preface|Speaker=Narrator
+23	id	is	PRON	_	Case=Acc|Gender=Neut|Number=Sing	12	conj	_	Discourse=Preface|Speaker=Narrator|ReviewNote=RN_S000005_02|ReviewTags=EditorialVariant;Conjecture
+24	etiam	etiam	ADV	_	_	23	advmod:emph	_	Discourse=Preface|Speaker=Narrator
+25	ignotissimis	ignotus	ADJ	_	Case=Dat|Degree=Sup|Gender=Masc|Number=Plur	27	amod	_	Discourse=Preface|Speaker=Narrator
+26	quoque	quoque	ADV	_	_	27	advmod	_	Discourse=Preface|Speaker=Narrator
+27	hominibus	homo	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	23	orphan	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+28	;	;	PUNCT	_	_	2	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = ALT000005
+# speaker = Narrator
+# edition_loc = 1.1.3
+# source_sentence = S000005
+# review_status = experimental
+# review_notes = RN_ALT000005
+# review_note = double-quae object analysis
+1	neque	neque	CCONJ	_	_	2	cc	_	Discourse=Preface|OrigForm=Neque|Speaker=Narrator
+2	patiar	patior	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	Discourse=Preface|Speaker=Narrator
+3	Sibyllam	Sibylla	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	6	nsubj	_	Discourse=Preface|Speaker=Narrator
+4	non	non	ADV	_	Polarity=Neg	5	advmod:neg	_	Discourse=Preface|Speaker=Narrator
+5	solum	solum	ADV	_	_	6	advmod	_	Discourse=Preface|Speaker=Narrator
+6	cecinisse	cano	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	2	ccomp	_	Discourse=Preface|Speaker=Narrator
+7	quae	qui	PRON	_	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+8	,	,	PUNCT	_	_	12	punct	_	Discourse=Preface|Speaker=Narrator
+9	dum	dum	SCONJ	_	_	10	mark	_	Discourse=Preface|Speaker=Narrator
+10	viveret	vivo	VERB	_	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+11	,	,	PUNCT	_	_	10	punct	_	Discourse=Preface|Speaker=Narrator
+12	prodessent	prosum	VERB	_	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	acl	_	Discourse=Preface|Speaker=Narrator
+13	hominibus	homo	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	12	obl:arg	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+14	,	,	PUNCT	_	_	12	punct	_	Discourse=Preface|Speaker=Narrator
+15	sed	sed	CCONJ	_	_	17	cc	_	Discourse=Preface|Speaker=Narrator
+16	etiam	etiam	ADV	_	_	17	advmod:emph	_	Discourse=Preface|Speaker=Narrator
+17	quae	qui	PRON	_	Case=Acc|Gender=Neut|Number=Plur	7	conj	_	Discourse=Preface|Speaker=Narrator
+18	cum	cum	SCONJ	_	_	19	mark	_	Discourse=Preface|Speaker=Narrator
+19	perisset	pereo	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	17	acl	_	Discourse=Preface|Speaker=Narrator
+20	ipsa	ipse	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp	19	nsubj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+21	,	,	PUNCT	_	_	23	punct	_	Discourse=Preface|Speaker=Narrator
+22	et	et	CCONJ	_	_	23	cc	_	Discourse=Preface|Speaker=Narrator
+23	id	is	PRON	_	Case=Acc|Gender=Neut|Number=Sing	12	conj	_	Discourse=Preface|Speaker=Narrator
+24	etiam	etiam	ADV	_	_	23	advmod:emph	_	Discourse=Preface|Speaker=Narrator
+25	ignotissimis	ignotus	ADJ	_	Case=Dat|Degree=Sup|Gender=Masc|Number=Plur	27	amod	_	Discourse=Preface|Speaker=Narrator
+26	quoque	quoque	ADV	_	_	27	advmod	_	Discourse=Preface|Speaker=Narrator
+27	hominibus	homo	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	23	orphan	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+28	;	;	PUNCT	_	_	2	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000006
+# speaker = Narrator
+# edition_loc = 1.1.3
+# text_old = ad cuius libros tot annis post publice solemus redire, cum desideramus, quid faciendum sit nobis ex aliquo portento;
+# text = ad cuius libros tot annis post publice solemus redire, cum desideramus, quid faciendum sit nobis ex aliquo portento;
+# text_en = to whose books, many years later, we are accustomed publicly to return whenever we wish to know what ought to be done by us because of some portent.
+# text_fr = vers les livres de laquelle nous avons coutume de revenir publiquement, bien des années plus tard, lorsque nous désirons savoir ce qu’il convient de faire à cause de quelque prodige.
+# text_fi = hänen kirjoihinsa meillä on tapana palata julkisesti vielä monien vuosien jälkeen, kun haluamme tietää, mitä meidän tulee tehdä jonkin ennusmerkin johdosta.
+# review_status = silver
+# review_notes = RN_S000006
+1	ad	ad	ADP	_	_	3	case	_	Discourse=Preface|Speaker=Narrator
+2	cuius	qui	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Rel	3	nmod	_	Discourse=Preface|Speaker=Narrator|BudeForm=qui
+3	libros	liber	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	9	obl:arg	_	Discourse=Preface|Speaker=Narrator
+4	tot	tot	DET	_	NumType=Card	5	det	_	Discourse=Preface|Speaker=Narrator
+5	annis	annus	NOUN	_	Case=Abl|Gender=Masc|Number=Plur	9	obl:tmod	_	Discourse=Preface|Speaker=Narrator
+6	post	post	ADV	_	_	5	advmod	_	Discourse=Preface|Speaker=Narrator
+7	publice	publice	ADV	_	_	9	advmod	_	Discourse=Preface|Speaker=Narrator
+8	solemus	soleo	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Preface|Speaker=Narrator
+9	redire	redeo	VERB	_	Tense=Pres|VerbForm=Inf|Voice=Act	8	xcomp	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+10	,	,	PUNCT	_	_	12	punct	_	Discourse=Preface|Speaker=Narrator
+11	cum	cum	SCONJ	_	_	12	mark	_	Discourse=Preface|Speaker=Narrator
+12	desideramus	desidero	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+13	,	,	PUNCT	_	_	15	punct	_	Discourse=Preface|Speaker=Narrator
+14	quid	quis	PRON	_	Case=Nom|Gender=Neut|Number=Sing	15	nsubj:pass	_	Discourse=Preface|Speaker=Narrator
+15	faciendum	facio	VERB	_	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Gdv|Voice=Pass	12	ccomp	_	Discourse=Preface|Speaker=Narrator
+16	sit	sum	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	Discourse=Preface|Speaker=Narrator
+17	nobis	nos	PRON	_	Case=Dat|Number=Plur	15	obl:arg	_	Discourse=Preface|Speaker=Narrator
+18	ex	ex	ADP	_	_	20	case	_	Discourse=Preface|Speaker=Narrator
+19	aliquo	aliquis	PRON	_	Case=Abl|Gender=Neut|Number=Sing	20	det	_	Discourse=Preface|Speaker=Narrator
+20	portento	portentum	NOUN	_	Case=Abl|Gender=Neut|Number=Sing	15	obl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+21	;	;	PUNCT	_	_	8	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000007
+# speaker = Narrator
+# edition_loc = 1.1.3
+# text_old = me, ne dum vivo quidem, necessariis meis quod prosit facere.
+# text = me, ne dum vivo quidem, necessariis meis quod prosit facere.
+# text_en = for me, not even while I am alive, to do what may be beneficial to my relatives.
+# text_fr = pour moi, ne pas même de mon vivant, faire ce qui pourrait être utile à mes proches.
+# text_fi = että minä, en edes eläessäni, tekisin läheisilleni sitä, mikä olisi hyödyksi.
+# review_status = silver
+# review_notes = RN_S000007
+1	me	ego	PRON	_	Case=Acc|Number=Sing	12	nsubj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+2	,	,	PUNCT	_	_	12	punct	_	Discourse=Preface|Speaker=Narrator
+3	ne	ne	ADV	_	_	5	advmod:neg	_	Discourse=Preface|Speaker=Narrator
+4	dum	dum	SCONJ	_	_	5	mark	_	Discourse=Preface|Speaker=Narrator
+5	vivo	vivo	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	Discourse=Preface|Speaker=Narrator
+6	quidem	quidem	ADV	_	_	5	discourse	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+7	,	,	PUNCT	_	_	6	punct	_	Discourse=Preface|Speaker=Narrator
+8	necessariis	necessarius	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	11	obl:arg	_	Discourse=Preface|Speaker=Narrator|ReviewNote=RN_S000007_01|ReviewTags=MorphologyIssue
+9	meis	meus	PRON	_	Case=Dat|Gender=Masc|Number=Plur	8	det:poss	_	Discourse=Preface|Speaker=Narrator
+10	quod	qui	PRON	_	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	Discourse=Preface|Speaker=Narrator
+11	prosit	prosum	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	Discourse=Preface|Speaker=Narrator
+12	facere	facio	VERB	_	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+13	.	.	PUNCT	_	_	12	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000008
+# speaker = Narrator
+# edition_loc = 1.1.4
+# text_old = Quocirca scribam tibi tres libros indices, ad quos revertare, siqua in re quaeres, quem ad modum quidque te in colendo oporteat facere.
+# text = quocirca scribam tibi tres libros indices, ad quos revertare, siqua in re quaeres, quem ad modum quidque te in colendo oporteat facere.
+# text_en = Therefore I shall write for you three books as guides, to which you may return whenever you seek something in any matter, namely how you ought to do each thing in cultivation.
+# text_fr = C'est pourquoi je t'écrirai trois livres servant de guides, auxquels tu pourras revenir chaque fois que tu chercheras quelque chose sur un sujet, à savoir comment tu dois faire chaque chose dans la culture des terres.
+# text_fi = Sen vuoksi kirjoitan sinulle kolme opaskirjaa, joihin voit palata aina, kun etsit johonkin asiaan vastausta, eli miten kunkin asian viljelyssä tulee toimia.
+# review_status = silver
+# review_notes = RN_S000008
+1	quocirca	quocirca	ADV	_	_	2	advmod	_	Discourse=Preface|OrigForm=Quocirca|Speaker=Narrator
+2	scribam	scribo	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Preface|Speaker=Narrator
+3	tibi	tu	PRON	_	Case=Dat|Gender=Masc|Number=Sing	2	obl:arg	_	Discourse=Preface|Speaker=Narrator
+4	tres	tres	NUM	_	Case=Acc|Gender=Masc|Number=Plur	5	nummod	_	Discourse=Preface|Speaker=Narrator
+5	libros	liber	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	Discourse=Preface|Speaker=Narrator
+6	indices	index	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	5	appos	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+7	,	,	PUNCT	_	_	10	punct	_	Discourse=Preface|Speaker=Narrator
+8	ad	ad	ADP	_	_	9	case	_	Discourse=Preface|Speaker=Narrator
+9	quos	qui	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel	10	obl	_	Discourse=Preface|Speaker=Narrator
+10	revertare	revertor	VERB	_	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+11	,	,	PUNCT	_	_	15	punct	_	Discourse=Preface|Speaker=Narrator
+12	siqua	siquis	PRON	_	Case=Abl|Gender=Fem|Number=Sing	14	det	_	Discourse=Preface|Speaker=Narrator
+13	in	in	ADP	_	_	14	case	_	Discourse=Preface|Speaker=Narrator
+14	re	res	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	15	obl	_	Discourse=Preface|Speaker=Narrator
+15	quaeres	quaero	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+16	,	,	PUNCT	_	_	24	punct	_	Discourse=Preface|Speaker=Narrator
+17	quem	quis	PRON	_	Case=Acc|Gender=Masc|Number=Sing	25	advmod	_	Discourse=Preface|Speaker=Narrator
+18	ad	ad	ADP	_	_	17	fixed	_	Discourse=Preface|Speaker=Narrator
+19	modum	modus	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	17	fixed	_	Discourse=Preface|Speaker=Narrator
+20	quidque	quisque	PRON	_	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	Discourse=Preface|Speaker=Narrator
+21	te	tu	PRON	_	Case=Acc|Gender=Masc|Number=Sing	25	nsubj	_	Discourse=Preface|Speaker=Narrator
+22	in	in	ADP	_	_	23	case	_	Discourse=Preface|Speaker=Narrator
+23	colendo	colo	VERB	_	Case=Abl|VerbForm=Ger	25	obl	_	Discourse=Preface|Speaker=Narrator
+24	oporteat	oportet	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	ccomp	_	Discourse=Preface|Speaker=Narrator
+25	facere	facio	VERB	_	Tense=Pres|VerbForm=Inf|Voice=Act	24	csubj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+26	.	.	PUNCT	_	_	2	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000009
+# speaker = Narrator
+# edition_loc = 1.1.4
+# text_old = Et quoniam, ut aiunt, dei facientes adiuvant, prius invocabo eos, nec, ut Homerus et Ennius, Musas, sed duodecim deos Consentis;
+# text = et quoniam, ut aiunt, dei facientes adiuvant, prius invocabo eos, nec, ut Homerus et Ennius, Musas, sed duodecim deos Consentis;
+# text_en = And since, as they say, the gods help those who act, I shall first invoke those gods, not, like Homer and Ennius, the Muses, but the twelve Di Consentes.
+# text_fr = Et puisque, comme on dit, les dieux aident ceux qui agissent, j’invoquerai d’abord ces dieux-là, non, comme Homère et Ennius, les Muses, mais les douze Dieux Consentes.
+# text_fi = Ja koska, kuten sanotaan, jumalat auttavat toimivia ihmisiä, kutsun ensin avuksi nuo jumalat, en Homeroksen ja Enniuksen tavoin muusia vaan kaksitoista dii consentes -jumalaa.
+# review_status = silver
+# review_notes = RN_S000009
+1	et	et	CCONJ	_	_	13	cc	_	Discourse=Preface|OrigForm=Et|Speaker=Narrator
+2	quoniam	quoniam	SCONJ	_	_	9	mark	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+3	,	,	PUNCT	_	_	2	punct	_	Discourse=Preface|Speaker=Narrator
+4	ut	ut	SCONJ	_	_	5	mark	_	Discourse=Preface|Speaker=Narrator
+5	aiunt	aio	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl:cmp	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+6	,	,	PUNCT	_	_	5	punct	_	Discourse=Preface|Speaker=Narrator
+7	dei	deus	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	Discourse=Preface|Speaker=Narrator
+8	facientes	facio	VERB	_	Case=Acc|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	obj	_	Discourse=Preface|Speaker=Narrator
+9	adiuvant	adiuvo	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+10	,	,	PUNCT	_	_	9	punct	_	Discourse=Preface|Speaker=Narrator
+11	prius	prius	ADV	_	Degree=Cmp	12	advmod:tmod	_	Discourse=Preface|Speaker=Narrator
+12	invocabo	invoco	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Preface|Speaker=Narrator|ReviewNote=RN_S000009_01|ReviewTags=InvocationFrame;EditorialVariant
+13	eos	is	DET	_	Case=Acc|Gender=Masc|Number=Plur	26	det	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+14	,	,	PUNCT	_	_	15	punct	_	Discourse=Preface|Speaker=Narrator
+15	nec	nec	CCONJ	_	_	22	cc	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+16	,	,	PUNCT	_	_	15	punct	_	Discourse=Preface|Speaker=Narrator
+17	ut	ut	SCONJ	_	_	18	mark	_	Discourse=Preface|Speaker=Narrator
+18	Homerus	Homerus	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	22	advcl:cmp	_	Discourse=Preface|Speaker=Narrator
+19	et	et	CCONJ	_	_	20	cc	_	Discourse=Preface|Speaker=Narrator
+20	Ennius	Ennius	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	18	conj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+21	,	,	PUNCT	_	_	22	punct	_	Discourse=Preface|Speaker=Narrator
+22	Musas	Musa	PROPN	_	Case=Acc|Gender=Fem|Number=Plur	26	conj	_	Discourse=Preface|Speaker=Narrator|SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	Discourse=Preface|Speaker=Narrator
+24	sed	sed	CCONJ	_	_	26	cc	_	Discourse=Preface|Speaker=Narrator
+25	duodecim	duodecim	NUM	_	_	26	nummod	_	Discourse=Preface|Speaker=Narrator
+26	deos	deus	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	Discourse=Preface|Speaker=Narrator
+27	Consentis	Consentes	PROPN	_	Case=Acc|Gender=Masc|Number=Plur	26	nmod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+28	;	;	PUNCT	_	_	12	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000010
+# speaker = Narrator
+# edition_loc = 1.1.4
+# text_old = neque tamen eos urbanos, quorum imagines ad forum auratae stant, sex mares et feminae totidem, sed illos XII deos, qui maxime agricolarum duces sunt.
+# text = neque tamen eos urbanos, quorum imagines ad forum auratae stant, sex mares et feminae totidem, sed illos XII deos, qui maxime agricolarum duces sunt.
+# text_en = Yet not those city gods, whose gilded images stand by the Forum, six males and as many females, but those twelve gods who are above all the guides of farmers.
+# text_fr = Pourtant, non ces dieux de la ville, dont les images dorées se dressent près du Forum, six mâles et autant de femelles, mais ces douze dieux qui sont surtout les guides des agriculteurs.
+# text_fi = Ei kuitenkaan niitä kaupunkien jumalia, joiden kullatut kuvat seisovat forumin luona, kuutta miespuolista ja yhtä monta naispuolista, vaan niitä kahtatoista jumalaa, jotka ovat ennen kaikkea maanviljelijöiden oppaina.
+# review_status = silver
+# review_notes = RN_S000010
+1	neque	neque	CCONJ	_	_	4	cc	_	Discourse=Preface|Speaker=Narrator
+2	tamen	tamen	ADV	_	_	4	advmod	_	Discourse=Preface|Speaker=Narrator
+3	eos	is	PRON	_	Case=Acc|Gender=Masc|Number=Plur	0	root	_	Discourse=Preface|Speaker=Narrator
+4	urbanos	urbanus	ADJ	_	Case=Acc|Gender=Masc|Number=Plur	3	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+5	,	,	PUNCT	_	_	11	punct	_	Discourse=Preface|Speaker=Narrator
+6	quorum	qui	PRON	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Rel	7	nmod	_	Discourse=Preface|Speaker=Narrator
+7	imagines	imago	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	Discourse=Preface|Speaker=Narrator
+8	ad	ad	ADP	_	_	9	case	_	Discourse=Preface|Speaker=Narrator
+9	forum	forum	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	Discourse=Preface|Speaker=Narrator
+10	auratae	auratus	ADJ	_	Case=Nom|Gender=Fem|Number=Plur	7	amod	_	Discourse=Preface|Speaker=Narrator
+11	stant	sto	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+12	,	,	PUNCT	_	_	14	punct	_	Discourse=Preface|Speaker=Narrator
+13	sex	sex	NUM	_	_	14	nummod	_	Discourse=Preface|Speaker=Narrator
+14	mares	mas	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	3	appos	_	Discourse=Preface|Speaker=Narrator
+15	et	et	CCONJ	_	_	16	cc	_	Discourse=Preface|Speaker=Narrator
+16	feminae	femina	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	14	conj	_	Discourse=Preface|Speaker=Narrator
+17	totidem	totidem	ADV	_	_	16	advmod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+18	,	,	PUNCT	_	_	22	punct	_	Discourse=Preface|Speaker=Narrator
+19	sed	sed	CCONJ	_	_	22	cc	_	Discourse=Preface|Speaker=Narrator
+20	illos	ille	DET	_	Case=Acc|Gender=Masc|Number=Plur	22	det	_	Discourse=Preface|Speaker=Narrator
+21	XII	duodecim	NUM	_	_	22	nummod	_	Discourse=Preface|Speaker=Narrator
+22	deos	deus	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+23	,	,	PUNCT	_	_	27	punct	_	Discourse=Preface|Speaker=Narrator
+24	qui	qui	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	27	nsubj	_	Discourse=Preface|Speaker=Narrator
+25	maxime	magne	ADV	_	Degree=Abs	27	advmod	_	Discourse=Preface|Speaker=Narrator
+26	agricolarum	agricola	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	Discourse=Preface|Speaker=Narrator
+27	duces	dux	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	22	acl:relcl	_	Discourse=Preface|Speaker=Narrator
+28	sunt	sum	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	cop	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+29	.	.	PUNCT	_	_	3	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000011
+# speaker = Narrator
+# edition_loc = 1.1.5
+# text_old = Primum, qui omnis fructos agri culturae caelo et terra continent, Iovem et Tellurem;
+# text = primum, qui omnis fructos agri culturae caelo et terra continent, Iovem et Tellurem;
+# text_en = First, Jupiter and Tellus, who embrace within heaven and earth all the fruits of agriculture.
+# text_fr = Premièrement, Jupiter et Tellus, qui embrassent tous les fruits de l’agriculture dans le ciel et sur la terre.
+# text_fi = Ensiksi kutsun avuksi Juppiteria ja Tellusta, jotka sulkevat piiriinsä kaikki maanviljelyn hedelmät taivaassa ja maassa.
+# review_status = silver
+# review_notes = RN_S000011,RN_ALT000011_12
+1	primum	primum	ADV	_	_	13	advmod	15.1:advmod	Discourse=Preface|OrigForm=Primum|Speaker=Narrator|SpaceAfter=No|ReviewNote=RN_S000011_01|ReviewTags=RecoverablePredication;EnhancedOnly
+2	,	,	PUNCT	_	_	11	punct	_	Discourse=Preface|Speaker=Narrator
+3	qui	qui	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	11	nsubj	_	Discourse=Preface|Speaker=Narrator
+4	omnis	omnis	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	5	det	_	Discourse=Preface|Speaker=Narrator
+5	fructos	fructus	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	Discourse=Preface|Speaker=Narrator
+6	agri	ager	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	Discourse=Preface|Speaker=Narrator
+7	culturae	cultura	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	Discourse=Preface|Speaker=Narrator
+8	caelo	caelum	NOUN	_	Case=Abl|Gender=Neut|Number=Sing	11	obl	_	Discourse=Preface|Speaker=Narrator
+9	et	et	CCONJ	_	_	10	cc	_	Discourse=Preface|Speaker=Narrator
+10	terra	terra	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	8	conj	_	Discourse=Preface|Speaker=Narrator
+11	continent	contineo	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	Discourse=Preface|Speaker=Narrator|SpaceAfter=No|ReviewNote=RN_S000011_02|ReviewTags=InterpretationIssue
+12	,	,	PUNCT	_	_	13	punct	_	Discourse=Preface|Speaker=Narrator
+13	Iovem	Iuppiter	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	0	root	15.1:obj	Discourse=Preface|Speaker=Narrator|ReviewNote=RN_S000011_01|ReviewTags=RecoverablePredication;EnhancedOnly
+14	et	et	CCONJ	_	_	15	cc	_	Discourse=Preface|Speaker=Narrator
+15	Tellurem	Tellus	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	13	conj	15.1:obj	Discourse=Preface|Speaker=Narrator|SpaceAfter=No|ReviewNote=RN_S000011_01|ReviewTags=RecoverablePredication;EnhancedOnly
+15.1	invocabo	invoco	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	_	_	0:root	InheritedFrom=S000009:12
+16	;	;	PUNCT	_	_	13	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000012
+# speaker = Narrator
+# edition_loc = 1.1.5
+# text_old = itaque, quod ii parentes magni dicuntur, Iuppiter pater appellatur, Tellus terra mater.
+# text = itaque, quod ii parentes magni dicuntur, Iuppiter pater appellatur, Tellus terra mater.
+# text_en = And therefore, since they are called the great parents, Jupiter is called Father, and Tellus is called Mother Earth.
+# text_fr = Ainsi, puisqu’ils sont appelés les Grands Parents, Jupiter est appelé Père, et Tellus est appelée Terre-Mère.
+# text_fi = Ja koska heitä kutsutaan suuriksi vanhemmiksi, Juppiteria kutsutaan Isäksi ja Tellusta Maaemoksi.
+# review_status = silver
+# review_notes = RN_S000012,RN_ALT000011_12
+1	itaque	itaque	PART	_	_	11	discourse	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+2	,	,	PUNCT	_	_	1	punct	_	Discourse=Preface|Speaker=Narrator
+3	quod	quod	SCONJ	_	_	7	mark	_	Discourse=Preface|Speaker=Narrator
+4	ii	is	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	7	nsubj:pass	_	Discourse=Preface|Speaker=Narrator
+5	parentes	parens	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	7	xcomp	_	Discourse=Preface|Speaker=Narrator|ReviewNote=RN_S000012_01|ReviewTags=InterpretationIssue;PunctuationSensitive
+6	magni	magnus	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	5	amod	_	Discourse=Preface|Speaker=Narrator|ReviewNote=RN_S000012_01|ReviewTags=InterpretationIssue;PunctuationSensitive
+7	dicuntur	dico	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	advcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+8	,	,	PUNCT	_	_	7	punct	_	Discourse=Preface|Speaker=Narrator
+9	Iuppiter	Iuppiter	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	Discourse=Preface|Speaker=Narrator
+10	pater	pater	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	11	xcomp	_	Discourse=Preface|Speaker=Narrator
+11	appellatur	appello	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+12	,	,	PUNCT	_	_	13	punct	_	Discourse=Preface|Speaker=Narrator
+13	Tellus	Tellus	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	11	conj	15.1:nsubj:pass	Discourse=Preface|Speaker=Narrator
+14	terra	terra	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	15	nmod	_	Discourse=Preface|Speaker=Narrator
+15	mater	mater	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	13	orphan	15.1:xcomp	Discourse=Preface|Speaker=Narrator|SpaceAfter=No
+15.1	appellatur	appello	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	_	_	11:conj	Discourse=Preface|Speaker=Narrator
+16	.	.	PUNCT	_	_	11	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = ALT000011_12
+# alt_type = period_segmentation
+# source_sentences = S000011,S000012
+# speaker = Narrator
+# edition_loc = 1.1.5
+# text = primum, qui omnis fructos agri culturae caelo et terra continent, Iovem et Tellurem; itaque, quod ii parentes magni dicuntur, Iuppiter pater appellatur, Tellus terra mater.
+# alt_note = Combined Varronian-period analysis. The semicolon is treated as a weak editorial boundary. The clause "quod ii parentes magni dicuntur" is analysed as an explanatory gloss on the Jupiter-Tellus pair rather than as a straightforward adjunct of "appellatur".
+# review_notes = RN_ALT000011_12
+1	primum	primum	ADV	_	_	13	advmod	15.1:advmod	Discourse=Preface|OrigForm=Primum|Speaker=Narrator|SpaceAfter=No
+2	,	,	PUNCT	_	_	11	punct	_	Discourse=Preface|Speaker=Narrator
+3	qui	qui	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	11	nsubj	_	Discourse=Preface|Speaker=Narrator
+4	omnis	omnis	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	5	det	_	Discourse=Preface|Speaker=Narrator
+5	fructos	fructus	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	Discourse=Preface|Speaker=Narrator
+6	agri	ager	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	Discourse=Preface|Speaker=Narrator
+7	culturae	cultura	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	Discourse=Preface|Speaker=Narrator
+8	caelo	caelum	NOUN	_	Case=Abl|Gender=Neut|Number=Sing	11	obl	_	Discourse=Preface|Speaker=Narrator
+9	et	et	CCONJ	_	_	10	cc	_	Discourse=Preface|Speaker=Narrator
+10	terra	terra	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	8	conj	_	Discourse=Preface|Speaker=Narrator
+11	continent	contineo	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	Discourse=Preface|Speaker=Narrator
+12	,	,	PUNCT	_	_	13	punct	_	Discourse=Preface|Speaker=Narrator
+13	Iovem	Iuppiter	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	0	root	15.1:obj	Discourse=Preface|Speaker=Narrator
+14	et	et	CCONJ	_	_	15	cc	_	Discourse=Preface|Speaker=Narrator
+15	Tellurem	Tellus	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	13	conj	15.1:obj	Discourse=Preface|Speaker=Narrator
+16	;	;	PUNCT	_	_	22	punct	_	Discourse=Preface|Speaker=Narrator
+17	itaque	itaque	PART	_	_	22	discourse	_	Discourse=Preface|Speaker=Narrator
+18	,	,	PUNCT	_	_	17	punct	_	Discourse=Preface|Speaker=Narrator
+19	quod	quod	SCONJ	_	_	23	mark	_	Discourse=Preface|Speaker=Narrator
+20	ii	is	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	23	nsubj:pass	_	Discourse=Preface|Speaker=Narrator
+21	parentes	parens	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	23	xcomp	_	Discourse=Preface|Speaker=Narrator
+22	magni	magnus	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	21	amod	_	Discourse=Preface|Speaker=Narrator
+23	dicuntur	dico	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	parataxis	13:parataxis	Discourse=Preface|Speaker=Narrator
+24	,	,	PUNCT	_	_	27	punct	_	Discourse=Preface|Speaker=Narrator
+25	Iuppiter	Iuppiter	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	27	nsubj:pass	_	Discourse=Preface|Speaker=Narrator
+26	pater	pater	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	27	xcomp	_	Discourse=Preface|Speaker=Narrator
+27	appellatur	appello	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	23	parataxis	23:parataxis	Discourse=Preface|Speaker=Narrator
+28	,	,	PUNCT	_	_	29	punct	_	Discourse=Preface|Speaker=Narrator
+29	Tellus	Tellus	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	27	conj	31.1:nsubj:pass	Discourse=Preface|Speaker=Narrator
+30	terra	terra	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	31	nmod	_	Discourse=Preface|Speaker=Narrator
+31	mater	mater	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	29	orphan	31.1:xcomp	Discourse=Preface|Speaker=Narrator|SpaceAfter=No
+31.1	appellatur	appello	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	_	_	27:conj	Discourse=Preface|Speaker=Narrator
+32	.	.	PUNCT	_	_	13	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000013# sent_id = S000013
+# speaker = Narrator
+# edition_loc = 1.1.5
+# text_old = Secundo Solem et Lunam, quorum tempora observantur, cum quaedam seruntur et conduntur.
+# text = secundo Solem et Lunam, quorum tempora observantur, cum quaedam seruntur et conduntur.
+# text_en = Second, the Sun and the Moon, whose times are observed when certain things are sown and stored.
+# text_fr = Deuxièmement, le Soleil et la Lune, dont on observe les moments lorsque certaines choses sont semées et mises en réserve.
+# text_fi = Toiseksi Aurinkoa ja Kuuta, joiden ajanjaksoja tarkkaillaan, kun jotakin kylvetään ja varastoidaan.
+# review_status = silver
+1	secundo	secundo	ADV	_	_	2	advmod	2.1:advmod	Discourse=Preface|OrigForm=Secundo|Speaker=Narrator
+2	Solem	Sol	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	0	root	2.1:obj	Discourse=Preface|Speaker=Narrator
+2.1	invocabo	invoco	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	_	_	0:root	InheritedFrom=S000009:12
+3	et	et	CCONJ	_	_	4	cc	_	Discourse=Preface|Speaker=Narrator
+4	Lunam	Luna	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	2	conj	2.1:obj	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+5	,	,	PUNCT	_	_	8	punct	_	Discourse=Preface|Speaker=Narrator
+6	quorum	qui	PRON	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Rel	7	nmod	_	Discourse=Preface|Speaker=Narrator
+7	tempora	tempus	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	8	nsubj:pass	_	Discourse=Preface|Speaker=Narrator
+8	observantur	observo	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	acl:relcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+9	,	,	PUNCT	_	_	12	punct	_	Discourse=Preface|Speaker=Narrator
+10	cum	cum	SCONJ	_	_	12	mark	_	Discourse=Preface|Speaker=Narrator
+11	quaedam	quidam	PRON	_	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	12	nsubj:pass	_	Discourse=Preface|Speaker=Narrator
+12	seruntur	sero	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	advcl	_	Discourse=Preface|Speaker=Narrator
+13	et	et	CCONJ	_	_	14	cc	_	Discourse=Preface|Speaker=Narrator
+14	conduntur	condo	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	conj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+15	.	.	PUNCT	_	_	2	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000014
+# speaker = Narrator
+# edition_loc = 1.1.5
+# text_old = Tertio Cererem et Liberum, quod horum fructus maxime necessari ad victum;
+# text = tertio Cererem et Liberum, quod horum fructus maxime necessari ad victum;
+# text_en = Third, Ceres and Liber, for their produce is especially necessary for sustenance.
+# text_fr = Troisièmement, Cérès et Liber, car leurs produits sont particulièrement nécessaires à la subsistance.
+# text_fi = Kolmanneksi Ceres ja Liber, sillä heidän antinsa ovat erityisen välttämättömiä ravinnoksi.
+# review_status = silver
+1	tertio	tertio	ADV	_	_	2	advmod	2.1:advmod	Discourse=Preface|OrigForm=Tertio|Speaker=Narrator
+2	Cererem	Ceres	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	0	root	2.1:obj	Discourse=Preface|Speaker=Narrator
+2.1	invocabo	invoco	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	_	_	0:root	InheritedFrom=S000009:12
+3	et	et	CCONJ	_	_	4	cc	_	Discourse=Preface|Speaker=Narrator
+4	Liberum	Liber	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	2	conj	2.1:obj	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+5	,	,	PUNCT	_	_	10	punct	_	Discourse=Preface|Speaker=Narrator
+6	quod	quod	SCONJ	_	_	10	mark	_	Discourse=Preface|Speaker=Narrator
+7	horum	hic	PRON	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	8	nmod	_	Discourse=Preface|Speaker=Narrator
+8	fructus	fructus	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	Discourse=Preface|Speaker=Narrator
+9	maxime	magis	ADV	_	Degree=Abs	10	advmod	_	Discourse=Preface|Speaker=Narrator
+10	necessari	necessarius	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	2	advcl	2.1:advcl	Discourse=Preface|Speaker=Narrator
+11	ad	ad	ADP	_	_	12	case	_	Discourse=Preface|Speaker=Narrator
+12	victum	victus	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+13	;	;	PUNCT	_	_	2	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000015
+# speaker = Narrator
+# edition_loc = 1.1.5
+# text_old = ab his enim cibus et potio venit e fundo.
+# text = ab his enim cibus et potio venit e fundo.
+# text_en = For from these come food and drink from the farm.
+# text_fr = Car de ceux-ci viennent la nourriture et la boisson de la ferme.
+# text_fi = Sillä näistä tulee ruoka ja juoma maatilalta.
+# review_status = silver
+1	ab	ab	ADP	_	_	2	case	_	Discourse=Preface|Speaker=Narrator
+2	his	hic	PRON	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Dem	7	obl	_	Discourse=Preface|Speaker=Narrator
+3	enim	enim	PART	_	_	7	discourse	_	Discourse=Preface|Speaker=Narrator
+4	cibus	cibus	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Discourse=Preface|Speaker=Narrator
+5	et	et	CCONJ	_	_	6	cc	_	Discourse=Preface|Speaker=Narrator
+6	potio	potio	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	Discourse=Preface|Speaker=Narrator
+7	venit	venio	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Preface|Speaker=Narrator
+8	e	ex	ADP	_	_	9	case	_	Discourse=Preface|Speaker=Narrator
+9	fundo	fundus	NOUN	_	Case=Abl|Gender=Masc|Number=Sing	7	obl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+10	.	.	PUNCT	_	_	7	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000016
+# speaker = Narrator
+# edition_loc = 1.1.6
+# text_old = Quarto Robigum ac Floram, quibus propitiis neque robigo frumenta atque arbores corrumpit, neque non tempestive florent.
+# text = quarto Robigum ac Floram, quibus propitiis neque robigo frumenta atque arbores corrumpit, neque non tempestive florent.
+# text_en = Fourth, Robigus and Flora, when they are propitious, blight does not destroy crops and trees, and they indeed flower in due season.
+# text_fr = Quatrièmement, Robigus et Flora, lorsqu’ils sont favorables, la rouille ne détruit pas les cultures et les arbres, et ceux-ci fleurissent bien en leur temps.
+# text_fi = Neljänneksi Robigusta ja Floraa: kun he ovat suosiollisia, kasvintuho ei turmele viljaa eikä puita, ja ne myös kukkivat ajallaan.
+# review_status = silver
+1	quarto	quarto	ADV	_	_	2	advmod	2.1:advmod	Discourse=Preface|OrigForm=Quarto|Speaker=Narrator
+2	Robigum	Robigus	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	0	root	2.1:obj	Discourse=Preface|Speaker=Narrator
+2.1	invocabo	invoco	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	_	_	0:root	InheritedFrom=S000009:12
+3	ac	atque	CCONJ	_	_	4	cc	_	Discourse=Preface|Speaker=Narrator
+4	Floram	Flora	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	2	conj	2.1:obj	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+5	,	,	PUNCT	_	_	13	punct	_	Discourse=Preface|Speaker=Narrator
+6	quibus	qui	PRON	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Rel	7	obl	_	Discourse=Preface|Speaker=Narrator
+7	propitiis	propitius	ADJ	_	Case=Abl|Gender=Masc|Number=Plur	13	advcl:abs	_	Discourse=Preface|Speaker=Narrator
+8	neque	neque	CCONJ	_	Polarity=Neg	13	cc	_	Discourse=Preface|Speaker=Narrator
+9	robigo	robigo	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	Discourse=Preface|Speaker=Narrator
+10	frumenta	frumentum	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	Discourse=Preface|Speaker=Narrator
+11	atque	atque	CCONJ	_	_	12	cc	_	Discourse=Preface|Speaker=Narrator
+12	arbores	arbor	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	10	conj	_	Discourse=Preface|Speaker=Narrator
+13	corrumpit	corrumpo	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+14	,	,	PUNCT	_	_	18	punct	_	Discourse=Preface|Speaker=Narrator
+15	neque	neque	CCONJ	_	Polarity=Neg	18	cc	_	Discourse=Preface|Speaker=Narrator
+16	non	non	ADV	_	Polarity=Neg	17	advmod:neg	_	Discourse=Preface|Speaker=Narrator
+17	tempestive	tempestive	ADV	_	_	18	advmod	_	Discourse=Preface|Speaker=Narrator
+18	florent	floreo	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+19	.	.	PUNCT	_	_	2	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000017
+# speaker = Narrator
+# edition_loc = 1.1.6
+# text_old = Itaque publice Robigo feriae Robigalia, Florae ludi Floralia instituti.
+# text = itaque publice Robigo feriae Robigalia, Florae ludi Floralia instituti.
+# text_en = Accordingly, public festivals, the Robigalia, were established for Robigo, and games, the Floralia, for Flora.
+# text_fr = Ainsi furent instituées publiquement les fêtes, les Robigalia, pour Robigo, et les jeux, les Floralia, pour Flora.
+# text_fi = Näin perustettiin julkisesti Robigolle Robigalia-juhlat ja Floralle Floralia-kisat.
+# review_status = silver
+1	itaque	itaque	ADV	_	_	10	discourse	_	Discourse=Preface|OrigForm=Itaque|Speaker=Narrator
+2	publice	publice	ADV	_	_	10	advmod	_	Discourse=Preface|Speaker=Narrator
+3	Robigo	Robigo	PROPN	_	Case=Dat|Gender=Fem|Number=Sing	10	obl:arg	4:obl:arg	Discourse=Preface|Speaker=Narrator
+4	feriae	feriae	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	10	nsubj:pass	_	Discourse=Preface|Speaker=Narrator
+5	Robigalia	Robigalia	PROPN	_	Case=Nom|Gender=Neut|Number=Plur	4	appos	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+6	,	,	PUNCT	_	_	10	punct	_	Discourse=Preface|Speaker=Narrator
+7	Florae	Flora	PROPN	_	Case=Dat|Gender=Fem|Number=Sing	10	obl:arg	8:obl:arg	Discourse=Preface|Speaker=Narrator
+8	ludi	ludus	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	Discourse=Preface|Speaker=Narrator
+9	Floralia	Floralia	PROPN	_	Case=Nom|Gender=Neut|Number=Plur	8	appos	_	Discourse=Preface|Speaker=Narrator
+10	instituti	instituo	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+11	.	.	PUNCT	_	_	10	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000018
+# speaker = Narrator
+# edition_loc = 1.1.6
+# text_old = Item adveneror Minervam et Venerem, quarum unius procuratio oliveti, alterius hortorum;
+# text = item adveneror Minervam et Venerem, quarum unius procuratio oliveti, alterius hortorum;
+# text_en = Likewise I invoke Minerva and Venus, of whom one has charge of the olive grove, the other of gardens.
+# text_fr = De même, j’invoque Minerve et Vénus, dont l’une a la charge de l’oliveraie, l’autre des jardins.
+# text_fi = Samoin kutsun avuksi Minervaa ja Venuksta, joista toisen vastuuna on oliivitarha, toisen puutarhat.
+# review_status = silver
+1	item	item	ADV	_	_	2	advmod	_	Discourse=Preface|OrigForm=Item|Speaker=Narrator
+2	adveneror	adveneror	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Discourse=Preface|Speaker=Narrator
+3	Minervam	Minerva	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	Discourse=Preface|Speaker=Narrator
+4	et	et	CCONJ	_	_	5	cc	_	Discourse=Preface|Speaker=Narrator
+5	Venerem	Venus	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+6	,	,	PUNCT	_	_	9	punct	_	Discourse=Preface|Speaker=Narrator
+7	quarum	qui	PRON	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Rel	9	nmod	_	Discourse=Preface|Speaker=Narrator
+8	unius	unus	DET	_	Case=Gen|Gender=Fem|Number=Sing|NumType=Card	9	nmod	_	Discourse=Preface|Speaker=Narrator
+9	procuratio	procuratio	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	acl:relcl	_	Discourse=Preface|Speaker=Narrator
+10	oliveti	olivetum	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+11	,	,	PUNCT	_	_	13	punct	_	Discourse=Preface|Speaker=Narrator
+12	alterius	alter	DET	_	Case=Gen|Gender=Fem|Number=Sing	13	orphan	12.1:nmod	Discourse=Preface|Speaker=Narrator
+12.1	procuratio	procuratio	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	9:conj	InheritedFrom=S000018:9
+13	hortorum	hortus	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	9	conj	12.1:nmod	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+14	;	;	PUNCT	_	_	2	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000019
+# speaker = Narrator
+# edition_loc = 1.1.6
+# text_old = quo nomine rustica Vinalia instituta.
+# text = quo nomine rustica Vinalia instituta.
+# text_en = Under this name the Rustic Vinalia were instituted.
+# text_fr = Sous ce nom furent instituées les Vinalia Rustica.
+# text_fi = Tällä nimellä perustettiin Vinalia Rustica -juhla.
+# review_status = silver
+1	quo	qui	PRON	_	Case=Abl|Gender=Neut|Number=Sing|PronType=Rel	2	det	_	Discourse=Preface|Speaker=Narrator
+2	nomine	nomen	NOUN	_	Case=Abl|Gender=Neut|Number=Sing	5	obl	_	Discourse=Preface|Speaker=Narrator
+3	rustica	rusticus	ADJ	_	Case=Nom|Gender=Neut|Number=Plur|Degree=Pos	4	amod	_	Discourse=Preface|Speaker=Narrator
+4	Vinalia	Vinalia	PROPN	_	Case=Nom|Gender=Neut|Number=Plur	5	nsubj:pass	_	Discourse=Preface|Speaker=Narrator
+5	instituta	instituo	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+6	.	.	PUNCT	_	_	5	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000020
+# speaker = Narrator
+# edition_loc = 1.1.6
+# text_old = Nec non etiam precor Lympham ac Bonum Eventum, quoniam sine aqua omnis arida ac misera agri cultura, sine successu ac bono eventu frustratio est, non cultura.
+# text = nec non etiam precor Lympham ac Bonum Eventum, quoniam sine aqua omnis arida ac misera agri cultura, sine successu ac bono eventu frustratio est, non cultura.
+# text_en = And furthermore I invoke Lympha and Bonus Eventus, since without water all agriculture is barren and miserable, and without success and good outcome it is failure, not agriculture.
+# text_fr = Et de plus j’invoque Lympha et Bonus Eventus, car sans eau toute agriculture est aride et misérable, et sans succès ni bonne issue elle est échec, non agriculture.
+# text_fi = Lisäksi kutsun avuksi Lymphan ja Bonus Eventuksen, sillä ilman vettä kaikki maanviljely on kuivaa ja kurjaa, ja ilman menestystä ja hyvää lopputulosta se on epäonnistumista eikä maanviljelyä.
+# review_status = silver
+1	nec	neque	CCONJ	_	Polarity=Neg	4	cc	_	Discourse=Preface|OrigForm=Nec|Speaker=Narrator
+2	non	non	PART	_	Polarity=Neg	4	advmod:neg	_	Discourse=Preface|Speaker=Narrator
+3	etiam	etiam	ADV	_	_	4	advmod:emph	_	Discourse=Preface|Speaker=Narrator
+4	precor	precor	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Discourse=Preface|Speaker=Narrator
+5	Lympham	Lympha	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	Discourse=Preface|Speaker=Narrator
+6	ac	atque	CCONJ	_	_	7	cc	_	Discourse=Preface|Speaker=Narrator
+7	Bonum	Bonus	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	5	conj	_	Discourse=Preface|Speaker=Narrator
+8	Eventum	Eventus	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	7	flat:name	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+9	,	,	PUNCT	_	_	18	punct	_	Discourse=Preface|Speaker=Narrator
+10	quoniam	quoniam	SCONJ	_	_	18	mark	_	Discourse=Preface|Speaker=Narrator
+11	sine	sine	ADP	_	_	12	case	_	Discourse=Preface|Speaker=Narrator
+12	aqua	aqua	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	18	obl	_	Discourse=Preface|Speaker=Narrator
+13	omnis	omnis	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	18	det	_	Discourse=Preface|Speaker=Narrator
+14	arida	aridus	ADJ	_	Case=Nom|Gender=Fem|Number=Sing|Degree=Pos	18	amod	_	Discourse=Preface|Speaker=Narrator
+15	ac	atque	CCONJ	_	_	16	cc	_	Discourse=Preface|Speaker=Narrator
+16	misera	miser	ADJ	_	Case=Nom|Gender=Fem|Number=Sing|Degree=Pos	14	conj	_	Discourse=Preface|Speaker=Narrator
+17	agri	ager	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	Discourse=Preface|Speaker=Narrator
+18	cultura	cultura	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	advcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+19	,	,	PUNCT	_	_	25	punct	_	Discourse=Preface|Speaker=Narrator
+20	sine	sine	ADP	_	_	21	case	_	Discourse=Preface|Speaker=Narrator
+21	successu	successus	NOUN	_	Case=Abl|Gender=Masc|Number=Sing	25	obl	_	Discourse=Preface|Speaker=Narrator
+22	ac	atque	CCONJ	_	_	24	cc	_	Discourse=Preface|Speaker=Narrator
+23	bono	bonus	ADJ	_	Case=Abl|Gender=Masc|Number=Sing|Degree=Pos	24	amod	_	Discourse=Preface|Speaker=Narrator
+24	eventu	eventus	NOUN	_	Case=Abl|Gender=Masc|Number=Sing	21	conj	_	Discourse=Preface|Speaker=Narrator
+25	frustratio	frustratio	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	18	conj	_	Discourse=Preface|Speaker=Narrator
+26	est	sum	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+27	,	,	PUNCT	_	_	29	punct	_	Discourse=Preface|Speaker=Narrator
+28	non	non	PART	_	Polarity=Neg	29	advmod:neg	_	Discourse=Preface|Speaker=Narrator
+29	cultura	cultura	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	25	conj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+30	.	.	PUNCT	_	_	4	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000021
+# speaker = Narrator
+# edition_loc = 1.1.7
+# text_old = Iis igitur deis ad venerationem advocatis ego referam sermones eos quos de agri cultura habuimus nuper, ex quibus quid te facere oporteat animadvertere poteris.
+# text = iis igitur deis ad venerationem advocatis ego referam sermones eos quos de agri cultura habuimus nuper, ex quibus quid te facere oporteat animadvertere poteris.
+# text_en = Therefore, with those gods having been invoked for veneration, I shall recount those discussions which we recently had concerning agriculture, from which you will be able to discern what you ought to do.
+# text_fr = Ayant donc invoqué ces dieux pour être honorés, je rapporterai les entretiens que nous avons eus récemment sur l’agriculture, et tu pourras en comprendre ce qu’il te convient de faire.
+# text_fi = Kun nämä jumalat on siis kutsuttu kunnioitettaviksi, kerron ne keskustelut, joita kävimme hiljattain maanviljelystä ja joista voit päätellä, mitä sinun tulee tehdä.
+# review_status = silver
+# review_notes = RN_S000021;RN_S000021_01
+1	iis	is	PRON	_	Case=Abl|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	det	_	Discourse=Preface|OrigForm=Iis|Speaker=Narrator
+2	igitur	igitur	PART	_	_	6	discourse	_	Discourse=Preface|Speaker=Narrator
+3	deis	deus	NOUN	_	Case=Abl|Gender=Masc|Number=Plur	6	nsubj:pass	_	Discourse=Preface|Speaker=Narrator
+4	ad	ad	ADP	_	_	5	case	_	Discourse=Preface|Speaker=Narrator
+5	venerationem	veneratio	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	Discourse=Preface|Speaker=Narrator
+6	advocatis	advoco	VERB	_	Aspect=Perf|Case=Abl|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	8	advcl:abs	_	Discourse=Preface|Speaker=Narrator
+7	ego	ego	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Discourse=Preface|Speaker=Narrator
+8	referam	refero	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Preface|Speaker=Narrator
+9	sermones	sermo	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	Discourse=Preface|Speaker=Narrator
+10	eos	is	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	det	_	Discourse=Preface|Speaker=Narrator
+11	quos	qui	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel	15	obj	_	Discourse=Preface|Speaker=Narrator
+12	de	de	ADP	_	_	14	case	_	Discourse=Preface|Speaker=Narrator
+13	agri	ager	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	Discourse=Preface|Speaker=Narrator
+14	cultura	cultura	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	15	obl	_	Discourse=Preface|Speaker=Narrator
+15	habuimus	habeo	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|Voice=Act	9	acl:relcl	_	Discourse=Preface|Speaker=Narrator
+16	nuper	nuper	ADV	_	_	15	advmod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+17	,	,	PUNCT	_	_	25	punct	_	Discourse=Preface|Speaker=Narrator
+18	ex	ex	ADP	_	_	19	case	_	Discourse=Preface|Speaker=Narrator
+19	quibus	qui	PRON	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Rel	24	obl	_	Discourse=Preface|Speaker=Narrator
+20	quid	quis	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	22	obj	_	Discourse=Preface|Speaker=Narrator
+21	te	tu	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	22	nsubj	_	Discourse=Preface|Speaker=Narrator
+22	facere	facio	VERB	_	VerbForm=Inf|Voice=Act	23	csubj	_	Discourse=Preface|Speaker=Narrator
+23	oporteat	oportet	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	ccomp	_	Discourse=Preface|Speaker=Narrator
+24	animadvertere	animadverto	VERB	_	VerbForm=Inf|Voice=Act	25	xcomp	_	Discourse=Preface|Speaker=Narrator
+25	poteris	possum	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	9	acl:relcl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+26	.	.	PUNCT	_	_	8	punct	_	Discourse=Preface|Speaker=Narrator
+
+# sent_id = S000022
+# speaker = Narrator
+# edition_loc = 1.1.7
+# text_old = In quis quae non inerunt et quaeres, indicabo a quibus scriptoribus repetas et Graecis et nostris.
+# text = in quis quae non inerunt et quaeres, indicabo a quibus scriptoribus repetas et Graecis et nostris.
+1	in	in	ADP	_	_	_	case	_	Discourse=Preface|OrigForm=In|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	quis	_	_	_	_	_	obj	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=q
+3	quae	qui	PRON	_	_	6	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+4	non	_	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q
+5	inerunt	ineo	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=q
+6	et	et	CCONJ	_	_	9	cc	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+7	quaeres	quaero	VERB	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+8	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+9	indicabo	indico	VERB	_	_	_	root	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+10	a	ab	ADP	_	_	13	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+11	quibus	qui	PRON	_	_	13	advmod	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+12	scriptoribus	scriptor	NOUN	_	_	_	nsubj	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+13	repetas	repeto	VERB	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+14	et	et	CCONJ	_	_	_	cc	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+15	Graecis	_	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator
+16	et	et	CCONJ	_	_	_	cc	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+17	nostris	_	_	_	_	_	nsubj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus7=p|FieldStatus8=q
+18	.	.	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000023
+# speaker = Narrator
+# edition_loc = 1.1.7
+# text_old = Qui Graece scripserunt dispersim alius de alia re, sunt plus quinquaginta.
+# text = qui Graece scripserunt dispersim alius de alia re, sunt plus quinquaginta.
+1	qui	qui	PRON	_	_	_	nmod	_	Discourse=Preface|OrigForm=Qui|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+2	Graece	_	_	_	_	_	advmod	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+3	scripserunt	scribo	VERB	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+4	dispersim	_	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=p
+5	alius	_	_	_	_	_	root	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=q
+6	de	de	ADP	_	_	10	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+7	alia	_	PRON	_	_	10	amod	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+8	re	res	NOUN	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+9	,	,	PUNCT	_	_	3	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+10	sunt	_	VERB	_	_	_	root	_	Discourse=Preface|Speaker=Narrator|FieldStatus4=q|FieldStatus8=q
+11	plus	_	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator
+12	quinquaginta	quinquaginta	NUM	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+13	.	.	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000024
+# speaker = Narrator
+# edition_loc = 1.1.8
+# text_old = Hi sunt, quos tu habere in consilio poteris, cum quid consulere voles, Hieron Siculus et Attalus Philometor;
+# text = hi sunt, quos tu habere in consilio poteris, cum quid consulere voles, Hieron Siculus et Attalus Philometor;
+1	hi	_	_	_	_	_	_	_	Discourse=Preface|OrigForm=Hi|Speaker=Narrator|FieldStatus7=q
+2	sunt	_	VERB	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=q
+3	,	,	PUNCT	_	_	9	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+4	quos	quis	_	_	_	_	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=p|FieldStatus3=q|FieldStatus8=q
+5	tu	tu	PRON	_	_	6	amod	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+6	habere	habeo	VERB	_	_	9	obj	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+7	in	in	ADP	_	_	_	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	consilio	consilium	NOUN	_	_	_	nmod	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+9	poteris	possum	VERB	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+10	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+11	cum	cum	SCONJ	_	_	14	mark	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+12	quid	_	NOUN	_	_	16	nsubj	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+13	consulere	consulo	VERB	_	_	16	cc	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+14	voles	volo	VERB	_	_	9	case	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q|FieldStatus7=q
+15	,	,	PUNCT	_	_	16	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+16	Hieron	Hieron	PROPN	_	_	_	_	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator
+17	Siculus	_	PROPN	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=p
+18	et	et	CCONJ	_	_	20	cc	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+19	Attalus	_	PROPN	_	_	_	nummod	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=p|FieldStatus8=q
+20	Philometor	_	PROPN	_	_	_	appos	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+21	;	;	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000025
+# speaker = Narrator
+# edition_loc = 1.1.8
+# text_old = de philosophis Democritus physicus, Xenophon Socraticus, Aristoteles et Theophrastus peripatetici, Archytas Pythagoreus;
+# text = de philosophis Democritus physicus, Xenophon Socraticus, Aristoteles et Theophrastus peripatetici, Archytas Pythagoreus;
+1	de	de	ADP	_	_	_	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	philosophis	philosophus	NOUN	_	_	4	nmod	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+3	Democritus	_	PROPN	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q
+4	physicus	_	_	_	_	3	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus7=s
+5	,	,	PUNCT	_	_	6	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+6	Xenophon	Xenophon	PROPN	_	_	_	obl	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+7	Socraticus	Socraticus	PROPN	_	_	6	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=q|FieldStatus7=q
+8	,	,	PUNCT	_	_	9	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+9	Aristoteles	Aristoteles	PROPN	_	_	_	case	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+10	et	et	CCONJ	_	_	11	cc	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+11	Theophrastus	_	PROPN	_	_	_	cc	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=q|FieldStatus7=q
+12	peripatetici	peripateticus	ADJ	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+13	,	,	PUNCT	_	_	14	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+14	Archytas	Archytas	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus7=q|FieldStatus8=s
+15	Pythagoreus	Pythagoreus	PROPN	_	_	14	punct	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus7=s|FieldStatus4=q|FieldStatus8=q
+16	;	;	PUNCT	_	_	2	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000026
+# speaker = Narrator
+# edition_loc = 1.1.8
+# text_old = item Amphilochus Atheniensis, Anaxipolis Thasius, Apollodorus Lemnius, Aristophanes Mallotes, Antigonus Cymaeus, Agathocles Chius, Apollonius Pergamenus, Aristandros Atheniensis, Bacchius Milesius, Bion Soleus, Chaeresteus et Chaereas Athenienses, Diodorus Prieneus, Dion Colophonius, Diophanes Nicaeensis, Epigenes Rhodios, Euagon Thasius, Euphronii duo, unus Atheniensis, alter Amphipolites, Hegesias Maronites, Menandri duo, unus Prieneus, alter Heracleotes, Nicesius Maronites, Pythion Rhodius.
+# text = item Amphilochus Atheniensis, Anaxipolis Thasius, Apollodorus Lemnius, Aristophanes Mallotes, Antigonus Cymaeus, Agathocles Chius, Apollonius Pergamenus, Aristandros Atheniensis, Bacchius Milesius, Bion Soleus, Chaeresteus et Chaereas Athenienses, Diodorus Prieneus, Dion Colophonius, Diophanes Nicaeensis, Epigenes Rhodios, Euagon Thasius, Euphronii duo, unus Atheniensis, alter Amphipolites, Hegesias Maronites, Menandri duo, unus Prieneus, alter Heracleotes, Nicesius Maronites, Pythion Rhodius.
+1	item	item	ADV	_	_	3	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+2	Amphilochus	_	PROPN	_	_	_	root	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+3	Atheniensis	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p|FieldStatus7=p
+4	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+5	Anaxipolis	Anaxipolis	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+6	Thasius	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p
+7	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+8	Apollodorus	Apollodorus	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+9	Lemnius	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p
+10	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+11	Aristophanes	Aristophanes	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+12	Mallotes	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p
+13	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+14	Antigonus	Antigonus	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+15	Cymaeus	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p
+16	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+17	Agathocles	Agathocles	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+18	Chius	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p
+19	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+20	Apollonius	Apollonius	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+21	Pergamenus	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p
+22	,	,	PUNCT	_	_	23	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+23	Aristandros	Aristandros	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+24	Atheniensis	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p|FieldStatus7=p
+25	,	,	PUNCT	_	_	26	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+26	Bacchius	Bacchius	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+27	Milesius	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p
+28	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+29	Bion	Bion	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+30	Soleus	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p
+31	,	,	PUNCT	_	_	32	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+32	Chaeresteus	Chaeresteus	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+33	et	et	CCONJ	_	_	35	cc	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+34	Chaereas	_	PROPN	_	_	_	conj	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p
+35	Athenienses	Athenienses	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p|FieldStatus3=q
+36	,	,	PUNCT	_	_	37	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+37	Diodorus	Diodorus	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+38	Prieneus	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p|FieldStatus7=p
+39	,	,	PUNCT	_	_	40	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+40	Dion	Dion	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+41	Colophonius	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p
+42	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+43	Diophanes	Diophanes	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+44	Nicaeensis	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p|FieldStatus7=p
+45	,	,	PUNCT	_	_	46	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+46	Epigenes	Epigenes	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+47	Rhodios	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p
+48	,	,	PUNCT	_	_	49	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+49	Euagon	Euagon	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+50	Thasius	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p
+51	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+52	Euphronii	Euphronius	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+53	duo	_	ADJ	_	_	2	conj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=q|FieldStatus7=q|FieldStatus8=q
+54	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+55	unus	_	_	_	_	_	xcomp	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+56	Atheniensis	_	_	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+57	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+58	alter	_	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator
+59	Amphipolites	_	PROPN	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+60	,	,	PUNCT	_	_	61	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+61	Hegesias	Hegesias	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+62	Maronites	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p
+63	,	,	PUNCT	_	_	64	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+64	Menandri	Menandrus	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+65	duo	_	ADJ	_	_	61	nummod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=q|FieldStatus8=q|FieldStatus7=q
+66	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+67	unus	_	_	_	_	_	xcomp	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=q
+68	Prieneus	_	PROPN	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+69	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+70	alter	_	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator
+71	Heracleotes	_	PROPN	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator
+72	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+73	Nicesius	Nicesius	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+74	Maronites	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p
+75	,	,	PUNCT	_	_	76	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+76	Pythion	Pythion	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+77	Rhodius	_	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p|FieldStatus7=p
+78	.	.	PUNCT	_	_	2	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000027
+# speaker = Narrator
+# edition_loc = 1.1.9
+# text_old = De reliquis, quorum quae fuerit patria non accepi, sunt Androtion, Aeschrion, Aristomenes, Athenagoras, Crates, Dadis, Dionysios, Euphiton, Euphorion, Eubulus, Lysimachus, Mnaseas, Menestratus, Plentiphanes, Persis, Theophilus.
+# text = de reliquis, quorum quae fuerit patria non accepi, sunt Androtion, Aeschrion, Aristomenes, Athenagoras, Crates, Dadis, Dionysios, Euphiton, Euphorion, Eubulus, Lysimachus, Mnaseas, Menestratus, Plentiphanes, Persis, Theophilus.
+1	de	de	ADP	_	_	_	case	_	Discourse=Preface|OrigForm=De|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	reliquis	_	_	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus7=q
+3	,	,	PUNCT	_	_	9	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+4	quorum	qui	PRON	_	_	7	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+5	quae	qui	PRON	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+6	fuerit	_	VERB	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus4=q
+7	patria	patria	NOUN	_	_	6	advcl	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+8	non	_	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q
+9	accepi	accipio	VERB	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+10	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+11	sunt	_	VERB	_	_	2	cop	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus7=q|FieldStatus4=q
+12	Androtion	_	PROPN	_	_	_	nsubj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+13	,	,	PUNCT	_	_	14	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+14	Aeschrion	Aeschrion	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+15	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+16	Aristomenes	Aristomenes	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+17	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+18	Athenagoras	Athenagoras	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+19	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+20	Crates	Crates	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+21	,	,	PUNCT	_	_	22	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+22	Dadis	Das	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+23	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+24	Dionysios	Dionysios	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+25	,	,	PUNCT	_	_	26	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+26	Euphiton	Euphiton	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+27	,	,	PUNCT	_	_	28	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+28	Euphorion	Euphorion	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+29	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+30	Eubulus	Eubulus	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+31	,	,	PUNCT	_	_	32	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+32	Lysimachus	Lysimachus	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+33	,	,	PUNCT	_	_	34	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+34	Mnaseas	Mnaseas	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+35	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+36	Menestratus	Menestratus	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+37	,	,	PUNCT	_	_	38	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+38	Plentiphanes	Plentiphanes	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+39	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+40	Persis	Persis	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+41	,	,	PUNCT	_	_	42	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+42	Theophilus	Theophilus	PROPN	_	_	_	conj	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+43	.	.	PUNCT	_	_	12	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000028
+# speaker = Narrator
+# edition_loc = 1.1.9
+# text_old = Hi quos dixi omnes soluta oratione scripserunt;
+# text = hi quos dixi omnes soluta oratione scripserunt;
+1	hi	_	_	_	_	_	nsubj	_	Discourse=Preface|OrigForm=Hi|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+2	quos	_	NOUN	_	_	_	root	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+3	dixi	dico	VERB	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+4	omnes	omnes	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=q
+5	soluta	_	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator
+6	oratione	oratio	NOUN	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+7	scripserunt	scribo	VERB	_	_	_	root	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	;	;	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000029
+# speaker = Narrator
+# edition_loc = 1.1.9
+# text_old = easdem res etiam quidam versibus, ut Hesiodus Ascraeus, Menecrates Ephesius.
+# text = easdem res etiam quidam versibus, ut Hesiodus Ascraeus, Menecrates Ephesius.
+1	easdem	_	PRON	_	_	_	nsubj	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+2	res	res	NOUN	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+3	etiam	_	SCONJ	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus4=q
+4	quidam	_	PRON	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus4=q
+5	versibus	versus	NOUN	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+6	,	,	PUNCT	_	_	8	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+7	ut	_	_	_	_	8	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=s|FieldStatus8=q
+8	Hesiodus	_	PROPN	_	_	_	root	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=q
+9	Ascraeus	_	PROPN	_	_	8	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus7=s
+10	,	,	PUNCT	_	_	11	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+11	Menecrates	Menecrates	PROPN	_	_	8	punct	_	Discourse=Preface|FieldStatus3=g|FieldStatus4=g|Speaker=Narrator|FieldStatus7=s|FieldStatus8=q
+12	Ephesius	_	PROPN	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+13	.	.	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000030
+# speaker = Narrator
+# edition_loc = 1.1.10
+# text_old = Hos nobilitate Mago Carthaginiensis praeteriit, poenica lingua qui res dispersas comprendit libris XXIIX, quos Cassius Dionysius Uticensis vertit libris XX ac Graeca lingua Sextilio praetori misit;
+# text = hos nobilitate Mago Carthaginiensis praeteriit, poenica lingua qui res dispersas comprendit libris XXIIX, quos Cassius Dionysius Uticensis vertit libris XX ac Graeca lingua Sextilio praetori misit;
+1	hos	_	_	_	_	_	amod	_	Discourse=Preface|OrigForm=Hos|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+2	nobilitate	nobilitas	NOUN	_	_	7	advmod	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+3	Mago	_	PROPN	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q
+4	Carthaginiensis	_	_	_	_	3	advmod	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=s|FieldStatus8=q
+5	praeteriit	praetereo	VERB	_	_	_	root	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+6	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+7	poenica	_	_	_	_	_	obl	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+8	lingua	lingua	NOUN	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+9	qui	_	NOUN	_	_	13	nsubj	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q|FieldStatus4=q|FieldStatus8=s
+10	res	res	NOUN	_	_	12	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+11	dispersas	_	_	_	_	_	acl	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+12	comprendit	_	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator
+13	libris	liber	NOUN	_	_	12	acl	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+14	XXIIX	duodetriginta	_	_	_	_	case	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus7=p|FieldStatus3=q|FieldStatus8=q
+15	,	,	PUNCT	_	_	20	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+16	quos	qui	PRON	_	_	_	amod	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+17	Cassius	_	ADJ	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+18	Dionysius	_	PROPN	_	_	_	flat:name	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+19	Uticensis	_	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator
+20	vertit	_	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator
+21	libris	liber	NOUN	_	_	_	amod	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+22	XX	_	_	_	_	21	nummod	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=s|FieldStatus8=s
+23	ac	atque	CCONJ	_	_	_	cc	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+24	Graeca	_	_	_	_	_	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+25	lingua	lingua	NOUN	_	_	_	appos	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+26	Sextilio	_	PROPN	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=p|FieldStatus8=q
+27	praetori	praetor	NOUN	_	_	_	appos	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus8=s
+28	misit	mitto	VERB	_	_	_	conj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+29	;	;	PUNCT	_	_	5	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000031
+# speaker = Narrator
+# edition_loc = 1.1.10
+# text_old = in quae volumina de Graecis libris eorum quos dixi adiecit non pauca et de Magonis dempsit instar librorum VIII.
+# text = in quae volumina de Graecis libris eorum quos dixi adiecit non pauca et de Magonis dempsit instar librorum VIII.
+1	in	in	ADP	_	_	_	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	quae	qui	PRON	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	volumina	_	_	_	_	_	flat:name	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+4	de	de	ADP	_	_	7	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+5	Graecis	_	_	_	_	6	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=s|FieldStatus8=q
+6	libris	liber	NOUN	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+7	eorum	is	PRON	_	_	9	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+8	quos	qui	PRON	_	_	9	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+9	dixi	dico	VERB	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+10	adiecit	adicio	VERB	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+11	non	_	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q
+12	pauca	_	_	_	_	_	nmod	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=q|FieldStatus7=q
+13	et	et	CCONJ	_	_	16	cc	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+14	de	de	ADP	_	_	_	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+15	Magonis	_	PROPN	_	_	_	_	_	Discourse=Preface|Speaker=Narrator
+16	dempsit	_	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator
+17	instar	instar	NOUN	_	_	16	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+18	librorum	liber	NOUN	_	_	_	amod	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+19	VIII	_	_	_	_	18	acl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus7=s|FieldStatus8=q
+20	.	.	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000032
+# speaker = Narrator
+# edition_loc = 1.1.10
+# text_old = Hosce ipsos utiliter ad VI libros redegit Diophanes in Bithynia et misit Deiotaro regi.
+# text = hosce ipsos utiliter ad VI libros redegit Diophanes in Bithynia et misit Deiotaro regi.
+1-2	hosce	_	_	_	_	_	_	_	_
+1	hos	_	PRON	_	_	_	_	_	Discourse=Preface|OrigForm=Hos|SpaceAfter=No|Speaker=Narrator|FieldStatus4=q
+2	ce	hic	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=q
+3	ipsos	_	PRON	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus4=q
+4	utiliter	utilis	_	_	_	_	orphan	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q|FieldStatus3=q|FieldStatus8=q
+5	ad	ad	ADP	_	_	_	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+6	VI	_	_	_	_	_	nummod	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=s
+7	libros	liber	NOUN	_	_	8	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+8	redegit	redigo	VERB	_	_	_	root	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+9	Diophanes	_	PROPN	_	_	8	nsubj	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus7=s
+10	in	in	ADP	_	_	_	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+11	Bithynia	_	PROPN	_	_	_	amod	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+12	et	et	CCONJ	_	_	_	cc	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+13	misit	mitto	VERB	_	_	9	root	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+14	Deiotaro	_	PROPN	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=p|FieldStatus8=q
+15	regi	rex	NOUN	_	_	14	appos	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+16	.	.	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000033
+# speaker = Narrator
+# edition_loc = 1.1.11
+# text_old = Quo brevius de ea re conor tribus libris exponere, uno de agri cultura, altero de re pecuaria, tertio de villaticis pastionibus, hoc libro circumcisis rebus, quae non arbitror pertinere ad agri culturam.
+# text = quo brevius de ea re conor tribus libris exponere, uno de agri cultura, altero de re pecuaria, tertio de villaticis pastionibus, hoc libro circumcisis rebus, quae non arbitror pertinere ad agri culturam.
+1	quo	_	_	_	_	_	_	_	Discourse=Preface|OrigForm=Quo|Speaker=Narrator|FieldStatus7=q
+2	brevius	_	ADJ	_	_	_	advmod	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p|FieldStatus4=q
+3	de	de	ADP	_	_	6	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+4	ea	_	_	_	_	_	det	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q|FieldStatus8=s
+5	re	res	NOUN	_	_	_	nsubj	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+6	conor	conor	VERB	_	_	_	root	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+7	tribus	tres	NUM	_	_	_	mark	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+8	libris	liber	NOUN	_	_	9	advcl	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+9	exponere	expono	VERB	_	_	_	punct	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+10	,	,	PUNCT	_	_	11	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+11	uno	_	_	_	_	_	_	_	Discourse=Preface|Speaker=Narrator
+12	de	de	ADP	_	_	13	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+13	agri	ager	NOUN	_	_	11	orphan	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+14	cultura	cultura	NOUN	_	_	11	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+15	,	,	PUNCT	_	_	16	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+16	altero	_	_	_	_	_	nmod	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=q
+17	de	de	ADP	_	_	_	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+18	re	res	NOUN	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+19	pecuaria	pecuarius	ADJ	_	_	_	amod	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+20	,	,	PUNCT	_	_	21	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+21	tertio	_	_	_	_	_	conj	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p
+22	de	de	ADP	_	_	26	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+23	villaticis	villaticus	ADJ	_	_	26	amod	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+24	pastionibus	pastio	NOUN	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+25	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+26	hoc	_	PRON	_	_	28	nmod	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+27	libro	liber	NOUN	_	_	11	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+28	circumcisis	circumcido	VERB	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+29	rebus	res	NOUN	_	_	_	obl	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+30	,	,	PUNCT	_	_	33	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+31	quae	qui	PRON	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+32	non	_	_	_	_	_	advmod:neg	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+33	arbitror	arbitror	VERB	_	_	29	acl:relcl	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+34	pertinere	pertineo	VERB	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+35	ad	ad	ADP	_	_	_	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+36	agri	ager	NOUN	_	_	_	obl	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+37	culturam	cultura	NOUN	_	_	34	obj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+38	.	.	PUNCT	_	_	6	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000034
+# speaker = Narrator
+# edition_loc = 1.1.11
+# text_old = Itaque prius ostendam, quae secerni oporteat ab ea, tum de his rebus dicam sequens naturales divisiones.
+# text = itaque prius ostendam, quae secerni oporteat ab ea, tum de his rebus dicam sequens naturales divisiones.
+1	itaque	ita	_	_	_	_	advmod	_	Discourse=Preface|OrigForm=Itaque|Speaker=Narrator|FieldStatus7=q|FieldStatus3=q|FieldStatus8=q
+2	prius	_	ADJ	_	_	5	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=q|FieldStatus4=q
+3	ostendam	ostendo	VERB	_	_	_	root	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+4	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+5	quae	qui	PRON	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+6	secerni	secerno	VERB	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+7	oporteat	oportet	VERB	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+8	ab	ab	ADP	_	_	_	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+9	ea	is	PRON	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+10	,	,	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+11	tum	tum	ADV	_	_	16	advmod:tmod	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=s
+12	de	de	ADP	_	_	_	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+13	his	_	PRON	_	_	_	mark	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+14	rebus	res	NOUN	_	_	16	nsubj	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+15	dicam	dico	VERB	_	_	5	advcl	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+16	sequens	sequor	VERB	_	_	15	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+17	naturales	naturalis	ADJ	_	_	_	amod	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+18	divisiones	divisio	NOUN	_	_	_	obj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+19	.	.	PUNCT	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000035
+# speaker = Narrator
+# edition_loc = 1.1.11
+# text_old = Ea erunt ex radicibus trinis, et quae ipse in meis fundis colendo animadverti, et quae legi, et quae a peritis audii.
+# text = ea erunt ex radicibus trinis, et quae ipse in meis fundis colendo animadverti, et quae legi, et quae a peritis audii.
+1	ea	is	PRON	_	_	3	advmod	_	Discourse=Preface|OrigForm=Ea|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+2	erunt	_	VERB	_	_	_	cop	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p|FieldStatus4=q
+3	ex	ex	ADP	_	_	5	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+4	radicibus	radix	NOUN	_	_	_	root	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+5	trinis	terni	ADJ	_	_	4	punct	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus7=s|FieldStatus3=q|FieldStatus8=q
+6	,	,	PUNCT	_	_	14	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+7	et	et	CCONJ	_	_	_	cc	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	quae	qui	PRON	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+9	ipse	_	_	_	_	_	obj	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=p|FieldStatus8=q
+10	in	in	ADP	_	_	_	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+11	meis	_	PRON	_	_	_	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+12	fundis	_	_	_	_	_	mark	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=q
+13	colendo	colo	VERB	_	_	_	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+14	animadverti	animadverto	VERB	_	_	_	_	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	,	,	PUNCT	_	_	18	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+16	et	et	CCONJ	_	_	20	cc	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+17	quae	qui	PRON	_	_	20	_	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+18	legi	lego	VERB	_	_	_	conj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=s
+19	,	,	PUNCT	_	_	24	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+20	et	et	CCONJ	_	_	_	cc	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+21	quae	qui	PRON	_	_	_	ccomp	_	Discourse=Preface|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+22	a	ab	ADP	_	_	24	case	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+23	peritis	_	_	_	_	_	obl:agent	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+24	audii	_	_	_	_	_	conj	_	Discourse=Preface|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p
+25	.	.	PUNCT	_	_	4	punct	_	Discourse=Preface|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000036
+# speaker = Narrator
+# edition_loc = 1.1.11
+# text_old = Sementivis feriis in aedem Telluris veneram rogatus ab aeditumo, ut dicere didicimus a patribus nostris, ut corrigimur a recentibus urbanis, ab aedituo.
+# text = sementivis feriis in aedem Telluris veneram rogatus ab aeditumo, ut dicere didicimus a patribus nostris, ut corrigimur a recentibus urbanis, ab aedituo.
+1	sementivis	_	_	_	_	_	_	_	Discourse=Narrative|OrigForm=Sementivis|Speaker=Narrator
+2	feriis	feriae	NOUN	_	_	_	_	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+3	in	in	ADP	_	_	_	case	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+4	aedem	aedes	NOUN	_	_	_	amod	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+5	Telluris	_	PROPN	_	_	_	obj	_	Discourse=Narrative|Speaker=Narrator|FieldStatus7=p|FieldStatus8=q
+6	veneram	venio	VERB	_	_	_	root	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+7	rogatus	rogo	VERB	_	_	_	_	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	ab	ab	ADP	_	_	11	case	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+9	aeditumo	_	_	_	_	7	punct	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus7=s|FieldStatus8=q
+10	,	,	PUNCT	_	_	13	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+11	ut	ut	SCONJ	_	_	_	mark	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+12	dicere	dico	VERB	_	_	_	ccomp	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+13	didicimus	disco	VERB	_	_	6	_	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+14	a	ab	ADP	_	_	_	case	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+15	patribus	pater	NOUN	_	_	_	ccomp	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+16	nostris	_	ADJ	_	_	_	punct	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+17	,	,	PUNCT	_	_	19	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+18	ut	ut	SCONJ	_	_	20	mark	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+19	corrigimur	corrigo	VERB	_	_	_	_	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+20	a	ab	ADP	_	_	_	case	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+21	recentibus	recens	ADJ	_	_	_	_	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+22	urbanis	urbanus	ADJ	_	_	19	obl	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=s
+23	,	,	PUNCT	_	_	25	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+24	ab	ab	ADP	_	_	_	case	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+25	aedituo	_	_	_	_	_	_	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator
+26	.	.	PUNCT	_	_	6	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000037
+# speaker = Narrator
+# edition_loc = 1.1.11
+# text_old = Offendi ibi C. Fundanium, socerum meum, et C. Agrium equitem R. Socraticum et P. Agrasium publicanum spectantes in pariete pictam Italiam.
+# text = offendi ibi C. Fundanium, socerum meum, et C. Agrium equitem R. Socraticum et P. Agrasium publicanum spectantes in pariete pictam Italiam.
+1	offendi	offendo	VERB	_	_	_	root	_	Discourse=Narrative|OrigForm=Offendi|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	ibi	ibi	ADV	_	_	_	_	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	C	_	PROPN	_	_	_	obj	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus7=q|FieldStatus8=s
+4	.	.	PUNCT	_	_	_	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+5	Fundanium	_	PROPN	_	_	3	_	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus7=s
+6	,	,	PUNCT	_	_	7	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+7	socerum	_	_	_	_	_	_	_	Discourse=Narrative|Speaker=Narrator|FieldStatus7=q
+8	meum	_	ADJ	_	_	_	advcl	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+9	,	,	PUNCT	_	_	11	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+10	et	et	CCONJ	_	_	13	cc	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+11	C	_	PROPN	_	_	_	ccomp	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+12	.	.	PUNCT	_	_	11	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+13	Agrium	_	PROPN	_	_	_	_	_	Discourse=Narrative|Speaker=Narrator
+14	equitem	eques	NOUN	_	_	13	case	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+15	R	_	_	_	_	_	_	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus7=q
+16	.	.	PUNCT	_	_	_	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+17	Socraticum	Socraticus	PROPN	_	_	_	_	_	Discourse=Narrative|Speaker=Narrator|FieldStatus4=q
+18	et	et	CCONJ	_	_	21	cc	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+19	P	_	PROPN	_	_	_	punct	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus8=q
+20	.	.	PUNCT	_	_	19	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+21	Agrasium	_	PROPN	_	_	_	_	_	Discourse=Narrative|Speaker=Narrator
+22	publicanum	_	ADJ	_	_	_	_	_	Discourse=Narrative|Speaker=Narrator|FieldStatus4=q
+23	spectantes	specto	VERB	_	_	_	_	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+24	in	in	ADP	_	_	_	case	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+25	pariete	paries	NOUN	_	_	27	obl	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=s
+26	pictam	pingo	VERB	_	_	_	xcomp	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+27	Italiam	_	PROPN	_	_	_	obj	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus8=s
+28	.	.	PUNCT	_	_	1	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000038
+# speaker = Varro
+# edition_loc = 1.1.11
+# text_old = Quid vos hic? inquam, num feriae sementivae otiosos huc adduxerunt, ut patres et avos solebant nostros?
+# text = quid vos hic? inquam – num feriae sementivae otiosos huc adduxerunt, ut patres et avos solebant nostros?
+1	quid	_	_	_	_	_	_	_	Discourse=Dialogue|OrigForm=Quid|Speaker=Varro|Speaker=Varro|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+4	?	?	PUNCT	_	_	12	punct	_	Discourse=Dialogue|OrigForm=?|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+5	inquam	inquam	VERB	_	_	_	parataxis:reporting	_	Discourse=Narrative|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|OrigForm=,|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+7	num	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q
+8	feriae	feriae	NOUN	_	_	15	advmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+9	sementivae	sementivus	ADJ	_	_	8	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+10	otiosos	otiosus	ADJ	_	_	_	amod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+11	huc	huc	ADV	_	_	12	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+12	adduxerunt	adduco	VERB	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus8=s
+13	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+14	ut	ut	SCONJ	_	_	2	mark	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	patres	pater	NOUN	_	_	2	nsubj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=s
+16	et	et	CCONJ	_	_	19	cc	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+17	avos	avus	NOUN	_	_	15	amod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+18	solebant	soleo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+19	nostros	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000039
+# speaker = Agrius
+# edition_loc = 1.2.2
+# text_old = Nos vero, inquit Agrius, ut arbitror, eadem causa quae te, rogatio aeditumi.
+# text = nos vero – inquit Agrius– ut arbitror, eadem causa quae te, rogatio aeditumi.
+1	nos	nos	PRON	_	_	_	_	_	Discourse=Dialogue|OrigForm=Nos|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+2	vero	_	ADJ	_	_	11	discourse	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus4=q|FieldStatus8=q|FieldStatus7=q
+3	–	–	PUNCT	_	_	4	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Agrius|FieldStatus8=p|FieldStatus7=s
+4	inquit	inquam	VERB	_	_	_	parataxis:reporting	_	Discourse=Narrative|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|Speaker=Agrius|FieldStatus7=s|FieldStatus8=q
+6	–	,	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p|FieldStatus3=q
+7	ut	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p
+8	arbitror	arbitror	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+9	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+10	eadem	_	PRON	_	_	_	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+11	causa	causa	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+12	quae	quis	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=q|FieldStatus4=q
+13	te	tu	PRON	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+14	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+15	rogatio	rogatio	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+16	aeditumi	_	_	_	_	_	appos	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus7=q|FieldStatus8=q
+17	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000040
+# speaker = Agrius
+# edition_loc = 1.2.2
+# text_old = Itaque si ita est, ut annuis, morere oportet nobiscum, dum ille revertatur.
+# text = itaque si ita est, ut annuis, morere oportet nobiscum, dum ille revertatur.
+1	itaque	ito	_	_	_	_	advmod	_	Discourse=Dialogue|OrigForm=Itaque|Speaker=Agrius|FieldStatus7=p|FieldStatus3=q|FieldStatus8=q
+2	si	si	SCONJ	_	_	4	mark	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+3	ita	ita	ADV	_	_	_	advcl	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=s
+4	est	_	VERB	_	_	10	csubj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+5	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+6	ut	ut	SCONJ	_	_	10	mark	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+7	annuis	_	_	_	_	_	advcl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus7=q|FieldStatus8=q
+8	,	,	PUNCT	_	_	3	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+9	morere	moror	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+10	oportet	oportet	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+11	nobis	nos	PRON	_	_	_	obj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+12	cum	nos	PRON	_	_	10	obj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus7=q|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+13	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+14	dum	dum	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+15	ille	_	_	_	_	_	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus8=q
+16	revertatur	reverto	_	_	_	_	advmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=q|FieldStatus8=q
+17	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000041
+# speaker = Agrius
+# edition_loc = 1.2.2
+# text_old = Nam accersitus ab aedile, cuius procuratio huius templi est, nondum rediit et nos uti expectaremus se reliquit qui rogaret.
+# text = nam accersitus ab aedile, cuius procuratio huius templi est, nondum rediit et nos uti expectaremus se reliquit qui rogaret.
+1	nam	_	_	_	_	_	advmod	_	Discourse=Dialogue|OrigForm=Nam|Speaker=Agrius|FieldStatus7=q|FieldStatus8=q
+2	accersitus	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q
+3	ab	ab	ADP	_	_	6	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+4	aedile	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus7=q
+5	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+6	cuius	cuius	ADJ	_	_	7	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus3=q|FieldStatus4=q
+7	procuratio	procuratio	NOUN	_	_	4	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+8	huius	_	PRON	_	_	10	csubj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+9	templi	templum	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+10	est	_	VERB	_	_	_	ccomp	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus4=q|FieldStatus8=q
+11	,	,	PUNCT	_	_	2	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+12	nondum	_	SCONJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q
+13	rediit	redeo	VERB	_	_	2	conj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+14	et	et	CCONJ	_	_	15	cc	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	nos	nos	PRON	_	_	19	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+16	uti	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p
+17	expectaremus	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius
+18	se	_	_	_	_	_	obj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus8=s
+19	reliquit	relinquo	VERB	_	_	3	conj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+20	qui	_	NOUN	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p|FieldStatus4=q
+21	rogaret	rogo	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+22	.	.	PUNCT	_	_	13	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000042
+# speaker = Narrator
+# edition_loc = 1.2.2
+# text_old = Voltis igitur interea vetus proverbium, quod est "Romanus sedendo vincit", usurpemus, dum ille venit?
+# text = voltis igitur interea vetus proverbium, quod est “Romanus sedendo vincit”, usurpemus, dum ille venit?
+1	voltis	volo	VERB	_	_	_	_	_	Discourse=Narrative|OrigForm=Voltis|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+2	igitur	_	_	_	_	_	discourse	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=q|FieldStatus7=q
+3	interea	interea	ADV	_	_	2	advmod:tmod	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+4	vetus	_	_	_	_	_	advmod	_	Discourse=Narrative|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+5	proverbium	proverbium	NOUN	_	_	_	nsubj	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+6	,	,	PUNCT	_	_	_	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+7	quod	_	NOUN	_	_	_	_	_	Discourse=Narrative|Speaker=Narrator|FieldStatus4=q
+8	est	_	VERB	_	_	_	root	_	Discourse=Narrative|Speaker=Narrator|FieldStatus4=q|FieldStatus8=q
+9	“	“	PUNCT	_	_	12	punct	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus4=p|FieldStatus8=p|FieldStatus3=p|FieldStatus7=s
+10	Romanus	_	_	_	_	_	cc	_	Discourse=Narrative|Speaker=Narrator|FieldStatus7=p|FieldStatus8=q
+11	sedendo	sedeo	VERB	_	_	_	_	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+12	vincit	vincio	_	_	_	_	_	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus3=q|FieldStatus7=q
+13	”	”	PUNCT	_	_	12	punct	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+14	,	,	PUNCT	_	_	_	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+15	usurpemus	usurpo	VERB	_	_	_	_	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+16	,	,	PUNCT	_	_	19	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+17	dum	dum	SCONJ	_	_	2	mark	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+18	ille	_	_	_	_	_	nsubj	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+19	venit	venio	VERB	_	_	17	advcl	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+20	?	?	PUNCT	_	_	_	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000043
+# speaker = Agrius
+# edition_loc = 1.2.2
+# text_old = Sane, inquit Agrius, et simul cogitans portam itineri dici longissimam esse ad subsellia sequentibus nobis procedit.
+# text = sane – inquit Agrius– et simul cogitans portam itineri dici longissimam esse ad subsellia sequentibus nobis procedit.
+1	sane	_	_	_	_	_	root	_	Discourse=Dialogue|OrigForm=Sane|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p
+2	–	–	PUNCT	_	_	3	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+3	inquit	inquam	VERB	_	_	_	parataxis:reporting	_	Discourse=Narrative|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|Speaker=Agrius|FieldStatus7=p|FieldStatus8=q
+5	,	,	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+6	et	et	CCONJ	_	_	_	cc	_	Discourse=Narrative|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+7	simul	simul	ADV	_	_	_	mark	_	Discourse=Narrative|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+8	cogitans	cogito	VERB	_	_	_	advmod	_	Discourse=Narrative|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+9	portam	porta	NOUN	_	_	_	_	_	Discourse=Narrative|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+10	itineri	_	_	_	_	_	_	_	Discourse=Narrative|Speaker=Agrius|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+12	longissimam	longus	ADJ	_	_	_	punct	_	Discourse=Narrative|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+13	esse	_	VERB	_	_	_	amod	_	Discourse=Narrative|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+14	ad	ad	ADP	_	_	16	case	_	Discourse=Narrative|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	subsellia	_	_	_	_	_	cc	_	Discourse=Narrative|Speaker=Agrius|FieldStatus8=q
+16	sequentibus	sequor	VERB	_	_	_	_	_	Discourse=Narrative|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+17	nobis	nos	PRON	_	_	_	_	_	Discourse=Narrative|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+18	procedit	procedo	VERB	_	_	_	conj	_	Discourse=Narrative|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+19	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000044
+# speaker = Agrasius
+# edition_loc = 1.2.3
+# text_old = Cum consedissemus, Agrasius, Vos, qui multas perambulastis terras, ecquam cultiorem Italia vidistis? inquit.
+# text = cum consedissemus, Agrasius: vos, qui multas perambulastis terras, ecquam cultiorem Italia vidistis? inquit.
+1	cum	cum	SCONJ	_	_	4	mark	_	Discourse=Narrative|OrigForm=Cum|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+2	consedissemus	_	_	_	_	_	advmod	_	Discourse=Narrative|SpaceAfter=No|Speaker=Agrasius|FieldStatus7=p|FieldStatus8=q
+3	,	,	PUNCT	_	_	2	punct	_	Discourse=Narrative|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+4	Agrasius	Agrasius	PROPN	_	_	_	mark	_	Discourse=Narrative|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Agrasius|FieldStatus7=p|FieldStatus8=q
+5	:	:	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+6	vos	tu	PRON	_	_	_	nsubj	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|OrigForm=Vos|SpaceAfter=No|Speaker=Agrasius|FieldStatus8=p|FieldStatus7=p
+7	,	,	PUNCT	_	_	10	punct	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+8	qui	qui	PRON	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+9	multas	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus7=q
+10	perambulastis	perambulo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+11	terras	terra	NOUN	_	_	_	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrasius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+12	,	,	PUNCT	_	_	10	punct	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+13	ecquam	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrasius|Speaker=Agrasius|Speaker=Agrasius|FieldStatus7=q
+16	vidistis	video	VERB	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+17	?	?	PUNCT	_	_	16	punct	_	Discourse=Dialogue|OrigForm=?|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+18	inquit	inquam	VERB	_	_	_	parataxis:reporting	_	Discourse=Narrative|SpaceAfter=No|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|OrigForm=.|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000045
+# speaker = Agrius
+# edition_loc = 1.2.3
+# text_old = Ego vero, Agrius, nullam arbitror esse quae tam tota sit culta.
+# text = ego vero, Agrius, nullam arbitror esse quae tam tota sit culta.
+1	ego	ego	PRON	_	_	_	advmod	_	Discourse=Dialogue|OrigForm=Ego|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+2	vero	_	_	_	_	_	case	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus7=p|FieldStatus8=q
+3	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+4	Agrius	Agrius	PROPN	_	_	_	_	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Agrius|FieldStatus7=p
+5	,	,	PUNCT	_	_	4	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+6	nullam	_	ADJ	_	_	9	conj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+7	arbitror	arbitror	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	esse	_	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus4=q
+9	quae	quis	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus3=q
+10	tam	tam	ADV	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+11	tota	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q
+12	sit	sum	AUX	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+13	culta	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus7=q
+14	.	.	PUNCT	_	_	7	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000046
+# speaker = Agrius
+# edition_loc = 1.2.4
+# text_old = Primum cum orbis terrae divisus sit in duas partes ab Eratosthene maxume secundum naturam, ad meridiem versus et ad septemtriones, et sine dubio quoniam salubrior pars septemtrionalis est quam meridiana, et quae salubriora illa fructuosiora, dicendum utique Italiam magis etiam fuisse opportunam ad colendum quam Asiam, primum quod est in Europa, secundo quod haec temperatior pars quam interior.
+# text = primum cum orbis terrae divisus sit in duas partes ab Eratosthene maxume secundum naturam, ad meridiem versus et ad septemtriones, et sine dubio quoniam salubrior pars septemtrionalis est quam meridiana, et quae salubriora illa fructuosiora, dicendum utique Italiam magis etiam fuisse opportunam ad colendum quam Asiam, primum quod est in Europa, secundo quod haec temperatior pars quam interior.
+1	primum	_	_	_	_	_	advmod	_	Discourse=Dialogue|OrigForm=Primum|Speaker=Agrius|FieldStatus8=p
+2	cum	cum	SCONJ	_	_	6	mark	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+3	orbis	orbis	NOUN	_	_	6	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+4	terrae	terra	NOUN	_	_	3	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+5	divisus	divido	VERB	_	_	_	amod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+6	sit	sum	AUX	_	_	5	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+7	in	in	ADP	_	_	10	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+8	duas	_	ADJ	_	_	10	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+9	partes	pars	NOUN	_	_	6	root	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+10	ab	ab	ADP	_	_	12	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+11	Eratosthene	_	PROPN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q
+12	maxume	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p
+13	secundum	secundum	ADP	_	_	6	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+14	naturam	natura	NOUN	_	_	5	obl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+15	,	,	PUNCT	_	_	17	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+16	ad	ad	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+17	meridiem	meridies	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+18	versus	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p
+19	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+20	ad	ad	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+21	septemtriones	_	_	_	_	_	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p
+22	,	,	PUNCT	_	_	25	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+23	et	et	CCONJ	_	_	35	cc	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+24	sine	sine	ADP	_	_	26	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+25	dubio	dubius	ADJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=q|FieldStatus4=q
+26	quoniam	quoniam	SCONJ	_	_	30	mark	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+27	salubrior	_	_	_	_	_	advcl	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=s
+28	pars	pars	NOUN	_	_	30	nsubj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+29	septemtrionalis	septemtrionalis	ADJ	_	_	_	amod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+30	est	_	VERB	_	_	40	advcl	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+31	quam	qui	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=q
+32	meridiana	meridianus	ADJ	_	_	27	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+33	,	,	PUNCT	_	_	38	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+34	et	et	CCONJ	_	_	2	cc	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+35	quae	qui	PRON	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+36	salubriora	_	_	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus8=q
+37	illa	_	PRON	_	_	35	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus4=q
+38	fructuosiora	fructuosus	ADJ	_	_	37	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=s
+39	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+40	dicendum	dico	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+41	utique	uti	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+42	Italiam	_	PROPN	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p
+43	magis	magis	ADV	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+44	etiam	_	SCONJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q
+45	fuisse	_	VERB	_	_	40	ccomp	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+46	opportunam	opportunus	ADJ	_	_	40	xcomp	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+47	ad	ad	ADP	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+48	colendum	colo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+49	quam	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius
+50	Asiam	_	PROPN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus7=q
+51	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+52	primum	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q
+53	quod	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q
+54	est	_	VERB	_	_	46	advcl	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+55	in	in	ADP	_	_	56	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+56	Europa	_	PROPN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus7=q
+57	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+58	secundo	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius
+59	quod	quod	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+60	haec	_	PRON	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q
+61	temperatior	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=q
+62	pars	pars	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+63	quam	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p
+64	interior	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius
+65	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000047
+# speaker = Agrius
+# edition_loc = 1.2.4
+# text_old = Nam intus paene sempiternae hiemes, neque mirum, quod sunt regiones inter circulum septemtrionalem et inter cardinem caeli, ubi sol etiam sex mensibus continuis non videtur.
+# text = nam intus paene sempiternae hiemes, neque mirum, quod sunt regiones inter circulum septemtrionalem et inter cardinem caeli, ubi sol etiam sex mensibus continuis non videtur.
+1	nam	_	_	_	_	_	nmod	_	Discourse=Dialogue|OrigForm=Nam|Speaker=Agrius|FieldStatus8=q
+2	intus	intus	ADV	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+3	paene	paene	ADV	_	_	_	root	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+4	sempiternae	sempiternus	ADJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+5	hiemes	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius
+6	,	,	PUNCT	_	_	8	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+7	neque	ne	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus3=q
+8	mirum	mirus	ADJ	_	_	_	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+9	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+10	quod	_	PRON	_	_	_	conj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus4=q|FieldStatus8=q
+11	sunt	_	VERB	_	_	_	amod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus4=q|FieldStatus8=q
+12	regiones	regio	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+13	inter	inter	ADP	_	_	15	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+14	circulum	circulus	NOUN	_	_	11	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	septemtrionalem	septemtrionalis	ADJ	_	_	14	nmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+16	et	et	CCONJ	_	_	19	cc	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+17	inter	inter	ADP	_	_	19	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+18	cardinem	cardo	NOUN	_	_	15	conj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+19	caeli	caelus	_	_	_	18	nmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus8=p|FieldStatus7=s|FieldStatus3=q
+20	,	,	PUNCT	_	_	28	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+21	ubi	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p
+22	sol	sol	NOUN	_	_	_	nsubj:pass	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+23	etiam	_	SCONJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus4=q
+24	sex	sex	NUM	_	_	26	nummod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+25	mensibus	mensis	NOUN	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+26	continuis	continuus	ADJ	_	_	25	amod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+27	non	_	_	_	_	_	advmod:neg	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p
+28	videtur	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus7=q
+29	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000048
+# speaker = Agrius
+# edition_loc = 1.2.4
+# text_old = Itaque in oceano in ea parte ne navigari quidem posse dicunt propter mare congelatum.
+# text = itaque in oceano in ea parte ne navigari quidem posse dicunt propter mare congelatum.
+1	itaque	ita	_	_	_	_	advmod	_	Discourse=Dialogue|OrigForm=Itaque|Speaker=Agrius|FieldStatus7=q|FieldStatus3=q|FieldStatus8=q
+2	in	in	ADP	_	_	4	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+3	oceano	_	_	_	_	_	root	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=q
+4	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+5	ea	_	_	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus8=q
+6	parte	pars	NOUN	_	_	_	mark	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+7	ne	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q
+8	navigari	navigo	VERB	_	_	_	ccomp	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+9	quidem	_	_	_	_	_	advcl	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=q
+10	posse	possum	VERB	_	_	11	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+11	dicunt	dico	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+12	propter	propter	ADP	_	_	14	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+13	mare	mare	NOUN	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+14	congelatum	congelo	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000049
+# speaker = Fundanius
+# edition_loc = 1.2.5
+# text_old = Fundanius, Em ubi tu quicquam nasci putes posse aut coli natum.
+# text = Fundanius: em ubi tu quicquam nasci putes posse aut coli natum.
+1	Fundanius	Fundanius	PROPN	_	_	_	parataxis:reporting	_	Discourse=Narrative|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=p|OrigForm=,|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	em	em	ADV	_	_	_	_	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|OrigForm=Em|Speaker=Fundanius|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+5	tu	tu	PRON	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+6	quicquam	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|Speaker=Fundanius|FieldStatus3=q|FieldStatus8=q
+8	putes	puto	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+9	posse	_	AUX	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q
+10	aut	aut	CCONJ	_	_	12	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+11	coli	colo	VERB	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+12	natum	nascor	VERB	_	_	9	xcomp	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+13	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000050
+# speaker = Fundanius
+# edition_loc = 1.2.5
+# text_old = Verum enim est illud Pacuvi sol si perpetuo sit aut nox, flammeo vapore aut frigore terrae fructos omnis interire.
+# text = verum enim est illud Pacuvi sol si perpetuo sit aut nox, flammeo vapore aut frigore terrae fructos omnis interire.
+1	verum	verum	NOUN	_	_	_	root	_	Discourse=Dialogue|OrigForm=Verum|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=p|FieldStatus3=q|FieldStatus4=q
+2	enim	_	_	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+3	est	_	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+4	illud	_	PRON	_	_	1	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q|FieldStatus7=q
+5	Pacuvi	_	PROPN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|BudeForm=Pacui
+6	sol	sol	NOUN	_	_	_	amod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+7	si	si	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+8	perpetuo	_	_	_	_	_	amod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=q
+9	sit	_	VERB	_	_	_	conj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q|FieldStatus8=q
+10	aut	aut	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+11	nox	nox	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+12	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+13	flammeo	flammeus	ADJ	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+14	vapore	vapor	NOUN	_	_	_	orphan	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+15	aut	aut	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+16	frigore	frigor	_	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus3=q|FieldStatus8=q
+17	terrae	terra	NOUN	_	_	18	orphan	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+18	fructos	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p
+19	omnis	_	ADJ	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+20	interire	intereo	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+21	.	.	PUNCT	_	_	1	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000051
+# speaker = Fundanius
+# edition_loc = 1.2.5
+# text_old = Ego hic, ubi nox et dies modice redit et abit, tamen aestivo die, si non diffinderem meo insiticio somno meridie, vivere non possum.
+# text = ego hic, ubi nox et dies modice redit et abit, tamen aestivo die, si non diffinderem meo insiticio somno meridie, vivere non possum.
+1	ego	ego	PRON	_	_	_	cc	_	Discourse=Dialogue|OrigForm=Ego|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+2	hic	hic	ADV	_	_	_	advmod:lmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+4	ubi	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+5	nox	nox	NOUN	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+6	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+7	dies	dies	NOUN	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+8	modice	_	_	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+9	redit	redeo	VERB	_	_	2	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+10	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+11	abit	abeo	VERB	_	_	_	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+12	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+13	tamen	tamen	ADV	_	_	17	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=s
+14	aestivo	aestivus	ADJ	_	_	17	amod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	die	dies	NOUN	_	_	_	ccomp	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+16	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+17	si	si	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+18	non	_	_	_	_	_	advmod:neg	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=p
+19	diffinderem	diffindo	VERB	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+20	meo	is	PRON	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|BudeForm=eum|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+21	insiticio	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+22	somno	somnus	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+23	meridie	meridies	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+24	,	,	PUNCT	_	_	19	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+25	vivere	_	_	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+26	non	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p
+27	possum	possum	VERB	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+28	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000052
+# speaker = Fundanius
+# edition_loc = 1.2.6
+# text_old = Illic in semenstri die aut nocte quem ad modum quicquam seri aut alescere aut meti possit?
+# text = illic in semenstri die aut nocte quem ad modum quicquam seri aut alescere aut meti possit?
+1	illic	illic	ADV	_	_	_	advmod:lmod	_	Discourse=Dialogue|OrigForm=Illic|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	semenstri	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+4	die	dies	NOUN	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+5	aut	aut	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+6	nocte	nox	NOUN	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+7	quem	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+8	ad	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+9	modum	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+10	quicquam	_	_	_	_	_	nsubj:pass	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=q
+11	seri	sero	VERB	_	_	_	acl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+12	aut	aut	CCONJ	_	_	16	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+13	alescere	alesco	VERB	_	_	11	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+14	aut	aut	CCONJ	_	_	15	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+15	meti	metior	_	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus3=q|FieldStatus8=q
+16	possit	possum	VERB	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+17	?	?	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000053
+# speaker = Fundanius
+# edition_loc = 1.2.6
+# text_old = Contra quid in Italia utensile non modo non nascitur, sed etiam non egregium fit?
+# text = contra quid in Italia utensile non modo non nascitur, sed etiam non egregium fit?
+1	contra	_	_	_	_	_	_	_	Discourse=Dialogue|OrigForm=Contra|Speaker=Fundanius
+2	quid	quis	PRON	_	_	11	advcl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+3	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+4	Italia	_	PROPN	_	_	9	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=s|FieldStatus8=q
+5	utensile	utensilis	ADJ	_	_	2	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+6	non	_	_	_	_	7	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=s
+7	modo	modo	ADV	_	_	11	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=s
+8	non	_	_	_	_	9	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=s
+9	nascitur	nascor	VERB	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+10	,	,	PUNCT	_	_	15	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+11	sed	sed	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+12	etiam	etiam	ADV	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+13	non	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+14	egregium	egregius	ADJ	_	_	_	amod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+15	fit	fio	VERB	_	_	9	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+16	?	?	PUNCT	_	_	9	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000054
+# speaker = Fundanius
+# edition_loc = 1.2.6
+# text_old = Quod far conferam Campano?
+# text = quod far conferam Campano?
+1	quod	qui	PRON	_	_	_	_	_	Discourse=Dialogue|OrigForm=Quod|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	far	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+3	conferam	confero	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+4	Campano	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=q
+5	?	?	PUNCT	_	_	3	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000055
+# speaker = Fundanius
+# edition_loc = 1.2.6
+# text_old = Quod triticum Apulo?
+# text = quod triticum Apulo?
+1	quod	_	_	_	_	_	_	_	Discourse=Dialogue|OrigForm=Quod|Speaker=Fundanius
+2	triticum	triticum	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+3	Apulo	_	PROPN	_	_	_	nsubj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=q|FieldStatus7=q
+4	?	?	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000056
+# speaker = Fundanius
+# edition_loc = 1.2.6
+# text_old = Quod vinum Falerno?
+# text = quod vinum Falerno?
+1	quod	_	_	_	_	_	nsubj	_	Discourse=Dialogue|OrigForm=Quod|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+2	vinum	vinum	NOUN	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	Falerno	_	_	_	_	2	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=s
+4	?	?	PUNCT	_	_	2	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000057
+# speaker = Fundanius
+# edition_loc = 1.2.6
+# text_old = Quod oleum Venafro?
+# text = quod oleum Venafro?
+1	quod	_	_	_	_	_	cc	_	Discourse=Dialogue|OrigForm=Quod|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+2	oleum	oleum	NOUN	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	Venafro	_	PROPN	_	_	2	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=s
+4	?	?	PUNCT	_	_	2	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000058
+# speaker = Fundanius
+# edition_loc = 1.2.6
+# text_old = Non arboribus consita Italia, ut tota pomarium videatur?
+# text = non arboribus consita Italia, ut tota pomarium videatur?
+1	non	_	_	_	_	_	advmod:neg	_	Discourse=Dialogue|OrigForm=Non|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=q
+2	arboribus	arbor	NOUN	_	_	4	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+3	consita	_	_	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=p
+4	Italia	_	PROPN	_	_	3	nsubj:pass	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=s
+5	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+6	ut	ut	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+7	tota	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+8	pomarium	pomarium	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+9	videatur	_	_	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+10	?	?	PUNCT	_	_	3	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000059
+# speaker = Fundanius
+# edition_loc = 1.2.7
+# text_old = An Phrygia magis vitibus cooperta, quam Homerus appellat ἀμπελόεσσαν, quam haec?
+# text = an Phrygia magis vitibus cooperta, quam Homerus appellat ἀμπελόεσσαν, quam haec?
+1	an	_	_	_	_	_	_	_	Discourse=Dialogue|OrigForm=An|Speaker=Fundanius|FieldStatus7=p
+2	Phrygia	_	PROPN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+3	magis	magus	ADJ	_	_	_	flat:name	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+4	vitibus	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p
+5	cooperta	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius
+6	,	,	PUNCT	_	_	9	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+7	quam	qui	PRON	_	_	10	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+8	Homerus	_	PROPN	_	_	_	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+9	appellat	appello	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+10	ἀμπελόεσσαν	ἀμπελόεις	ADJ	_	_	9	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=s|FieldStatus3=q
+11	,	,	PUNCT	_	_	13	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+12	quam	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+13	haec	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius
+14	?	?	PUNCT	_	_	5	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000060
+# speaker = Fundanius
+# edition_loc = 1.2.7
+# text_old = Aut tritico Argos, quod idem poeta πολύπυρον?
+# text = aut tritico Argos, quod idem poeta πολύπυρον?
+1	aut	aut	CCONJ	_	_	_	cc	_	Discourse=Dialogue|OrigForm=Aut|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+2	tritico	triticum	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+3	Argos	_	PROPN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius
+4	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+5	quod	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+6	idem	_	_	_	_	_	det	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=s|FieldStatus7=q
+7	poeta	poeta	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+8	πολύπυρον	πολύπυρος	ADJ	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=q
+9	?	?	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000061
+# speaker = Fundanius
+# edition_loc = 1.2.7
+# text_old = In qua terra iugerum unum denos et quinos denos culleos fert vini, quot quaedam in Italia regiones?
+# text = in qua terra iugerum unum denos et quinos denos culleos fert vini, quot quaedam in Italia regiones?
+1	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|OrigForm=In|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	qua	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p
+3	terra	terra	NOUN	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+4	iugerum	iugerum	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+5	unum	_	_	_	_	_	nummod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=s
+6	denos	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+7	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+8	quinos	quini	ADJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+9	denos	_	_	_	_	_	conj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+10	culleos	culleus	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+11	fert	fero	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+12	vini	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius
+13	,	,	PUNCT	_	_	18	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+14	quot	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p
+15	quaedam	_	PRON	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+16	in	in	ADP	_	_	18	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+17	Italia	_	PROPN	_	_	_	orphan	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+18	regiones	regio	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+19	?	?	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000062
+# speaker = Fundanius
+# edition_loc = 1.2.7
+# text_old = An non M. Cato scribit in libro Originum sic:
+# text = an non M. Cato scribit in libro Originum sic:
+1	an	_	_	_	_	_	_	_	Discourse=Dialogue|OrigForm=An|Speaker=Fundanius|FieldStatus7=p
+2	non	_	_	_	_	_	advmod:neg	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p
+3	M	_	PROPN	_	_	_	nmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+4	.	.	PUNCT	_	_	3	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+5	Cato	_	PROPN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+6	scribit	scribo	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+7	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	libro	liber	NOUN	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+9	Originum	_	PROPN	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=s
+10	sic	sic	ADV	_	_	_	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+11	:	:	PUNCT	_	_	6	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000063
+# speaker = Fundanius
+# edition_loc = 1.2.7
+# text_old = " ager Gallicus Romanus vocatur, qui viritim cis Ariminum datus est ultra agrum Picentium.
+# text = “ager Gallicus Romanus vocatur, qui viritim cis Ariminum datus est ultra agrum Picentium.
+1	“	“	PUNCT	_	_	_	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	ager	ager	NOUN	_	_	_	acl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+3	Gallicus	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+4	Romanus	_	_	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+5	vocatur	_	_	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=p
+6	,	,	PUNCT	_	_	11	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+7	qui	qui	PRON	_	_	12	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+8	viritim	viritim	ADV	_	_	12	ccomp	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+9	cis	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+10	Ariminum	_	PROPN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+11	datus	do	VERB	_	_	2	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+12	est	sum	AUX	_	_	11	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+13	ultra	ultra	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+14	agrum	ager	NOUN	_	_	12	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+15	Picentium	_	PROPN	_	_	_	case	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+16	.	.	PUNCT	_	_	5	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000064
+# speaker = Fundanius
+# edition_loc = 1.2.7
+# text_old = In eo agro aliquotfariam in singula iugera dena cullea vini fiunt "?
+# text = in eo agro aliquotfariam in singula iugera dena cullea vini fiunt ”?
+1	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|OrigForm=In|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	eo	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+3	agro	ager	NOUN	_	_	_	ccomp	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+4	aliquotfariam	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+5	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+6	singula	_	_	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+7	iugera	iugerum	NOUN	_	_	_	conj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+8	dena	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+9	cullea	culleus	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus3=q
+10	vini	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+11	fiunt	fio	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+12	”	”	PUNCT	_	_	_	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+13	?	?	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000065
+# speaker = Fundanius
+# edition_loc = 1.2.7
+# text_old = Nonne item in agro Faventino, a quo ibi trecenariae appellantur vites, quod iugerum trecenas amphoras reddat?
+# text = nonne item in agro Faventino, a quo ibi trecenariae appellantur vites, quod iugerum trecenas amphoras reddat?
+1	non	nonne	_	_	_	_	_	_	Discourse=Dialogue|OrigForm=Non|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=q
+2	ne	nonne	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=q
+3	item	item	ADV	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+4	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+5	agro	ager	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+6	Faventino	_	_	_	_	_	nmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+7	,	,	PUNCT	_	_	12	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+8	a	ab	ADP	_	_	12	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+9	quo	quis	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus3=q
+10	ibi	ibi	ADV	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+11	trecenariae	trecenarius	ADJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+12	appellantur	appello	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+13	vites	_	_	_	_	_	acl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+14	,	,	PUNCT	_	_	19	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+15	quod	quod	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+16	iugerum	iugerum	NOUN	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+17	trecenas	_	_	_	_	_	amod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=s
+18	amphoras	amphora	NOUN	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+19	reddat	reddo	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+20	?	?	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000066
+# speaker = Fundanius
+# edition_loc = 1.2.7
+# text_old = Simul aspicit me, Certe, inquit, Libo Marcius, praefectus fabrum tuos, in fundo suo Faventiae hanc multitudinem dicebat suas reddere vites.
+# text = simul aspicit me: certe – inquit – Libo Marcius, praefectus fabrum tuos, in fundo suo Faventiae hanc multitudinem dicebat suas reddere vites.
+1	simul	simul	ADV	_	_	_	_	_	Discourse=Narrative|OrigForm=Simul|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	aspicit	aspicio	VERB	_	_	_	_	_	Discourse=Narrative|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+4	:	:	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+5	certe	Certe	ADV	_	_	22	punct	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|OrigForm=Certe|Speaker=Fundanius|FieldStatus7=s|FieldStatus8=q
+6	–	–	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=q
+7	inquit	inquam	VERB	_	_	_	_	_	Discourse=Narrative|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+8	–	–	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+9	Libo	Libus	PROPN	_	_	_	_	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|Speaker=Fundanius|FieldStatus7=q
+10	Marcius	_	PROPN	_	_	_	nsubj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+11	,	,	PUNCT	_	_	12	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+12	praefectus	praefectus	NOUN	_	_	9	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+13	fabrum	_	_	_	_	_	obj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+14	tuos	_	ADJ	_	_	13	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=s|FieldStatus4=q|FieldStatus8=q
+15	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+16	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+17	fundo	fundus	NOUN	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+18	suo	_	ADJ	_	_	_	amod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+19	Faventiae	_	PROPN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+21	multitudinem	multitudo	NOUN	_	_	25	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+22	dicebat	dico	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+23	suas	_	ADJ	_	_	_	amod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+24	reddere	reddo	VERB	_	_	22	ccomp	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+25	vites	_	_	_	_	24	nsubj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=s|FieldStatus8=q
+26	.	.	PUNCT	_	_	22	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000067
+# speaker = Fundanius
+# edition_loc = 1.2.8
+# text_old = Duo in primis spectasse videntur Italici homines colendo, possentne fructus pro impensa ac labore redire et utrum saluber locus esset an non.
+# text = duo in primis spectasse videntur Italici homines colendo, possentne fructus pro impensa ac labore redire et utrum saluber locus esset an non.
+1	duo	_	ADJ	_	_	_	_	_	Discourse=Dialogue|OrigForm=Duo|Speaker=Fundanius|FieldStatus4=q
+2	in	in	ADP	_	_	4	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+3	primis	prima	NOUN	_	_	_	flat:name	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+4	spectasse	specto	VERB	_	_	5	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+5	videntur	_	_	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=p
+6	Italici	Italicus	PROPN	_	_	7	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=s|FieldStatus4=q|FieldStatus8=q
+7	homines	homo	NOUN	_	_	4	nsubj:pass	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+8	colendo	colo	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+9	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+10	possentne	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+11	fructus	fructus	NOUN	_	_	17	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+12	pro	pro	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+13	impensa	impense	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus3=q|FieldStatus8=q
+14	ac	atque	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+15	labore	labor	NOUN	_	_	_	conj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+16	redire	redeo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+17	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+18	utrum	_	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q|FieldStatus8=q
+19	saluber	saluber	ADJ	_	_	_	amod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=s
+20	locus	locus	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+21	esset	_	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q
+22	an	an	CCONJ	_	_	21	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+23	non	_	_	_	_	19	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=s
+24	.	.	PUNCT	_	_	5	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000068
+# speaker = Fundanius
+# edition_loc = 1.2.8
+# text_old = Quorum si alterutrum decolat et nihilo minus quis vult colere, mente est captus adque adgnatos et gentiles est deducendus.
+# text = quorum si alterutrum decolat et nihilo minus quis vult colere, mente est captus adque adgnatos et gentiles est deducendus.
+1	quorum	quis	_	_	_	_	nmod	_	Discourse=Dialogue|OrigForm=Quorum|Speaker=Fundanius|FieldStatus7=p|FieldStatus3=q|FieldStatus8=s
+2	si	si	SCONJ	_	_	5	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+3	alterutrum	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+4	decolat	decolo	VERB	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+5	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+6	nihilo	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+7	minus	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+8	quis	quis	PRON	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+9	vult	volo	VERB	_	_	4	conj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+10	colere	colo	VERB	_	_	_	ccomp	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+11	,	,	PUNCT	_	_	4	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+12	mente	mens	NOUN	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+13.tammi	est	sum	AUX	_	_	_	aux:pass	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+14	captus	capio	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+15	adque	ad	ADP	_	_	16	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+16	adgnatos	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+17	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+18	gentiles	gentiles	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=q
+19	est	_	VERB	_	_	14	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus4=q
+20	deducendus	deduco	VERB	_	_	14	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=s
+21	.	.	PUNCT	_	_	14	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000069
+# speaker = Fundanius
+# edition_loc = 1.2.8
+# text_old = Nemo enim sanus debet velle impensam ac sumptum facere in cultura, si videt non posse refici, nec si potest reficere fructus, si videt eos fore ut pestilentia dispereant.
+# text = nemo enim sanus debet velle impensam ac sumptum facere in cultura, si videt non posse refici, nec si potest reficere fructus, si videt eos fore ut pestilentia dispereant.
+1	nemo	_	NOUN	_	_	_	mark	_	Discourse=Dialogue|OrigForm=Nemo|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+2	enim	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+3	sanus	sanus	ADJ	_	_	4	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+4	debet	debeo	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+5	velle	volo	VERB	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+6	impensam	impense	_	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=q|FieldStatus8=q
+7	ac	atque	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	sumptum	_	_	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+9	facere	facio	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+10	in	in	ADP	_	_	13	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+11	cultura	cultura	NOUN	_	_	10	amod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+12	,	,	PUNCT	_	_	14	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+13	si	si	SCONJ	_	_	15	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+14	videt	video	VERB	_	_	_	obj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+15	non	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+16	posse	possum	VERB	_	_	14	ccomp	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=s
+17	refici	reficio	VERB	_	_	16	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+18	,	,	PUNCT	_	_	21	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+19	nec	ne	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus3=q
+20	si	si	SCONJ	_	_	22	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+21	potest	possum	VERB	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+22	reficere	reficio	VERB	_	_	21	conj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+23	fructus	fructus	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+24	,	,	PUNCT	_	_	26	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+25	si	si	SCONJ	_	_	27	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+26	videt	video	VERB	_	_	_	amod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+27	eos	is	PRON	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+28	fore	_	VERB	_	_	27	acl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+29	ut	ut	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+30	pestilentia	pestilentia	NOUN	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+31	dispereant	dispereo	VERB	_	_	26	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+32	.	.	PUNCT	_	_	4	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000070
+# speaker = Fundanius
+# edition_loc = 1.2.9
+# text_old = Sed, opinor, qui haec commodius ostendere possint adsunt.
+# text = sed, opinor, qui haec commodius ostendere possint adsunt.
+1	sed	sed	CCONJ	_	_	_	cc	_	Discourse=Dialogue|OrigForm=Sed|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+2	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+3	opinor	opinor	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+4	,	,	PUNCT	_	_	9	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+5	qui	quis	NOUN	_	_	10	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+6	haec	_	_	_	_	_	advcl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+7	commodius	commodus	_	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus3=q|FieldStatus8=q
+8	ostendere	ostendo	VERB	_	_	10	conj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+9	possint	possum	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+10	adsunt	adsum	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+11	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000071
+# speaker = Fundanius
+# edition_loc = 1.2.9
+# text_old = Nam C. Licinium Stolonem et Cn. Tremelium Scrofam video venire;
+# text = nam C. Licinium Stolonem et Cn. Tremelium Scrofam video venire;
+1	nam	_	_	_	_	_	case	_	Discourse=Dialogue|OrigForm=Nam|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+2	C	_	PROPN	_	_	_	obj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+3	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+4	Licinium	_	PROPN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+5	Stolonem	_	PROPN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+6	et	et	CCONJ	_	_	10	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+7	Cn	_	PROPN	_	_	_	nmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+8	.	.	PUNCT	_	_	7	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+9	Tremelium	_	PROPN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+10	Scrofam	_	PROPN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+11	video	video	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+12	venire	_	_	_	_	11	obj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=s|FieldStatus8=q
+13	;	;	PUNCT	_	_	11	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000072
+# speaker = Fundanius
+# edition_loc = 1.2.9
+# text_old = unum, cuius maiores de modo agri legem tulerunt (nam Stolonis illa lex, quae vetat plus D iugera habere civem R.), et qui propter diligentiam culturae Stolonum confirmavit cognomen, quod nullus in eius fundo reperiri poterat stolo, quod effodiebat circum arbores e radicibus quae nascerentur e solo, quos stolones appellabant.
+# text = unum, cuius maiores de modo agri legem tulerunt (nam Stolonis illa lex, quae vetat plus D iugera habere civem R.) , et qui propter diligentiam culturae Stolonum confirmavit cognomen, quod nullus in eius fundo reperiri poterat stolo, quod effodiebat circum arbores e radicibus quae nascerentur e solo, quos stolones appellabant.
+1	unum	_	_	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=p
+2	,	,	PUNCT	_	_	9	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+3	cuius	qui	PRON	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+4	maiores	maiores	NOUN	_	_	9	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=s|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+5	de	de	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+6	modo	modus	NOUN	_	_	9	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+7	agri	ager	NOUN	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+8	legem	lex	NOUN	_	_	9	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+9	tulerunt	fero	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+10	(	_	PUNCT	_	_	_	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus4=p|FieldStatus8=p|FieldStatus3=q
+11	nam	_	_	_	_	_	acl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=q
+12	Stolonis	_	PROPN	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+13	illa	_	PRON	_	_	16	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+14	lex	lex	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+15	,	,	PUNCT	_	_	17	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+16	quae	qui	PRON	_	_	17	orphan	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+17	vetat	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+18	plus	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+19	D	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+20	iugera	iugerum	NOUN	_	_	21	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+21	habere	habeo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+22	civem	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+23	R	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius
+24	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+25	)	)	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+26	,	,	PUNCT	_	_	33	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+27	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+28	qui	qui	PRON	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+29	propter	propter	ADP	_	_	31	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+30	diligentiam	diligentia	NOUN	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+31	culturae	cultura	NOUN	_	_	30	conj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+32	Stolonum	_	PROPN	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=q
+33	confirmavit	confirmo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+34	cognomen	cognomen	NOUN	_	_	_	amod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+35	,	,	PUNCT	_	_	42	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+36	quod	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p
+37	nullus	_	ADJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q
+38	in	in	ADP	_	_	42	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+39	eius	is	PRON	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+40	fundo	fundus	NOUN	_	_	38	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+41	reperiri	reperio	VERB	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+42	poterat	possum	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+43	stolo	_	_	_	_	_	obl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=q
+44	,	,	PUNCT	_	_	46	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+45	quod	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+46	effodiebat	ex-fodio	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=q
+47	circum	circum	ADP	_	_	48	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+48	arbores	arbor	NOUN	_	_	46	amod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+49	e	ex	ADP	_	_	51	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+50	radicibus	radix	NOUN	_	_	47	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+51	quae	_	NOUN	_	_	53	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus4=q
+52	nascerentur	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+53	e	ex	ADP	_	_	56	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+54	solo	solum	NOUN	_	_	53	nsubj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+55	,	,	PUNCT	_	_	58	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+56	quos	_	NOUN	_	_	_	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+57	stolones	stolo	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+58	appellabant	appello	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+59	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000073
+# speaker = Fundanius
+# edition_loc = 1.2.9
+# text_old = Eiusdem gentis C. Licinius, tr. pl. cum esset, post reges exactos annis CCCLXV primus populum ad leges accipiendas in septem iugera forensia e comitio eduxit.
+# text = eiusdem gentis C. Licinius, tr. pl. cum esset, post reges exactos annis CCCLXV primus populum ad leges accipiendas in septem iugera forensia e comitio eduxit.
+1	eiusdem	_	PRON	_	_	3	root	_	Discourse=Dialogue|OrigForm=Eiusdem|Speaker=Fundanius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+2	gentis	gens	NOUN	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+3	C	_	PROPN	_	_	30	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=s|FieldStatus8=q
+4	.	.	PUNCT	_	_	3	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+5	Licinius	_	PROPN	_	_	_	case	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+6	,	,	PUNCT	_	_	7	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+7	tr	tribunus	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=q
+8	.	.	PUNCT	_	_	7	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+9	pl	plebs	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=q
+10	.	.	PUNCT	_	_	7	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+11	cum	cum	SCONJ	_	_	14	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+12	esset	_	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus4=q
+13	,	,	PUNCT	_	_	12	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+14	post	post	ADP	_	_	18	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	reges	rex	NOUN	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+16	exactos	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+17	annis	annus	NOUN	_	_	_	xcomp	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+18	CCCLXV	CCCLXV	NUM	_	_	17	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+19	primus	primus	ADJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+20	populum	populus	NOUN	_	_	_	advcl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+21	ad	ad	ADP	_	_	24	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+22	leges	lex	NOUN	_	_	24	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+23	accipiendas	accipio	VERB	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+24	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+25	septem	septem	NUM	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+26	iugera	iugerum	NOUN	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+27	forensia	_	_	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+28	e	ex	ADP	_	_	30	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+29	comitio	comitium	NOUN	_	_	_	obl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=s
+30	eduxit	educo	VERB	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+31	.	.	PUNCT	_	_	30	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000074
+# speaker = Fundanius
+# edition_loc = 1.2.10
+# text_old = Alterum collegam tuum, viginti virum qui fuit ad agros dividendos Campanos, video huc venire, Cn. Tremelium Scrofam, virum omnibus virtutibus politum, qui de agri cultura Romanus peritissimus existimatur.
+# text = alterum collegam tuum, viginti virum qui fuit ad agros dividendos Campanos, video huc venire, Cn. Tremelium Scrofam, virum omnibus virtutibus politum, qui de agri cultura Romanus peritissimus existimatur.
+1	alterum	_	_	_	_	_	_	_	Discourse=Dialogue|OrigForm=Alterum|Speaker=Fundanius|FieldStatus7=q
+2	collegam	collega	NOUN	_	_	16	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+3	tuum	_	ADJ	_	_	_	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+4	,	,	PUNCT	_	_	6	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+5	viginti	_	_	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+6	virum	virus	_	_	_	2	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=s|FieldStatus3=q
+7	qui	quis	_	_	_	_	obj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=q|FieldStatus8=q|FieldStatus7=q
+8	fuit	_	VERB	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q|FieldStatus8=q
+9	ad	ad	ADP	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+10	agros	ager	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+11	dividendos	divido	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+12	Campanos	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius
+13	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+14	video	video	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+15	huc	huc	ADV	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+16	venire	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=p
+17	,	,	PUNCT	_	_	18	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+18	Cn	Gnaeus	PROPN	_	_	_	obj	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+19	.	.	PUNCT	_	_	18	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+20	Tremelium	_	PROPN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+21	Scrofam	_	PROPN	_	_	_	amod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=q
+22	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+23	virum	vir	NOUN	_	_	_	acl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+24	omnibus	omnia	NOUN	_	_	_	advcl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+25	virtutibus	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+26	politum	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius
+27	,	,	PUNCT	_	_	34	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+28	qui	qui	PRON	_	_	_	acl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+29	de	de	ADP	_	_	32	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+30	agri	ager	NOUN	_	_	32	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+31	cultura	cultura	NOUN	_	_	_	obj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+32	Romanus	_	_	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+33	peritissimus	pereo	VERB	_	_	32	acl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+34	existimatur	existimo	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+35	.	.	PUNCT	_	_	14	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000075
+# speaker = Varro
+# edition_loc = 1.2.10
+# text_old = An non iure? inquam.
+# text = an non iure? inquam.
+1	an	_	_	_	_	_	_	_	Discourse=Dialogue|OrigForm=An|Speaker=Varro|FieldStatus7=p
+2	non	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p
+3	iure	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus7=p
+4	?	?	PUNCT	_	_	_	punct	_	Discourse=Dialogue|OrigForm=?|Speaker=Varro|FieldStatus8=p|FieldStatus7=p
+5	inquam	_	_	_	_	_	_	_	Discourse=Narrative|SpaceAfter=No|Speaker=Varro|FieldStatus7=p|OrigForm=.|Speaker=Varro|FieldStatus8=p|FieldStatus7=p
+
+# sent_id = S000076
+# speaker = Varro
+# edition_loc = 1.2.10
+# text_old = Fundi enim eius propter culturam iucundiore spectaculo sunt multis, quam regie polita aedificia aliorum, cum huius spectatum veniant villas, non, ut apud Lucullum, ut videant pinacothecas, sed oporothecas.
+# text = fundi enim eius propter culturam iucundiore spectaculo sunt multis, quam regie polita aedificia aliorum, cum huius spectatum veniant villas, non, ut apud Lucullum, ut videant pinacothecas, sed oporothecas.
+1	fundi	fundus	NOUN	_	_	_	_	_	Discourse=Dialogue|OrigForm=Fundi|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+2	enim	_	_	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=q
+3	eius	is	PRON	_	_	2	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+4	propter	propter	ADP	_	_	6	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+5	culturam	cultura	NOUN	_	_	_	obl	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus8=s
+6	iucundiore	iucundus	ADJ	_	_	_	acl	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+7	spectaculo	spectaculum	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+8	sunt	_	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Varro|FieldStatus4=q|FieldStatus8=q
+9	multis	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus7=q
+10	,	,	PUNCT	_	_	13	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+11	quam	_	_	_	_	13	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=s
+12	regie	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p
+13	polita	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro
+14	aedificia	aedificium	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+15	aliorum	allium	NOUN	_	_	14	nmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus7=s|FieldStatus3=q|FieldStatus4=q|FieldStatus8=s
+16	,	,	PUNCT	_	_	20	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+17	cum	cum	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+18	huius	_	PRON	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus4=q|FieldStatus8=s
+19	spectatum	specto	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+20	veniant	venio	VERB	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+21	villas	villa	NOUN	_	_	_	obj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+22	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+23	non	_	_	_	_	_	advmod:neg	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus8=p
+24	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+25	ut	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q|FieldStatus8=q
+26	apud	apud	ADP	_	_	29	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+27	Lucullum	_	PROPN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro
+28	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+29	ut	_	ADV	_	_	31	advmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+30	videant	_	_	_	_	_	ccomp	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus8=q
+31	pinacothecas	pinacotheca	NOUN	_	_	30	obj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+32	,	,	PUNCT	_	_	34	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+33	sed	sed	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+34	oporothecas	_	_	_	_	_	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus8=p|FieldStatus7=p
+35	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000077
+# speaker = Varro
+# edition_loc = 1.2.10
+# text_old = Huiusce, inquam, pomarii summa sacra via, ubi poma veneunt contra aurum, imago.
+# text = huiusce – inquam – pomarii summa sacra via, ubi poma veneunt contra aurum, imago.
+1	huiusce	_	PRON	_	_	6	nsubj	_	Discourse=Dialogue|OrigForm=Huiusce|Speaker=Varro|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+2	–	–	PUNCT	_	_	3	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Varro|FieldStatus8=p|FieldStatus7=s
+3	inquam	inquam	VERB	_	_	_	_	_	Discourse=Narrative|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|OrigForm=,|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+5	pomarii	pomarius	_	_	_	_	root	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=q|FieldStatus8=q
+6	summa	_	NOUN	_	_	0	root	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+7	sacra	sacer	ADJ	_	_	_	conj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+8	via	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+10	ubi	_	_	_	_	12	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=s
+11	poma	pomum	NOUN	_	_	13	mark	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+12	veneunt	veneo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+13	contra	contra	ADP	_	_	14	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+14	aurum	aurum	NOUN	_	_	12	case	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+15	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+16	imago	imago	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+17	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000078
+# speaker = Stolo
+# edition_loc = 1.2.11
+# text_old = Illi interea ad nos, et Stolo, Num cena comessa, inquit, venimus?
+# text = illi interea ad nos, et Stolo: num cena comessa – inquit – venimus?
+1	illi	_	_	_	_	_	_	_	Discourse=Narrative|OrigForm=Illi|Speaker=Stolo|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+3	ad	ad	ADP	_	_	6	case	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+4	nos	nos	PRON	_	_	_	_	_	Discourse=Narrative|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+5	,	,	PUNCT	_	_	_	punct	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+6	et	et	CCONJ	_	_	_	cc	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+7	Stolo	_	ADJ	_	_	_	_	_	Discourse=Narrative|SpaceAfter=No|Speaker=Stolo|FieldStatus4=q
+8	:	:	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+9	num	num	ADV	_	_	_	_	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|OrigForm=Num|Speaker=Stolo|FieldStatus7=q
+10	cena	cena	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+11	comessa	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p
+12	–	–	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+13	inquit	inquam	VERB	_	_	_	_	_	Discourse=Narrative|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+14	–	–	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+15	venimus	venio	VERB	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+16	?	?	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000079
+# speaker = Stolo
+# edition_loc = 1.2.11
+# text_old = Nam non L. videmus Fundilium, qui nos advocavit.
+# text = nam non L. videmus Fundilium, qui nos advocavit.
+1	nam	_	_	_	_	_	advmod	_	Discourse=Dialogue|OrigForm=Nam|Speaker=Stolo|FieldStatus7=p|FieldStatus8=q
+2	non	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo
+3	L	_	PROPN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus7=q
+4	.	.	PUNCT	_	_	3	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+5	videmus	_	_	_	_	_	root	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus7=p
+6	Fundilium	_	PROPN	_	_	_	ccomp	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus7=p|FieldStatus8=q
+7	,	,	PUNCT	_	_	10	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+8	qui	qui	PRON	_	_	_	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+9	nos	nos	PRON	_	_	_	acl	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+10	advocavit	advoco	VERB	_	_	6	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+11	.	.	PUNCT	_	_	5	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000080
+# speaker = Agrius
+# edition_loc = 1.2.11
+# text_old = Bono animo este, inquit Agrius.
+# text = bono animo este – inquit Agrius–
+1	bono	bonus	ADJ	_	_	_	advmod	_	Discourse=Dialogue|OrigForm=Bono|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+2	animo	animus	NOUN	_	_	_	root	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	este	_	VERB	_	_	_	cop	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p|FieldStatus4=q
+4	–	–	PUNCT	_	_	5	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Agrius|FieldStatus8=p|FieldStatus7=s
+5	inquit	inquam	VERB	_	_	_	parataxis:reporting	_	Discourse=Narrative|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|Speaker=Agrius|FieldStatus7=s|FieldStatus8=q
+7	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|OrigForm=.|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000081
+# speaker = Agrius
+# edition_loc = 1.2.11
+# text_old = Nam non modo ovom illut sublatum est, quod ludis circensibus novissimi curriculi finem facit quadrigis, sed ne illud quidem ovom vidimus, quod in cenali pompa solet esse primum.
+# text = nam non modo ovom illut sublatum est, quod ludis circensibus novissimi curriculi finem facit quadrigis, sed ne illud quidem ovom vidimus, quod in cenali pompa solet esse primum.
+1	nam	_	_	_	_	_	cc	_	Discourse=Dialogue|OrigForm=Nam|Speaker=Agrius|FieldStatus7=p|FieldStatus8=q
+2	non	_	_	_	_	_	advmod:neg	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus7=q
+3	modo	modo	ADV	_	_	_	root	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+4	ovom	_	_	_	_	_	advcl	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus8=q
+5	illut	_	PRON	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus4=q
+6	sublatum	_	_	_	_	_	root	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p
+7	est	sum	AUX	_	_	_	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+8	,	,	PUNCT	_	_	15	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+9	quod	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p
+10	ludis	ludus	NOUN	_	_	_	ccomp	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+11	circensibus	_	_	_	_	10	amod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus7=s
+12	novissimi	_	_	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus8=q
+13	curriculi	_	_	_	_	_	conj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus8=q
+14	finem	finis	NOUN	_	_	_	amod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+15	facit	facio	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+16	quadrigis	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus7=p
+17	,	,	PUNCT	_	_	23	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+18	sed	sed	CCONJ	_	_	25	cc	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+19	ne	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius
+20	illud	_	PRON	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+21	quidem	_	_	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=q
+22	ovom	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus8=q
+23	vidimus	_	_	_	_	_	amod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus7=p|FieldStatus8=q
+24	,	,	PUNCT	_	_	29	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+25	quod	qui	PRON	_	_	_	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+26	in	in	ADP	_	_	29	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+27	cenali	_	_	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus8=q
+28	pompa	pompa	NOUN	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+29	solet	soleo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+30	esse	_	VERB	_	_	31	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=s|FieldStatus4=q|FieldStatus8=q
+31	primum	primus	ADJ	_	_	_	mark	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+32	.	.	PUNCT	_	_	6	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000082
+# speaker = Agrius
+# edition_loc = 1.2.12
+# text_old = Itaque dum id nobiscum una videatis ac venit aeditumus, docete nos, agri cultura quam summam habeat, utilitatemne an voluptatem an utrumque.
+# text = itaque dum id nobiscum una videatis ac venit aeditumus, docete nos, agri cultura quam summam habeat, utilitatemne an voluptatem an utrumque.
+1	itaque	ita	_	_	_	_	advmod	_	Discourse=Dialogue|OrigForm=Itaque|Speaker=Agrius|FieldStatus7=q|FieldStatus3=q|FieldStatus8=q
+2	dum	dum	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	id	is	PRON	_	_	_	root	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+4	nobis	_	_	_	_	_	amod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus7=p|FieldStatus8=q
+5	cum	nos	PRON	_	_	7	amod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+6	una	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius
+7	videatis	video	VERB	_	_	_	obj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+8	ac	atque	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+9	venit	venio	VERB	_	_	_	amod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+10	aeditumus	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius
+11	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+12	docete	doceo	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+13	nos	nos	PRON	_	_	_	amod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+14	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+15	agri	ager	NOUN	_	_	17	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+16	cultura	cultura	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+17	quam	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius
+18	summam	summus	ADJ	_	_	_	obj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+19	habeat	habeo	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+20	,	,	PUNCT	_	_	21	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+21	utilitatemne	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p
+22	an	an	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+23	voluptatem	voluptas	NOUN	_	_	_	conj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+24	an	an	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+25	utrumque	uter	ADJ	_	_	_	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus8=p|FieldStatus3=q
+26	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000083
+# speaker = Agrius
+# edition_loc = 1.2.12
+# text_old = Ad te enim rudem esse agri culturae nunc, olim ad Stolonem fuisse dicunt.
+# text = ad te enim rudem esse agri culturae nunc, olim ad Stolonem fuisse dicunt.
+1	ad	ad	ADP	_	_	3	case	_	Discourse=Dialogue|OrigForm=Ad|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+2	te	tu	PRON	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+3	enim	_	_	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=q
+4	rudem	_	_	_	_	14	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=s|FieldStatus8=q
+5	esse	_	VERB	_	_	14	cop	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=s
+6	agri	ager	NOUN	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+7	culturae	cultura	NOUN	_	_	5	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+8	nunc	nunc	ADV	_	_	_	advmod:tmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+9	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+10	olim	olim	ADV	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+11	ad	ad	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+12	Stolonem	_	PROPN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p
+13	fuisse	_	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus4=q
+14	dicunt	dico	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+15	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000084
+# speaker = Scrofa
+# edition_loc = 1.2.12
+# text_old = Scrofa, Prius, inquit, discernendum, utrum quae serantur in agro, ea sola sint in cultura, an etiam quae inducantur in rura, ut oves et armenta.
+# text = Scrofa: prius – inquit – discernendum, utrum quae serantur in agro, ea sola sint in cultura, an etiam quae inducantur in rura, ut oves et armenta.
+1	Scrofa	Scrofa	PROPN	_	_	_	_	_	Discourse=Narrative|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Scrofa|FieldStatus7=p
+2	:	:	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+3	prius	prius	ADV	_	_	_	_	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|OrigForm=Prius|Speaker=Scrofa|FieldStatus7=p
+4	–	–	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Scrofa|FieldStatus8=p
+5	inquit	inquam	VERB	_	_	_	parataxis:reporting	_	Discourse=Narrative|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|OrigForm=,|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+7	discernendum	discerno	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p
+8	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+9	utrum	uter	ADJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=q|FieldStatus4=q
+10	quae	qui	PRON	_	_	12	vocative	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+11	serantur	sero	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p
+12	in	in	ADP	_	_	15	case	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+13	agro	ager	NOUN	_	_	12	ccomp	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+14	,	,	PUNCT	_	_	11	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+15	ea	is	PRON	_	_	17	nmod	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+16	sola	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Scrofa|Speaker=Scrofa|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+18	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+19	cultura	cultura	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p
+20	,	,	PUNCT	_	_	24	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+21	an	_	_	_	_	_	cc	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus7=p
+22	etiam	_	SCONJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus7=p|FieldStatus4=q
+23	quae	qui	PRON	_	_	_	nsubj:pass	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+24	inducantur	induco	VERB	_	_	17	nmod	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+25	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+26	rura	rus	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+27	,	,	PUNCT	_	_	29	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+28	ut	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus7=p|FieldStatus8=q
+29	oves	ovis	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p
+30	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+31	armenta	armentum	NOUN	_	_	_	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+32	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000085
+# speaker = Scrofa
+# edition_loc = 1.2.13
+# text_old = Video enim, qui de agri cultura scripserunt et Poenice et Graece et Latine, latius vagatos, quam oportuerit.
+# text = video enim, qui de agri cultura scripserunt et Poenice et Graece et Latine, latius vagatos, quam oportuerit.
+1	video	_	_	_	_	_	root	_	Discourse=Dialogue|OrigForm=Video|Speaker=Scrofa|FieldStatus8=p|FieldStatus7=p
+2	enim	_	_	_	_	_	advmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|FieldStatus7=p|FieldStatus8=q
+3	,	,	PUNCT	_	_	8	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+4	qui	quis	_	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus7=p|FieldStatus3=q|FieldStatus8=s
+5	de	de	ADP	_	_	8	case	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+6	agri	ager	NOUN	_	_	8	nmod	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=s
+7	cultura	cultura	NOUN	_	_	_	cc	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+8	scripserunt	scribo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p
+9	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+10	Poenice	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus7=p
+11	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+12	Graece	_	_	_	_	_	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus7=p|FieldStatus8=q
+13	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+14	Latine	_	_	_	_	_	advcl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|FieldStatus7=p|FieldStatus8=q
+15	,	,	PUNCT	_	_	17	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+16	latius	late	ADV	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+17	vagatos	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa
+18	,	,	PUNCT	_	_	20	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+19	quam	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Scrofa
+20	oportuerit	oportet	VERB	_	_	_	advcl:cmp	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+21	.	.	PUNCT	_	_	1	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000086
+# speaker = Stolo
+# edition_loc = 1.2.13
+# text_old = Ego vero, inquit Stolo, eos non in omni re imitandos arbitror et eo melius fecisse quosdam, qui minore pomerio finierunt exclusis partibus quae non pertinent ad hanc rem.
+# text = ego vero – inquit Stolo– eos non in omni re imitandos arbitror et eo melius fecisse quosdam, qui minore pomerio finierunt exclusis partibus quae non pertinent ad hanc rem.
+1	ego	ego	PRON	_	_	14	nsubj	_	Discourse=Dialogue|OrigForm=Ego|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+2	vero	_	ADJ	_	_	14	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+3	–	–	PUNCT	_	_	4	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Stolo|FieldStatus8=p|FieldStatus7=s
+4	inquit	inquam	VERB	_	_	_	parataxis:reporting	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|Speaker=Stolo|FieldStatus7=s|FieldStatus4=q
+6	–	,	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Stolo|FieldStatus8=p|FieldStatus7=p|FieldStatus3=q
+7	eos	is	PRON	_	_	14	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+8	non	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+10	omni	omne	NOUN	_	_	12	amod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+11	re	res	NOUN	_	_	_	appos	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+12	imitandos	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q
+13	arbitror	arbitror	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+14	et	et	CCONJ	_	_	18	cc	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	eo	is	PRON	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+16	melius	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus7=q
+17	fecisse	facio	VERB	_	_	8	conj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+18	quosdam	_	_	_	_	17	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus7=s
+19	,	,	PUNCT	_	_	23	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+20	qui	qui	PRON	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+21	minore	_	_	_	_	_	amod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus7=q
+22	pomerio	pomerium	NOUN	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+23	finierunt	finio	VERB	_	_	_	acl:relcl	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+24	exclusis	excludo	VERB	_	_	_	advcl:abs	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+25	partibus	pars	NOUN	_	_	24	nsubj:pass	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+26	quae	qui	PRON	_	_	29	nsubj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+27	non	_	_	_	_	_	advmod:neg	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus7=q
+28	pertinent	pertineo	VERB	_	_	_	acl:relcl	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+29	ad	ad	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+30	hanc	_	PRON	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+31	rem	res	NOUN	_	_	28	obj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+32	.	.	PUNCT	_	_	13	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000087
+# speaker = Stolo
+# edition_loc = 1.2.13
+# text_old = Quare tota pastio, quae coniungitur a plerisque cum agri cultura, magis ad pastorem quam ad agricolam pertinere videtur.
+# text = quare tota pastio, quae coniungitur a plerisque cum agri cultura, magis ad pastorem quam ad agricolam pertinere videtur.
+1	quare	quare	ADV	_	_	_	advmod	_	Discourse=Dialogue|OrigForm=Quare|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2.tammi	tota	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q
+3	pastio	pastio	NOUN	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+4	,	,	PUNCT	_	_	6	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+5	quae	qui	PRON	_	_	6	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+6	coniungitur	coniungo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+7	a	ab	ADP	_	_	8	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+8-9	plerisque	_	_	_	_	_	_	_	_
+8	pleris	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus7=q
+9	que	plerusque	ADJ	_	_	_	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+10	cum	cum	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+11	agri	ager	NOUN	_	_	_	obl	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+12	cultura	cultura	NOUN	_	_	7	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+13	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+14	magis	magis	ADV	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+15	ad	ad	ADP	_	_	16	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+16	pastorem	pastor	NOUN	_	_	21	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+17	quam	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo
+18	ad	ad	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+19	agricolam	agricola	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+20	pertinere	pertineo	VERB	_	_	_	obl	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+21	videtur	_	_	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p|FieldStatus7=p
+22	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000088
+# speaker = Stolo
+# edition_loc = 1.2.14
+# text_old = Quocirca principes qui utrique rei praeponuntur vocabulis quoque sunt diversi, quod unus vocatur vilicus, alter magister pecoris.
+# text = quocirca principes qui utrique rei praeponuntur vocabulis quoque sunt diversi, quod unus vocatur vilicus, alter magister pecoris.
+1	quocirca	Quocirca	_	_	_	_	advmod	_	Discourse=Dialogue|OrigForm=Quocirca|Speaker=Stolo|FieldStatus8=p|FieldStatus7=q|FieldStatus3=q
+2	principes	principes	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p|FieldStatus3=q|FieldStatus8=q
+3	qui	qui	PRON	_	_	7	mark	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+4	utrique	uter	ADJ	_	_	_	det	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p|FieldStatus3=q|FieldStatus4=q|FieldStatus8=s
+5	rei	res	NOUN	_	_	7	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+6	praeponuntur	praepono	VERB	_	_	10	acl:relcl	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+7	vocabulis	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p|FieldStatus8=q
+8	quoque	_	_	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=q
+9	sunt	_	VERB	_	_	_	cop	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus7=p|FieldStatus4=q
+10	diversi	_	_	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p|FieldStatus7=p
+11	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+12	quod	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p
+13	unus	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p|FieldStatus8=q
+14	vocatur	voco	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	vilicus	_	NOUN	_	_	_	advmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+16	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+17	alter	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo
+18	magister	magister	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+19	pecoris	pecus	NOUN	_	_	18	advmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+20	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000089
+# speaker = Stolo
+# edition_loc = 1.2.14
+# text_old = Vilicus agri colendi causa constitutus atque appellatus a villa, quod ab eo in eam convehuntur fructus et evehuntur, cum veneunt.
+# text = vilicus agri colendi causa constitutus atque appellatus a villa, quod ab eo in eam convehuntur fructus et evehuntur, cum veneunt.
+1	vilicus	_	_	_	_	_	advmod	_	Discourse=Dialogue|OrigForm=Vilicus|Speaker=Stolo|FieldStatus7=q|FieldStatus8=q
+2	agri	ager	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+3	colendi	colo	VERB	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+4	causa	causa	NOUN	_	_	5	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+5	constitutus	constituo	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+6	atque	atque	CCONJ	_	_	7	cc	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+7	appellatus	appello	VERB	_	_	5	nsubj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+8	a	ab	ADP	_	_	9	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+9	villa	villa	NOUN	_	_	7	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+10	,	,	PUNCT	_	_	16	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+11	quod	quod	SCONJ	_	_	17	mark	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+12	ab	ab	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+13	eo	is	PRON	_	_	17	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+14	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+15	eam	is	PRON	_	_	17	conj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+16	convehuntur	conveho	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+17	fructus	fructus	NOUN	_	_	16	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+18	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+19	evehuntur	eveho	VERB	_	_	17	nmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+20	,	,	PUNCT	_	_	22	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+21	cum	cum	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+22	veneunt	veneo	VERB	_	_	_	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+23	.	.	PUNCT	_	_	5	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000090
+# speaker = Stolo
+# edition_loc = 1.2.14
+# text_old = A quo rustici etiam nunc quoque viam veham appellant propter vecturas et vellam, non villam, quo vehunt et unde vehunt.
+# text = a quo rustici etiam nunc quoque viam veham appellant propter vecturas et vellam, non villam, quo vehunt et unde vehunt.
+1	a	ab	ADP	_	_	_	case	_	Discourse=Dialogue|OrigForm=A|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	quo	qui	PRON	_	_	9	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+3	rustici	_	_	_	_	_	mark	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q|FieldStatus8=q
+4	etiam	_	SCONJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus4=q
+5	nunc	nunc	ADV	_	_	10	advmod:tmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+6	quoque	_	_	_	_	_	cop	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=q
+7	viam	via	NOUN	_	_	9	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+8	veham	_	_	_	_	_	obj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q|FieldStatus8=s
+9	appellant	appello	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+10	propter	propter	ADP	_	_	11	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+11	vecturas	vectura	NOUN	_	_	9	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+12	et	et	CCONJ	_	_	15	cc	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+13	vellam	_	_	_	_	_	ccomp	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus7=q|FieldStatus8=q
+14	,	,	PUNCT	_	_	16	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+15	non	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q
+16	villam	villa	NOUN	_	_	11	obl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+17	,	,	PUNCT	_	_	19	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+18	quo	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q
+19	vehunt	veho	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+20	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+21	unde	unde	ADV	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+22	vehunt	veho	VERB	_	_	15	amod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+23	.	.	PUNCT	_	_	9	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000091
+# speaker = Stolo
+# edition_loc = 1.2.14
+# text_old = Item dicuntur qui vecturis vivunt velaturam facere.
+# text = item dicuntur qui vecturis vivunt velaturam facere.
+1	item	item	ADV	_	_	3	advmod	_	Discourse=Dialogue|OrigForm=Item|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+2	dicuntur	dico	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	qui	qui	PRON	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=s
+4	vecturis	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p
+5	vivunt	vivo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+6	velaturam	velo	VERB	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+7	facere	facio	VERB	_	_	_	obj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+8	.	.	PUNCT	_	_	2	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000092
+# speaker = Fundanius
+# edition_loc = 1.2.15
+# text_old = Certe, inquit Fundanius, aliut pastio et aliut agri cultura, sed adfinis et ut dextra tibia alia quam sinistra, ita ut tamen sit quodam modo coniuncta, quod est altera eiusdem carminis modorum incentiva, altera succentiva.
+# text = certe – inquit Fundanius– aliut pastio et aliut agri cultura, sed adfinis et ut dextra tibia alia quam sinistra, ita ut tamen sit quodam modo coniuncta, quod est altera eiusdem carminis modorum incentiva, altera succentiva.
+1	certe	_	_	_	_	_	cc	_	Discourse=Dialogue|OrigForm=Certe|Speaker=Fundanius|FieldStatus8=q
+2	–	–	PUNCT	_	_	3	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=s
+3	inquit	inquam	VERB	_	_	_	parataxis:reporting	_	Discourse=Narrative|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|Speaker=Fundanius|FieldStatus7=p
+5	–	,	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=p|FieldStatus3=q
+6	aliut	_	ADV	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q
+7	pastio	pastio	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+8	et	et	CCONJ	_	_	11	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+9	aliut	_	ADV	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q
+10	agri	ager	NOUN	_	_	13	advcl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+11	cultura	cultura	NOUN	_	_	7	cc	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q|FieldStatus7=q
+12	,	,	PUNCT	_	_	14	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+13	sed	sed	CCONJ	_	_	14	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+14	adfinis	_	_	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=q
+15	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+16	ut	_	_	_	_	_	conj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=q
+17	dextra	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+19	alia	_	NOUN	_	_	14	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q|FieldStatus7=q
+20	quam	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p
+21	sinistra	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+23	ita	ita	ADV	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+24	ut	_	ADV	_	_	31	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+25	tamen	tamen	ADV	_	_	31	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+26	sit	sum	AUX	_	_	31	aux:pass	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+27	quodam	quodam	ADV	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+28	modo	modo	ADV	_	_	31	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+29	coniuncta	coniungo	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+30	,	,	PUNCT	_	_	37	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+31	quod	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+32	est	_	VERB	_	_	31	cop	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=q|FieldStatus4=q
+33	altera	_	_	_	_	37	obj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=s|FieldStatus8=q
+34	eiusdem	_	PRON	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+35	carminis	carmen	NOUN	_	_	33	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+36	modorum	modus	NOUN	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+37	incentiva	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=q
+38	,	,	PUNCT	_	_	40	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+39	altera	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+40	succentiva	_	_	_	_	37	amod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=s|FieldStatus8=q
+41	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000093
+# speaker = Varro
+# edition_loc = 1.2.16
+# text_old = Et quidem licet adicias, inquam, pastorum vitam esse incentivam, agricolarum succentivam auctore doctissimo homine Dicaearcho, qui Graeciae vita qualis fuerit ab initio nobis ita ostendit, ut superioribus temporibus fuisse doceat, cum homines pastoriciam vitam agerent neque scirent etiam arare terram aut serere arbores aut putare;
+# text = et quidem licet adicias – inquam – pastorum vitam esse incentivam, agricolarum succentivam auctore doctissimo homine Dicaearcho, qui Graeciae vita qualis fuerit ab initio nobis ita ostendit, ut superioribus temporibus fuisse doceat, cum homines pastoriciam vitam agerent neque scirent etiam arare terram aut serere arbores aut putare;
+1	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|OrigForm=Et|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	quidem	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus8=q
+3	licet	liceo	_	_	_	_	root	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus7=p|FieldStatus3=q
+4	adicias	adicio	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+5	–	–	PUNCT	_	_	6	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Varro|FieldStatus8=p|FieldStatus7=s
+6	inquam	inquam	VERB	_	_	_	_	_	Discourse=Narrative|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|OrigForm=,|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	pastorum	pastor	NOUN	_	_	_	obl	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+9	vitam	_	_	_	_	_	root	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus8=q
+10	esse	_	VERB	_	_	3	ccomp	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+11	incentivam	incentivus	ADJ	_	_	3	ccomp	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+12	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+13	agricolarum	agricola	NOUN	_	_	_	mark	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+14	succentivam	succentivus	ADJ	_	_	11	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	auctore	auctor	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+16	doctissimo	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q
+17	homine	homo	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+18	Dicaearcho	_	PROPN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus7=q
+19	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+20	qui	qui	PRON	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+21	Graeciae	_	PROPN	_	_	_	conj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q|FieldStatus8=q
+22	vita	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|Speaker=Varro|FieldStatus7=q
+24	fuerit	_	VERB	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+25	ab	ab	ADP	_	_	27	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+26	initio	initium	NOUN	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+27	nobis	nos	PRON	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+28	ita	ita	ADV	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+29	ostendit	ostendo	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+30	,	,	PUNCT	_	_	35	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+31	ut	ut	SCONJ	_	_	37	mark	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+32	superioribus	_	_	_	_	_	amod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus7=q
+33	temporibus	tempus	NOUN	_	_	34	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+34	fuisse	_	VERB	_	_	35	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q|FieldStatus4=q
+35	doceat	doceo	VERB	_	_	_	advcl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+36	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+37	cum	cum	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+38	homines	homo	NOUN	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+39	pastoriciam	pastoricius	ADJ	_	_	41	amod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+40	vitam	_	_	_	_	_	obj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus7=p
+41	agerent	ago	VERB	_	_	_	advcl	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+42	neque	ne	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus3=q
+43	scirent	scio	VERB	_	_	_	conj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+44	etiam	_	SCONJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus4=q
+45	arare	aro	VERB	_	_	_	ccomp	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+46	terram	terra	NOUN	_	_	_	obj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+47	aut	aut	CCONJ	_	_	49	cc	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+48	serere	sero	VERB	_	_	_	conj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+49	arbores	arbor	NOUN	_	_	45	obj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+50	aut	aut	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+51	putare	puto	VERB	_	_	49	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+52	;	;	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000094
+# speaker = Varro
+# edition_loc = 1.2.16
+# text_old = ab iis inferiore gradu aetatis susceptam agri culturam.
+# text = ab iis inferiore gradu aetatis susceptam agri culturam.
+1	ab	ab	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	iis	is	PRON	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	inferiore	inferus	ADJ	_	_	_	root	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+4	gradu	gradus	NOUN	_	_	_	obl	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=s
+5	aetatis	aetas	NOUN	_	_	4	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+6	susceptam	suscipio	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+7	agri	ager	NOUN	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+8	culturam	cultura	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+9	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000095
+# speaker = Varro
+# edition_loc = 1.2.16
+# text_old = Quocirca ea succinit pastorali, quod est inferior, ut tibia sinistra a dextrae foraminibus.
+# text = quocirca ea succinit pastorali, quod est inferior, ut tibia sinistra a dextrae foraminibus.
+1	quocirca	quocirca	ADV	_	_	_	advmod	_	Discourse=Dialogue|OrigForm=Quocirca|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	ea	is	PRON	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	succinit	succino	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+4	pastorali	pastoralis	ADJ	_	_	_	obl:arg	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=s
+5	,	,	PUNCT	_	_	8	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+6	quod	_	NOUN	_	_	_	root	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+7	est	_	VERB	_	_	6	nmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+8	inferior	inferus	ADJ	_	_	2	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+9	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+10	ut	_	_	_	_	_	conj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus8=q
+11	tibia	tibia	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+12	sinistra	sinister	ADJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+13	a	ab	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+14	dextrae	dexter	ADJ	_	_	11	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	foraminibus	foramen	NOUN	_	_	11	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+16	.	.	PUNCT	_	_	3	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000096
+# speaker = Agrius
+# edition_loc = 1.2.17
+# text_old = Agrius, Tu, inquit, tibicen non solum adimis domino pecus, sed etiam servis peculium, quibus domini dant ut pascant, atque etiam leges colonicas tollis, in quibus scribimus, colonus in agro surculario ne capra natum pascat;
+# text = Agrius: tu – inquit – tibicen non solum adimis domino pecus, sed etiam servis peculium, quibus domini dant ut pascant, atque etiam leges colonicas tollis, in quibus scribimus, colonus in agro surculario ne capra natum pascat;
+1	Agrius	Agrius	PROPN	_	_	_	nsubj	_	Discourse=Narrative|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p
+2	:	:	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+3	tu	tu	PRON	_	_	_	advmod	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|OrigForm=Tu|Speaker=Agrius|FieldStatus7=q|FieldStatus8=q
+4	–	–	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Agrius|FieldStatus8=p
+5	inquit	inquam	VERB	_	_	_	parataxis:reporting	_	Discourse=Narrative|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|OrigForm=,|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+7	tibicen	tibicen	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+8	non	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p
+9	solum	_	NOUN	_	_	_	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus4=q|FieldStatus8=q
+10	adimis	_	_	_	_	_	root	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p
+11	domino	dominus	NOUN	_	_	10	obj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+12	pecus	pecus	NOUN	_	_	11	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+13	,	,	PUNCT	_	_	16	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+14	sed	sed	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+15	etiam	_	SCONJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q
+16	servis	servus	NOUN	_	_	11	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q|FieldStatus7=q
+17	peculium	peculium	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+18	,	,	PUNCT	_	_	21	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+19	quibus	_	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q
+20	domini	dominus	NOUN	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+21	dant	do	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+22	ut	ut	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+23	pascant	pasco	VERB	_	_	_	advcl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+24	,	,	PUNCT	_	_	29	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+25	atque	atque	CCONJ	_	_	31	cc	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+26	etiam	_	SCONJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus4=q
+27	leges	lex	NOUN	_	_	29	obj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+28	colonicas	colonica	NOUN	_	_	27	obj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=s|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+29	tollis	tollo	VERB	_	_	11	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+30	,	,	PUNCT	_	_	33	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+31	in	in	ADP	_	_	32	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+32	quibus	_	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q
+33	scribimus	scribo	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+34	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+35	colonus	colonus	NOUN	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+36	in	in	ADP	_	_	38	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+37	agro	ager	NOUN	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+38	surculario	surcularius	ADJ	_	_	37	amod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+39	ne	_	ADV	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+40	capra	capra	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+41	natum	_	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q
+42	pascat	pasco	VERB	_	_	_	advcl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=s
+43	;	;	PUNCT	_	_	10	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000097
+# speaker = Agrius
+# edition_loc = 1.2.17
+# text_old = quas etiam astrologia in caelum recepit, non longe ab tauro.
+# text = quas etiam astrologia in caelum recepit, non longe ab tauro.
+1	quas	_	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus4=q
+2	etiam	_	SCONJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus4=q
+3	astrologia	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p
+4	in	in	ADP	_	_	6	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+5	caelum	caelum	NOUN	_	_	4	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+6	recepit	recipio	VERB	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+7	,	,	PUNCT	_	_	9	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+8	non	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p
+9	longe	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q
+10	ab	ab	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+11	tauro	taurus	NOUN	_	_	6	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+12	.	.	PUNCT	_	_	6	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000098
+# speaker = Fundanius
+# edition_loc = 1.2.18
+# text_old = Cui Fundanius, Vide, inquit, ne, Agri, istuc sit ab hoc, cum in legibus etiam scribatur "pecus quoddam".
+# text = cui Fundanius: vide – inquit – ne, Agri, istuc sit ab hoc, cum in legibus etiam scribatur “pecus quoddam”.
+1	cui	_	NOUN	_	_	_	_	_	Discourse=Narrative|OrigForm=Cui|Speaker=Fundanius|FieldStatus4=q
+2	Fundanius	_	PROPN	_	_	_	nsubj	_	Discourse=Narrative|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=p
+3	:	:	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+4	vide	video	VERB	_	_	_	root	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|OrigForm=Vide|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=p
+5	–	–	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Fundanius|FieldStatus8=p
+6	inquit	inquam	VERB	_	_	_	parataxis:reporting	_	Discourse=Narrative|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|OrigForm=,|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	ne	_	ADV	_	_	_	cc	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus4=q|FieldStatus8=q
+9	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+10	Agri	Agrius	PROPN	_	_	_	_	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Fundanius|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+12	istuc	iste	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=q|FieldStatus7=q
+13	sit	_	VERB	_	_	_	cop	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus4=q
+14	ab	ab	ADP	_	_	15	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	hoc	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+17	cum	cum	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+18	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+19	legibus	lex	NOUN	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+20	etiam	_	SCONJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q
+21	scribatur	scribo	VERB	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+22	“	“	PUNCT	_	_	_	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus4=p|FieldStatus8=p|FieldStatus3=p|FieldStatus7=p
+23	pecus	pecus	NOUN	_	_	_	xcomp:reported	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+24	quoddam	_	PRON	_	_	_	advmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+25	”	”	PUNCT	_	_	_	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+26	.	.	PUNCT	_	_	4	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000099
+# speaker = Fundanius
+# edition_loc = 1.2.18
+# text_old = Quaedam enim pecudes culturae sunt inimicae ac veneno, ut istae, quas dixisti, caprae.
+# text = quaedam enim pecudes culturae sunt inimicae ac veneno, ut istae, quas dixisti, caprae.
+1	quaedam	_	PRON	_	_	_	advmod	_	Discourse=Dialogue|OrigForm=Quaedam|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+2	enim	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=q
+3	pecudes	pecus	NOUN	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+4	culturae	cultura	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+5	sunt	_	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q|FieldStatus8=q
+6	inimicae	inimicus	ADJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+7	ac	atque	CCONJ	_	_	8	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+8	veneno	veneno	VERB	_	_	5	advmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=q|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+9	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+10	ut	_	_	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=q
+11	istae	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius
+12	,	,	PUNCT	_	_	14	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+13	quas	qui	PRON	_	_	14	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+14	dixisti	dico	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+16	caprae	capra	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+17	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000100
+# speaker = Fundanius
+# edition_loc = 1.2.18
+# text_old = Eae enim omnia novella sata carpendo corrumpunt, non minimum vites atque oleas.
+# text = eae enim omnia novella sata carpendo corrumpunt, non minimum vites atque oleas.
+1	eae	is	PRON	_	_	9	nsubj	_	Discourse=Dialogue|OrigForm=Eae|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=s
+2	enim	_	_	_	_	_	xcomp	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+3	omnia	omnes	PRON	_	_	5	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=s|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+4	novella	_	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q
+5	sata	_	_	_	_	7	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=s|FieldStatus8=q
+6	carpendo	carpo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+7	corrumpunt	corrumpo	VERB	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	,	,	PUNCT	_	_	11	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+9	non	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+10	minimum	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p
+11	vites	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+12	atque	atque	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+13	oleas	olea	NOUN	_	_	_	case	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+14	.	.	PUNCT	_	_	7	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000101
+# speaker = Fundanius
+# edition_loc = 1.2.19
+# text_old = Itaque propterea institutum diversa de causa ut ex caprino genere ad alii dei aram hostia adduceretur, ad alii non sacrificaretur, cum ab eodem odio alter videre nollet, alter etiam videre pereuntem vellet.
+# text = itaque propterea institutum diversa de causa ut ex caprino genere ad alii dei aram hostia adduceretur, ad alii non sacrificaretur, cum ab eodem odio alter videre nollet, alter etiam videre pereuntem vellet.
+1	itaque	ita	_	_	_	_	mark	_	Discourse=Dialogue|OrigForm=Itaque|Speaker=Fundanius|FieldStatus3=q|FieldStatus8=q
+2	propterea	propterea	ADV	_	_	_	advcl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+3	institutum	instituo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+4	diversa	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+5	de	de	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+6	causa	causa	NOUN	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+7	ut	ut	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	ex	ex	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+9	caprino	caprinus	ADJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+10	genere	genus	NOUN	_	_	_	conj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+11	ad	ad	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+12	alii	_	NOUN	_	_	_	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q|FieldStatus8=q
+13	dei	deus	NOUN	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+14	aram	ara	NOUN	_	_	_	obj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+15	hostia	hostia	NOUN	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+16	adduceretur	adduco	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+17	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+18	ad	ad	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+19	alii	_	_	_	_	_	obj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+20	non	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p
+21	sacrificaretur	sacrifico	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+22	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+23	cum	cum	SCONJ	_	_	31	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+24	ab	ab	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+25	eodem	_	PRON	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+26	odio	odium	NOUN	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+27	alter	_	_	_	_	_	obj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+28	videre	video	VERB	_	_	31	nsubj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+29	nollet	nolo	VERB	_	_	16	case	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+30	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+31	alter	_	_	_	_	_	ccomp	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+32	etiam	_	SCONJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q
+33	videre	video	VERB	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+34	pereuntem	pereo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+35	vellet	volo	VERB	_	_	29	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+36	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000102
+# speaker = Fundanius
+# edition_loc = 1.2.19
+# text_old = Sic factum ut Libero patri, repertori vitis, hirci immolarentur, proinde ut capite darent poenas;
+# text = sic factum ut Libero patri, repertori vitis, hirci immolarentur, proinde ut capite darent poenas;
+1	sic	sic	ADV	_	_	_	punct	_	Discourse=Dialogue|OrigForm=Sic|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+2	factum	facio	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+3	ut	_	_	_	_	_	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p
+4	Libero	_	PROPN	_	_	_	obl:arg	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=q
+5	patri	pater	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+6	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+7	repertori	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+8	vitis	vitis	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+9	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+10	hirci	hircus	NOUN	_	_	13	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+11	immolarentur	immolo	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+12	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+13	proinde	proinde	ADV	_	_	16	amod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+14	ut	_	ADV	_	_	17	advcl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+15	capite	caput	NOUN	_	_	16	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+16	darent	do	VERB	_	_	2	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q|FieldStatus7=q
+17	poenas	poena	NOUN	_	_	16	obj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+18	;	;	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000103
+# speaker = Fundanius
+# edition_loc = 1.2.19
+# text_old = contra ut Minervae caprini generis nihil immolarent propter oleam, quod eam quam laeserit fieri dicunt sterilem;
+# text = contra ut Minervae caprini generis nihil immolarent propter oleam, quod eam quam laeserit fieri dicunt sterilem;
+1	contra	contra	ADV	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+2	ut	ut	SCONJ	_	_	8	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+3	Minervae	_	PROPN	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q
+4	caprini	caprinus	ADJ	_	_	6	obl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+5	generis	genus	NOUN	_	_	6	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+6	nihil	_	ADV	_	_	8	cc	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+7	immolarent	immolo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+8	propter	propter	ADP	_	_	9	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+9	oleam	olea	NOUN	_	_	7	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+10	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+11	quod	quod	SCONJ	_	_	17	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+12	eam	is	PRON	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+13	quam	qui	PRON	_	_	15	nsubj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+14	laeserit	_	_	_	_	12	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=s
+15	fieri	fio	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+16	dicunt	dico	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+17	sterilem	sterilis	ADJ	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+18	;	;	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000104
+# speaker = Fundanius
+# edition_loc = 1.2.19
+# text_old = eius enim salivam esse fructuis venenum;
+# text = eius enim salivam esse fructuis venenum;
+1	eius	is	PRON	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=s
+2	enim	_	_	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=q
+3	salivam	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+4	esse	_	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q|FieldStatus8=q
+5	fructuis	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius
+6	venenum	venenum	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+7	;	;	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000105
+# speaker = Fundanius
+# edition_loc = 1.2.20
+# text_old = hoc nomine etiam Athenis in arcem non inigi, praeterquam semel ad necessarium sacrificium, ne arbor olea, quae primum dicitur ibi nata, a capra tangi possit.
+# text = hoc nomine etiam Athenis in arcem non inigi, praeterquam semel ad necessarium sacrificium, ne arbor olea, quae primum dicitur ibi nata, a capra tangi possit.
+1	hoc	_	PRON	_	_	3	nsubj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+2	nomine	nomen	NOUN	_	_	8	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+3	etiam	_	SCONJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus4=q
+4	Athenis	Athenae	PROPN	_	_	10	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+5	in	in	ADP	_	_	7	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+6	arcem	arx	NOUN	_	_	10	obl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=s
+7	non	_	_	_	_	8	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=s
+8	inigi	inigo	VERB	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+9	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+10	praeterquam	praeterquam	ADV	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+11	semel	semel	ADV	_	_	_	obl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+12	ad	ad	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+13	necessarium	necessarius	ADJ	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+14	sacrificium	sacrificium	NOUN	_	_	8	obl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	,	,	PUNCT	_	_	16	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+16	ne	_	ADV	_	_	_	cop	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+17	arbor	arbor	NOUN	_	_	_	xcomp	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+18	olea	oleum	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=p|FieldStatus3=q
+19	,	,	PUNCT	_	_	22	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+20	quae	_	NOUN	_	_	_	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+21	primum	_	NUM	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+22	dicitur	dico	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+23	ibi	ibi	ADV	_	_	22	_	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+24	nata	nascor	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+25	,	,	PUNCT	_	_	17	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+26	a	ab	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+27	capra	capra	NOUN	_	_	29	obl:agent	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+28	tangi	tango	VERB	_	_	_	conj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+29	possit	possum	VERB	_	_	10	obj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+30	.	.	PUNCT	_	_	8	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000106
+# speaker = Varro
+# edition_loc = 1.2.20
+# text_old = Nec ullae, inquam, pecudes agri culturae sunt propriae, nisi quae agrum opere, quo cultior sit, adiuvare, ut eae quae iunctae arare possunt.
+# text = nec ullae – inquam – pecudes agri culturae sunt propriae, nisi quae agrum opere, quo cultior sit, adiuvare, ut eae quae iunctae arare possunt.
+1	nec	ne	_	_	_	_	_	_	Discourse=Dialogue|OrigForm=Nec|Speaker=Varro|FieldStatus7=p|FieldStatus3=q
+2	ullae	_	ADJ	_	_	6	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=s|FieldStatus4=q|FieldStatus8=q
+3	–	–	PUNCT	_	_	4	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Varro|FieldStatus8=p|FieldStatus7=s
+4	inquam	inquam	VERB	_	_	_	_	_	Discourse=Narrative|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|OrigForm=,|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+6	pecudes	pecus	NOUN	_	_	_	mark	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+7	agri	ager	NOUN	_	_	_	advcl	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+8	culturae	cultura	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+9	sunt	_	VERB	_	_	_	cop	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus7=p|FieldStatus4=q
+10	propriae	proprius	ADJ	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+11	,	,	PUNCT	_	_	12	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+12	nisi	ni	_	_	_	21	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=s|FieldStatus3=q|FieldStatus8=q
+13	quae	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+15	opere	opus	NOUN	_	_	_	nmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+16	,	,	PUNCT	_	_	18	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+17	quo	qui	PRON	_	_	21	amod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+18	cultior	cultus	ADJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+19	sit	_	VERB	_	_	15	advcl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+20	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+21	adiuvare	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus7=q
+22	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+23	ut	_	ADV	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus4=q|FieldStatus8=q
+24	eae	is	PRON	_	_	26	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+25	quae	_	NOUN	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus7=p|FieldStatus4=q
+26	iunctae	_	ADJ	_	_	_	amod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+27	arare	aro	VERB	_	_	_	xcomp	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+28	possunt	possum	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+29	.	.	PUNCT	_	_	10	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000107
+# speaker = Agrasius
+# edition_loc = 1.2.21
+# text_old = Agrasius, Si istuc ita est, inquit, quo modo pecus removeri potest ab agro, cum stercus, quod plurimum prodest, greges pecorum ministrent?
+# text = Agrasius: si istuc ita est – inquit – quo modo pecus removeri potest ab agro, cum stercus, quod plurimum prodest, greges pecorum ministrent?
+1	Agrasius	Agrasius	PROPN	_	_	_	nsubj	_	Discourse=Narrative|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Agrasius|FieldStatus8=p|FieldStatus7=p
+2	:	:	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+3	si	si	SCONJ	_	_	_	mark	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|OrigForm=Si|Speaker=Agrasius|FieldStatus8=p|FieldStatus7=q
+4	istuc	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrasius|Speaker=Agrasius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+6	est	_	VERB	_	_	_	cop	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus4=q|FieldStatus8=s
+7	–	–	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Agrasius|FieldStatus8=p
+8	inquit	inquam	VERB	_	_	_	parataxis:reporting	_	Discourse=Narrative|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|OrigForm=,|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+10	quo	_	_	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus7=q|FieldStatus8=q
+11	modo	modus	NOUN	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+12	pecus	pecus	NOUN	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+13	removeri	removeo	VERB	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+14	potest	possum	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+15	ab	ab	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+16	agro	ager	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrasius|FieldStatus3=p|FieldStatus4=p
+17	,	,	PUNCT	_	_	18	punct	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+18	cum	cum	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+19	stercus	stercus	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrasius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+20	,	,	PUNCT	_	_	23	punct	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+21	quod	_	NOUN	_	_	25	xcomp	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+22	plurimum	_	_	_	_	_	advcl	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus7=q|FieldStatus8=q
+23	prodest	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrasius|FieldStatus7=p
+24	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+25	greges	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus7=p
+26	pecorum	pecus	NOUN	_	_	_	acl	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+27	ministrent	ministro	VERB	_	_	_	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrasius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+28	?	?	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrasius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000108
+# speaker = Agrius
+# edition_loc = 1.2.21
+# text_old = Sic, inquit Agrius, venalium greges dicemus agri culturam esse, si propter istam rem habendum statuerimus.
+# text = sic – inquit Agrius– venalium greges dicemus agri culturam esse, si propter istam rem habendum statuerimus.
+1	sic	sic	ADV	_	_	9	nsubj	_	Discourse=Dialogue|OrigForm=Sic|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+2	–	–	PUNCT	_	_	3	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Agrius|FieldStatus8=p|FieldStatus7=s
+3	inquit	inquam	VERB	_	_	_	parataxis:reporting	_	Discourse=Narrative|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|Speaker=Agrius|FieldStatus7=s|FieldStatus8=q
+5	–	,	PUNCT	_	_	3	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Agrius|FieldStatus8=p|FieldStatus7=s|FieldStatus3=q
+6	venalium	_	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q
+7	greges	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+9	agri	ager	NOUN	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+10	culturam	cultura	NOUN	_	_	8	conj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+11	esse	_	VERB	_	_	10	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus7=s|FieldStatus4=q|FieldStatus8=q
+12	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+13	si	si	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+14	propter	propter	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+15	istam	_	PRON	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+16	rem	res	NOUN	_	_	_	obj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+17	habendum	habeo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+18	statuerimus	statuo	VERB	_	_	9	advcl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+19	.	.	PUNCT	_	_	8	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000109
+# speaker = Agrius
+# edition_loc = 1.2.21
+# text_old = Sed error hinc, quod pecus in agro esse potest et fructus in eo agro ferre, quod non sequendum.
+# text = sed error hinc, quod pecus in agro esse potest et fructus in eo agro ferre, quod non sequendum.
+1	sed	sed	CCONJ	_	_	_	cc	_	Discourse=Dialogue|OrigForm=Sed|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	error	erro	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p|FieldStatus3=q|FieldStatus4=q
+3	hinc	hinc	ADV	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+4	,	,	PUNCT	_	_	10	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+5	quod	quod	SCONJ	_	_	11	mark	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+6	pecus	pecus	NOUN	_	_	_	obj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+7	in	in	ADP	_	_	9	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+8	agro	ager	NOUN	_	_	9	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+9	esse	_	VERB	_	_	11	obl	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+10	potest	possum	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+11	et	et	CCONJ	_	_	18	cc	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+12	fructus	_	ADJ	_	_	18	nsubj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+13	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+14	eo	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius
+15	agro	ager	NOUN	_	_	18	amod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+16	ferre	fero	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+17	,	,	PUNCT	_	_	20	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+18	quod	quod	SCONJ	_	_	_	obl	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+19	non	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p
+20	sequendum	sequor	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+21	.	.	PUNCT	_	_	2	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000110
+# speaker = Agrius
+# edition_loc = 1.2.21
+# text_old = Nam sic etiam res aliae diversae ab agro erunt adsumendae, ut si habet plures in fundo textores atque institutos histonas, sic alios artifices.
+# text = nam sic etiam res aliae diversae ab agro erunt adsumendae, ut si habet plures in fundo textores atque institutos histonas, sic alios artifices.
+1	nam	_	_	_	_	_	advmod	_	Discourse=Dialogue|OrigForm=Nam|Speaker=Agrius|FieldStatus7=q|FieldStatus8=q
+2	sic	sic	ADV	_	_	9	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+3	etiam	_	SCONJ	_	_	4	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=s|FieldStatus4=q
+4	res	res	NOUN	_	_	_	nsubj:pass	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+5	aliae	_	NOUN	_	_	4	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=s|FieldStatus4=q|FieldStatus8=q
+6	diversae	diverto	VERB	_	_	5	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+7	ab	ab	ADP	_	_	9	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+8	agro	ager	NOUN	_	_	7	obl:agent	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+9	erunt	_	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q
+10	adsumendae	assumo	_	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p|FieldStatus3=q
+11	,	,	PUNCT	_	_	12	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+12	ut	_	_	_	_	_	root	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus8=q
+13	si	si	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+14	habet	habeo	VERB	_	_	5	advcl	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	plures	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius
+16	in	in	ADP	_	_	18	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+17	fundo	fundus	NOUN	_	_	18	nmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+18	textores	textor	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+19	atque	atque	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+20	institutos	instituo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+21	histonas	histon	_	_	_	_	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p|FieldStatus3=q
+22	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+23	sic	sic	ADV	_	_	_	_	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+24	alios	_	NOUN	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+25	artifices	artifex	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+26	.	.	PUNCT	_	_	10	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000111
+# speaker = Scrofa
+# edition_loc = 1.2.21
+# text_old = Scrofa, Diiungamus igitur, inquit, pastionem a cultura, et siquis quid vult aliud.
+# text = Scrofa: diiungamus igitur – inquit – pastionem a cultura, et siquis quid vult aliud.
+1	Scrofa	Scrofa	PROPN	_	_	_	_	_	Discourse=Narrative|FieldStatus3=g|FieldStatus4=g|SpaceAfter=No|Speaker=Scrofa|FieldStatus7=p
+2	:	:	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+3	diiungamus	disiungo	VERB	_	_	_	root	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|OrigForm=Diiungamus|Speaker=Scrofa|FieldStatus8=p|FieldStatus7=p
+4	igitur	_	_	_	_	_	amod	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus7=p|FieldStatus8=q
+5	–	–	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Scrofa|FieldStatus8=p
+6	inquit	inquam	VERB	_	_	_	parataxis:reporting	_	Discourse=Narrative|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|OrigForm=,|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	pastionem	pastio	NOUN	_	_	_	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+9	a	ab	ADP	_	_	12	case	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+10	cultura	cultura	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+11	,	,	PUNCT	_	_	15	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+12	et	et	CCONJ	_	_	16	cc	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+13	siquis	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus7=q
+14	quid	_	NOUN	_	_	15	acl	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+15	vult	volo	VERB	_	_	3	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+16	aliud	_	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|FieldStatus4=q
+17	.	.	PUNCT	_	_	3	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000112
+# speaker = Varro
+# edition_loc = 1.2.22
+# text_old = Anne ego, inquam, sequar Sasernarum patris et filii libros ac magis putem pertinere, figilinas quem ad modum exerceri oporteat, quam argentifodinas aut alia metalla, quae sine dubio in aliquo agro fiunt?
+# text = anne ego – inquam – sequar Sasernarum patris et filii libros ac magis putem pertinere, figilinas quem ad modum exerceri oporteat, quam argentifodinas aut alia metalla, quae sine dubio in aliquo agro fiunt?
+1	an	anne	_	_	_	_	_	_	Discourse=Dialogue|OrigForm=An|SpaceAfter=No|Speaker=Varro|FieldStatus7=q|FieldStatus3=q
+2	ne	anne	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q|FieldStatus3=q
+3	ego	ego	PRON	_	_	8	advmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+4	–	–	PUNCT	_	_	5	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Varro|FieldStatus8=p|FieldStatus7=s
+5	inquam	inquam	VERB	_	_	_	_	_	Discourse=Narrative|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|OrigForm=,|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+7	sequar	sequor	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	Sasernarum	Saserna	PROPN	_	_	12	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=s|FieldStatus3=q|FieldStatus8=q
+9	patris	pater	NOUN	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+10	et	et	CCONJ	_	_	12	cc	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+11	filii	filius	NOUN	_	_	9	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+12	libros	liber	NOUN	_	_	16	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q|FieldStatus7=q
+13	ac	atque	CCONJ	_	_	16	cc	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+14	magis	magis	ADV	_	_	16	advcl	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+15	putem	puto	VERB	_	_	7	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+16	pertinere	pertineo	VERB	_	_	15	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+17	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+18	figilinas	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|Speaker=Varro|FieldStatus7=q
+20	ad	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|Speaker=Varro|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+23	oporteat	oportet	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+24	,	,	PUNCT	_	_	26	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+25	quam	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+27	aut	aut	CCONJ	_	_	31	cc	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+28	alia	_	NOUN	_	_	31	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+29	metalla	metallum	NOUN	_	_	_	obl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+30	,	,	PUNCT	_	_	37	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+31	quae	_	NOUN	_	_	_	appos	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+32	sine	sine	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+33	dubio	dubius	ADJ	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+34	in	in	ADP	_	_	37	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+35	aliquo	_	PRON	_	_	37	nmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+36	agro	ager	NOUN	_	_	_	obl	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+37	fiunt	fio	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+38	?	?	PUNCT	_	_	7	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000113
+# speaker = Varro
+# edition_loc = 1.2.23
+# text_old = Sed ut neque lapidicinae neque harenariae ad agri culturam pertinent, sic figilinae.
+# text = sed ut neque lapidicinae neque harenariae ad agri culturam pertinent, sic figilinae.
+1	sed	sed	CCONJ	_	_	_	cc	_	Discourse=Dialogue|OrigForm=Sed|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+2	ut	_	ADV	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+3	neque	ne	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus3=q
+4	lapidicinae	_	_	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus7=p
+5	neque	ne	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus3=q
+6	harenariae	harenaria	_	_	_	_	conj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus7=p|FieldStatus3=q
+7	ad	ad	ADP	_	_	10	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+8	agri	ager	NOUN	_	_	10	nmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+9	culturam	cultura	NOUN	_	_	_	obj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+10	pertinent	pertineo	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+11	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+12	sic	sic	ADV	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+13	figilinae	figilina	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+14	.	.	PUNCT	_	_	13	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000114
+# speaker = Varro
+# edition_loc = 1.2.23
+# text_old = Neque ideo non in quo agro idoneae possunt esse non exercendae, atque ex iis capiendi fructus;
+# text = neque ideo non in quo agro idoneae possunt esse non exercendae, atque ex iis capiendi fructus;
+1	neque	ne	_	_	_	_	_	_	Discourse=Dialogue|OrigForm=Neque|Speaker=Varro|FieldStatus7=p|FieldStatus3=q
+2	ideo	ideo	ADV	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	non	_	_	_	_	_	advmod:neg	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus7=p
+4	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+5	quo	qui	PRON	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+6	agro	ager	NOUN	_	_	_	obl	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+7	idoneae	idoneus	ADJ	_	_	10	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+8	possunt	possum	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+9	esse	_	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus4=q
+10	non	_	_	_	_	_	advmod:neg	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus7=q
+11	exercendae	exerceo	VERB	_	_	10	xcomp	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=s
+12	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+13	atque	atque	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+14	ex	ex	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+15	iis	is	PRON	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+16	capiendi	capio	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+17	fructus	fructus	NOUN	_	_	16	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+18	;	;	PUNCT	_	_	8	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000115
+# speaker = Varro
+# edition_loc = 1.2.23
+# text_old = ut etiam, si ager secundum viam et opportunus viatoribus locus, aedificandae tabernae devorsoriae, quae tamen, quamvis sint fructuosae, nihilo magis sunt agri culturae partes.
+# text = ut etiam, si ager secundum viam et opportunus viatoribus locus, aedificandae tabernae devorsoriae, quae tamen, quamvis sint fructuosae, nihilo magis sunt agri culturae partes.
+1	ut	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro
+2	etiam	_	SCONJ	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus4=q
+3	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+4	si	si	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+5	ager	ager	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+6	secundum	secundum	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+7	viam	via	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+8	et	et	CCONJ	_	_	11	cc	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+9	opportunus	opportunus	ADJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+10	viatoribus	viator	NOUN	_	_	_	conj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+11	locus	locus	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+12	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+13	aedificandae	aedifico	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+14	tabernae	taberna	NOUN	_	_	13	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+15	devorsoriae	devorsorius	ADJ	_	_	_	amod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+16	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+17	quae	qui	PRON	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+18	tamen	tamen	ADV	_	_	27	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+19	,	,	PUNCT	_	_	18	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+20	quamvis	_	ADV	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+21	sint	_	VERB	_	_	14	advmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+22	fructuosae	fructuosa	ADJ	_	_	29	amod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus7=s|FieldStatus3=q|FieldStatus8=q
+23	,	,	PUNCT	_	_	22	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+24	nihilo	nihil	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=q|FieldStatus8=q
+25	magis	magis	ADV	_	_	27	advmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+26	sunt	_	VERB	_	_	29	cop	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+27	agri	ager	NOUN	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+28	culturae	cultura	NOUN	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+29	partes	pars	NOUN	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+30	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000116
+# speaker = Varro
+# edition_loc = 1.2.23
+# text_old = Non enim, siquid propter agrum aut etiam in agro profectus domino, agri culturae acceptum referre debet, sed id modo quod ex satione terra sit natum ad fruendum.
+# text = non enim, siquid propter agrum aut etiam in agro profectus domino, agri culturae acceptum referre debet, sed id modo quod ex satione terra sit natum ad fruendum.
+1	non	_	_	_	_	_	advmod:neg	_	Discourse=Dialogue|OrigForm=Non|Speaker=Varro|FieldStatus8=p|FieldStatus7=q
+2	enim	_	_	_	_	_	advmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus7=q|FieldStatus8=q
+3	,	,	PUNCT	_	_	2	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+4	siquid	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro
+5	propter	propter	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+6	agrum	ager	NOUN	_	_	_	obl	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+7	aut	aut	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	etiam	_	SCONJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p|FieldStatus4=q
+9	in	in	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+10	agro	ager	NOUN	_	_	12	nmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+11	profectus	_	_	_	_	_	csubj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q|FieldStatus8=q
+12	domino	dominus	NOUN	_	_	11	obl:arg	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+13	,	,	PUNCT	_	_	11	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+14	agri	ager	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+15	culturae	cultura	NOUN	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+16	acceptum	accipio	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+17	referre	refero	VERB	_	_	20	ccomp	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+18	debet	debeo	VERB	_	_	_	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+19	,	,	PUNCT	_	_	21	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+20	sed	sed	CCONJ	_	_	21	cc	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+21	id	is	PRON	_	_	_	conj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+22	modo	_	_	_	_	21	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=s
+23	quod	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=p
+24	ex	ex	ADP	_	_	26	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+25	satione	satio	NOUN	_	_	_	obl	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=s
+26	terra	terra	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p
+27	sit	sum	AUX	_	_	_	aux:pass	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+28	natum	nascor	VERB	_	_	22	acl:relcl	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+29	ad	ad	ADP	_	_	_	_	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+30	fruendum	fruor	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+31	.	.	PUNCT	_	_	18	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000117
+# speaker = Stolo
+# edition_loc = 1.2.24
+# text_old = Suscipit Stolo, Tu, inquit, invides tanto scriptori et obstrigillandi causa figlinas reprehendis, cum praeclara quaedam, ne laudes, praetermittas, quae ad agri culturam vehementer pertineant.
+# text = suscipit Stolo: tu – inquit – invides tanto scriptori et obstrigillandi causa figlinas reprehendis, cum praeclara quaedam, ne laudes, praetermittas, quae ad agri culturam vehementer pertineant.
+1	suscipit	suscipio	VERB	_	_	_	parataxis:reporting	_	Discourse=Narrative|OrigForm=Suscipit|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|SpaceAfter=No|Speaker=Stolo|FieldStatus7=s|FieldStatus4=q
+3	:	:	PUNCT	_	_	6	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+4	tu	tu	PRON	_	_	_	nsubj	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|OrigForm=Tu|Speaker=Stolo|FieldStatus8=p|FieldStatus7=q
+5	–	–	PUNCT	_	_	6	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Stolo|FieldStatus8=p|FieldStatus7=s
+6	inquit	inquam	VERB	_	_	_	_	_	Discourse=Narrative|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+7	–	–	PUNCT	_	_	_	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+8	invides	invideo	VERB	_	_	_	root	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+9	tanto	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q
+10	scriptori	scriptor	NOUN	_	_	15	obj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q|FieldStatus7=q
+11	et	et	CCONJ	_	_	_	cc	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+12	obstrigillandi	obstrigillo	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+13	causa	_	ADP	_	_	15	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=s|FieldStatus4=q|FieldStatus8=q
+14	figlinas	figlina	NOUN	_	_	_	obj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+15	reprehendis	reprehendo	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus7=q|FieldStatus3=q
+16	,	,	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+17	cum	cum	SCONJ	_	_	_	mark	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+18	praeclara	praeclarus	ADJ	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+19	quaedam	_	PRON	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus4=q
+20	,	,	PUNCT	_	_	22	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+21	ne	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q|FieldStatus8=q
+22	laudes	_	_	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+24	praetermittas	praetermitto	VERB	_	_	_	advcl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+25	,	,	PUNCT	_	_	31	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+26	quae	qui	PRON	_	_	_	nsubj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+27	ad	ad	ADP	_	_	_	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+28	agri	ager	NOUN	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+29	culturam	cultura	NOUN	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+30	vehementer	_	_	_	_	_	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus7=p
+31	pertineant	pertineo	VERB	_	_	_	_	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+32	.	.	PUNCT	_	_	_	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000118
+# speaker = Stolo
+# edition_loc = 1.2.25
+# text_old = Cum subrisisset Scrofa, quod non ignorabat libros et despiciebat, et Agrasius se scire modo putaret ac Stolonem rogasset ut diceret, coepit:
+# text = cum subrisisset Scrofa, quod non ignorabat libros et despiciebat, et Agrasius se scire modo putaret ac Stolonem rogasset ut diceret, coepit:
+1	cum	cum	SCONJ	_	_	_	mark	_	Discourse=Narrative|OrigForm=Cum|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	subrisisset	_	_	_	_	_	advcl	_	Discourse=Narrative|Speaker=Stolo|FieldStatus7=p|FieldStatus8=s
+3	Scrofa	_	PROPN	_	_	_	nsubj	_	Discourse=Narrative|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p|FieldStatus7=p
+4	,	,	PUNCT	_	_	7	punct	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+5	quod	_	ADP	_	_	_	case	_	Discourse=Narrative|Speaker=Stolo|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+6	non	_	_	_	_	_	advmod:neg	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus7=p
+7	ignorabat	ignoro	VERB	_	_	_	_	_	Discourse=Narrative|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+8	libros	liber	NOUN	_	_	_	obj	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+9	et	et	CCONJ	_	_	12	cc	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+10	despiciebat	despicio	VERB	_	_	_	conj	_	Discourse=Narrative|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+11	,	,	PUNCT	_	_	17	punct	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+12	et	et	CCONJ	_	_	24	cc	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+13	Agrasius	_	PROPN	_	_	_	nsubj	_	Discourse=Narrative|Speaker=Stolo|FieldStatus7=q|FieldStatus8=s
+14	se	_	_	_	_	_	_	_	Discourse=Narrative|Speaker=Stolo|FieldStatus7=q
+15	scire	scio	VERB	_	_	_	_	_	Discourse=Narrative|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+16	modo	_	_	_	_	_	_	_	Discourse=Narrative|Speaker=Stolo|FieldStatus7=q
+17	putaret	puto	VERB	_	_	7	advmod	_	Discourse=Narrative|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q|FieldStatus7=q
+18	ac	atque	CCONJ	_	_	_	cc	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+19	Stolonem	_	PROPN	_	_	_	obj	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus7=p
+20	rogasset	rogo	VERB	_	_	17	conj	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+21	ut	ut	SCONJ	_	_	_	mark	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+22	diceret	dico	VERB	_	_	_	_	_	Discourse=Narrative|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+23	,	,	PUNCT	_	_	_	punct	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+24	coepit	coepio	_	_	_	_	root	_	Discourse=Narrative|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p|FieldStatus7=p|FieldStatus3=q
+25	:	:	PUNCT	_	_	_	punct	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000119
+# speaker = Stolo
+# edition_loc = 1.2.25
+# text_old = Scribit cimices quem ad modum interfici oporteat his verbis:
+# text = scribit cimices quem ad modum interfici oporteat his verbis:
+1	scribit	scribo	VERB	_	_	_	root	_	Discourse=Dialogue|OrigForm=Scribit|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	cimices	cimex	NOUN	_	_	7	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+3	quem	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo
+4	ad	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo
+5	modum	_	_	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo
+6	interfici	interficio	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+7	oporteat	oportet	VERB	_	_	_	_	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+8	his	_	PRON	_	_	_	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+9	verbis	verbum	NOUN	_	_	1	advmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+10	:	:	PUNCT	_	_	1	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000120
+# speaker = Stolo
+# edition_loc = 1.2.25
+# text_old = "cucumerem anguinum condito in aquam eamque infundito quo voles, nulli accedent;
+# text = “cucumerem anguinum condito in aquam eamque infundito quo voles, nulli accedent;
+# split_policy = single discourse type reproduced unchanged
+# split_type = Dialogue
+# remerge_policy = single discourse sentence passed through
+1	“	“	PUNCT	_	_	4	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+2	cucumerem	cucumis	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p
+3	anguinum	anguinus	ADJ	_	Case=Gen|Gender=Masc|Number=Plur	2	amod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=s
+4	condito	condo	VERB	_	Aspect=Perf|Case=Abl|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+5	in	in	ADP	_	_	6	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+6	aquam	aqua	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+7.8.2026 0:00	eamque	_	_	_	_	_	_	_	_
+7	eam	is	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+8	que	que	CCONJ	_	_	9	cc	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+9	infundito	infundo	VERB	_	Case=Abl|Gender=Neut|Mood=Imp|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	Discourse=Dialogue|Speaker=Stolo
+10	quo	quo	ADV	_	PronType=Rel	11	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p
+11	voles	volo	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	9	advcl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+12	,	,	PUNCT	_	_	14	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+13	nulli	nullus	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	14	amod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p|FieldStatus8=q
+14	accedent	accedo	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	advcl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+15	;	;	PUNCT	_	_	5	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000121
+# speaker = Stolo
+# edition_loc = 1.2.25
+# text_old = vel fel bubulum cum aceto mixtum, unguito lectum. "
+# text = vel fel bubulum cum aceto mixtum, unguito lectum. ”
+# meta: split_after_token = 11
+# split_policy = single discourse type reproduced unchanged
+# split_type = Dialogue
+# remerge_policy = single discourse sentence passed through
+1	vel	vel	CCONJ	_	_	9	cc	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p
+2	fel	fel	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	nsubj:pass	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q
+3	bubulum	bubulus	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	2	amod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+4	cum	cum	SCONJ	_	_	6	root	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+5	aceto	acetum	NOUN	_	Case=Abl|Gender=Neut|Number=Sing	6	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+6	mixtum	misceo	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	8	obj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+7	,	,	PUNCT	_	_	3	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+8	unguito	unguo	VERB	_	Case=Abl|Gender=Masc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Dialogue|Speaker=Stolo
+9	lectum	lego	VERB	_	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=q|FieldStatus4=q|FieldStatus7=q
+10	.	.	PUNCT	_	_	1	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+11	”	”	PUNCT	_	_	3	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000121b
+# speaker = Fundanius
+# edition_loc = 1.2.26
+# text_old = Fundanius aspicit ad Scrofam, Et tamen verum dicit, inquit, hic, ut hoc scripserit in agri cultura.
+# text = Fundanius aspicit ad Scrofam: et tamen verum dicit – inquit – hic, ut hoc scripserit in agri cultura.
+# meta: split_from = S000121; offset = 11
+# split_from = S000121b
+# split_type = DIALOGUE
+# split_policy = mixed discourse split into _DIALOGUE and _NARRATIVE
+# remerged_from = S000121b_DIALOGUE,S000121b_NARRATIVE
+# remerge_policy = NARRATIVE root attached to DIALOGUE root with parataxis:reporting
+1	Fundanius	Fundanius	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Discourse=Narrative|Speaker=Fundanius|FieldStatus7=p
+2	aspicit	aspicio	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis:reporting	_	Discourse=Narrative|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+4	Scrofam	Scrofa	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	Discourse=Narrative|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=p
+5	:	:	PUNCT	_	_	11	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+6	et	et	CCONJ	_	_	9	cc	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|OrigForm=Et|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=p
+7	tamen	tamen	ADV	_	_	9	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	verum	verus	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p
+9	dicit	dico	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+10	–	–	PUNCT	_	_	11	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=s
+11	inquit	inquam	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	Discourse=Narrative|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+12	–	–	PUNCT	_	_	3	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+13	hic	hic	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus7=p
+14.1.1900 0:00	,	,	PUNCT	_	_	7	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+15	ut	ut	SCONJ	_	PronType=Rel	18	mark	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+16	hoc	hic	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	18	nsubj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus8=q
+17	scripserit	scribo	VERB	_	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+18	in	in	ADP	_	_	20	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+19	agri	ager	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+20	cultura	cultura	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	17	obl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+21	.	.	PUNCT	_	_	9	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000122
+# speaker = Scrofa
+# edition_loc = 1.2.26
+# text_old = Ille, Tam hercle quam hoc, siquem glabrum facere velis, quod iubet ranam luridam coicere in aquam, usque qua ad tertiam partem decoxeris, eoque unguere corpus.
+# text = ille: tam hercle quam hoc, siquem glabrum facere velis, quod iubet ranam luridam coicere in aquam, usque qua ad tertiam partem decoxeris, eoque unguere corpus.
+# split_from = S000122
+# split_type = DIALOGUE
+# split_policy = mixed discourse split into _DIALOGUE and _NARRATIVE
+# remerged_from = S000122_DIALOGUE,S000122_NARRATIVE
+# remerge_policy = NARRATIVE root attached to DIALOGUE root with parataxis:reporting
+1	ille	ille	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	parataxis:reporting	_	Discourse=Narrative|OrigForm=Ille|SpaceAfter=No|Speaker=Scrofa|FieldStatus8=p|FieldStatus7=p|OrigForm=,|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	tam	tam	ADV	_	_	8	advmod	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|OrigForm=Tam|Speaker=Scrofa|Speaker=Scrofa|Speaker=Scrofa|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+8	siquem	siquis	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus7=q
+9	glabrum	glaber	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	10	xcomp	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus7=p
+10	facere	facio	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+11	velis	volo	VERB	_	Aspect=Imp|Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+12	,	,	PUNCT	_	_	14	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+13	quod	qui	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	14	nsubj	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus7=q
+14	iubet	iubeo	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p
+15	ranam	rana	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+16	luridam	luridus	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+17	coicere	coicio	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+18	in	in	ADP	_	_	19	case	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+19	aquam	aqua	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+20	,	,	PUNCT	_	_	26	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+21	usque	usque	ADV	_	_	26	advmod	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus7=q
+22	qua	qui	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Rel	26	nmod	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+23	ad	ad	ADP	_	_	26	case	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+24	tertiam	tertius	ADJ	_	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	26	amod	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+25	partem	pars	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	26	obl	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+26	decoxeris	decoquo	VERB	_	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+28	eo	is	PRON	_	Case=Abl|Gender=Masc|Number=Sing	31	nmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|FieldStatus7=q|FieldStatus8=q
+29	que	que	CCONJ	_	_	31	cc	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+30	unguere	unguo	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p
+31	corpus	corpus	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	30	nsubj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Scrofa|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+32	.	.	PUNCT	_	_	6	punct	_	Discourse=Dialogue|Speaker=Scrofa|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000123
+# speaker = Narrator
+# edition_loc = 1.2.26
+# text_old = Ego, Quod magis, inquam, pertineat ad Fundani valetudinem in eo libro, est satius dicas;
+# text = ego: quod magis – inquam – pertineat ad Fundani valetudinem in eo libro, est satius dicas;
+# split_policy = single discourse type reproduced unchanged
+# split_type = Narrative
+# remerge_policy = single discourse sentence passed through
+1	ego	ego	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Discourse=Narrative|OrigForm=Ego|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+2	:	:	PUNCT	_	_	9	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+3	quod	qui	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	9	nmod	_	Discourse=Narrative|FieldStatus3=g|FieldStatus4=g|OrigForm=Quod|Speaker=Narrator
+4	magis	magis	ADV	_	Degree=Cmp	9	advmod	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p
+5	–	–	PUNCT	_	_	6	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Narrator|FieldStatus8=p|FieldStatus7=s
+6	inquam	inquam	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+7	–	–	PUNCT	_	_	9	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+8	pertineat	pertineo	VERB	_	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+9	ad	ad	ADP	_	_	11	case	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+10	Fundani	Fundanius	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus7=p
+11	valetudinem	valetudo	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	obl:arg	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+12	in	in	ADP	_	_	16	case	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+13	eo	is	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	Discourse=Narrative|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+14	libro	liber	NOUN	_	Case=Abl|Gender=Masc|Number=Sing	9	obl	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	,	,	PUNCT	_	_	18	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+16	est	sum	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus4=q
+17	satius	satis	ADJ	_	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	18	xcomp	_	Discourse=Narrative|Speaker=Narrator|FieldStatus4=q
+18	dicas	dico	VERB	_	Aspect=Imp|Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p
+19	;	;	PUNCT	_	_	18	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000124
+# speaker = Narrator
+# edition_loc = 1.2.26
+# text_old = nam huiusce pedes solent dolere, in fronte contrahere rugas.
+# text = nam huiusce pedes solent dolere, in fronte contrahere rugas.
+# split_policy = single discourse type reproduced unchanged
+# split_type = Narrative
+# remerge_policy = single discourse sentence passed through
+1	nam	nam	SCONJ	_	_	5	nsubj	_	Discourse=Narrative|Speaker=Narrator|FieldStatus7=q|FieldStatus8=q
+2	huiusce	hic	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	3	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus7=s|FieldStatus4=q
+3	pedes	pes	NOUN	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	nmod	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+4	solent	soleo	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+5	dolere	doleo	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	punct	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+6	,	,	PUNCT	_	_	9	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+7	in	in	ADP	_	_	8	case	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	fronte	frons	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	10	root	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+9	contrahere	contraho	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	case	_	Discourse=Narrative|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+10	rugas	ruga	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	Discourse=Narrative|SpaceAfter=No|Speaker=Narrator|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+11	.	.	PUNCT	_	_	4	punct	_	Discourse=Narrative|Speaker=Narrator|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000125
+# speaker = Fundanius
+# edition_loc = 1.2.27
+# text_old = Dic sodes, inquit Fundanius;
+# text = dic sodes – inquit Fundanius–
+# split_from = S000125
+# split_type = DIALOGUE
+# split_policy = mixed discourse split into _DIALOGUE and _NARRATIVE
+# remerged_from = S000125_DIALOGUE,S000125_NARRATIVE
+# remerge_policy = NARRATIVE root attached to DIALOGUE root with parataxis:reporting
+1	dic	dico	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Dialogue|OrigForm=Dic|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+2	sodes	sodes	ADV	_	_	1	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=s
+3	–	–	PUNCT	_	_	4	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=s
+4	inquit	inquam	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis:reporting	_	Discourse=Narrative|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|Gender=Masc|Number=Sing	4	nsubj	_	Discourse=Narrative|Speaker=Fundanius|FieldStatus7=s
+6	;	;	PUNCT	_	_	1	punct	_	Discourse=Dialogue|OrigForm=;|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000126
+# speaker = Fundanius
+# edition_loc = 1.2.27
+# text_old = nam malo de meis pedibus audire, quam quem ad modum pedes betaceos seri oporteat.
+# text = nam malo de meis pedibus audire, quam quem ad modum pedes betaceos seri oporteat.
+# split_policy = single discourse type reproduced unchanged
+# split_type = Dialogue
+# remerge_policy = single discourse sentence passed through
+1	nam	nam	SCONJ	_	_	2	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=p|FieldStatus8=q
+2	malo	malo	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus7=p
+3	de	de	ADP	_	_	6	case	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+4	meis	meus	PRON	_	Case=Abl|Gender=Masc|Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus7=q|FieldStatus4=q|FieldStatus8=s
+5	pedibus	pes	NOUN	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	6	nsubj	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+6	audire	audio	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+7	,	,	PUNCT	_	_	16	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+8	quam	quam	ADV	_	_	15	advcl	_	Discourse=Dialogue|Speaker=Fundanius
+9	quem	quis	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Int	11	case	_	Discourse=Dialogue|Speaker=Fundanius
+10	ad	ad	ADP	_	_	11	nmod	_	Discourse=Dialogue|Speaker=Fundanius
+11	modum	modus	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	Discourse=Dialogue|Speaker=Fundanius
+12	pedes	pes	NOUN	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	15	xcomp	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+13	betaceos	betaceus	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	12	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s|FieldStatus8=q
+14	seri	sero	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	15	advmod	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+15	oporteat	oportet	VERB	_	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	nsubj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Fundanius|FieldStatus3=p|FieldStatus4=p
+16	.	.	PUNCT	_	_	2	punct	_	Discourse=Dialogue|Speaker=Fundanius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000127
+# speaker = Stolo
+# edition_loc = 1.2.27
+# text_old = Stolo subridens, Dicam, inquit, eisdem quibus ille verbis scripsit (vel Tarquennam audivi, cum homini pedes dolere coepissent, qui tui meminisset, ei mederi posse):
+# text = Stolo subridens: dicam – inquit – eisdem quibus ille verbis scripsit (vel Tarquennam audivi, cum homini pedes dolere coepissent, qui tui meminisset, ei mederi posse) :
+# split_from = S000127
+# split_type = DIALOGUE
+# split_policy = mixed discourse split into _DIALOGUE and _NARRATIVE
+# remerged_from = S000127_DIALOGUE,S000127_NARRATIVE
+# remerge_policy = NARRATIVE root attached to DIALOGUE root with parataxis:reporting
+1	Stolo	Stolo	PROPN	_	Case=Dat|Gender=Masc|Number=Sing	6	nsubj	_	Discourse=Narrative|FieldStatus3=g|FieldStatus4=g|Speaker=Stolo|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	6	advmod	_	Discourse=Narrative|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	:	:	PUNCT	_	_	5	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+4	dicam	dico	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Dialogue|FieldStatus3=g|FieldStatus4=g|OrigForm=Dicam|Speaker=Stolo|FieldStatus8=p|FieldStatus7=p
+5	–	–	PUNCT	_	_	7	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Stolo|FieldStatus8=p
+6	inquit	inquam	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis:reporting	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|OrigForm=,|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	eisdem	idem	PRON	_	Case=Abl|Gender=Neut|Number=Plur|PronType=Dem	11	nmod	_	Discourse=Dialogue|Speaker=Stolo|Gender=Masc|Number=Plur|PronType=Rel	11	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+10	ille	ille	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus7=q
+11	verbis	verbum	NOUN	_	Case=Abl|Gender=Neut|Number=Plur	14	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+12	scripsit	scribo	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+13	(	_	PUNCT	_	_	16	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus4=p|FieldStatus8=p|FieldStatus7=p|FieldStatus3=q
+14	vel	vel	CCONJ	_	_	16	cc	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus7=p
+15	Tarquennam	Tarquenna	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p
+16	audivi	audio	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	advmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+17	,	,	PUNCT	_	_	23	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+18	cum	cum	SCONJ	_	_	24	mark	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+19	homini	homo	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	21	obj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+20	pedes	pes	NOUN	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	21	obj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+21	dolere	doleo	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	xcomp	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+22	coepissent	coepio	VERB	_	Aspect=Perf|Mood=Sub|Number=Plur|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	29	advcl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p
+23	,	,	PUNCT	_	_	26	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+24	qui	qui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	26	nsubj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+25	tui	tu	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	26	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p
+26	meminisset	memini	VERB	_	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	29	acl:relcl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p
+27	,	,	PUNCT	_	_	30	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+28	ei	is	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+29	mederi	medeor	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	16	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+30	posse	possum	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	advmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+31	)	_	PUNCT	_	_	16	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus4=p|FieldStatus8=p|FieldStatus3=q
+32	:	:	PUNCT	_	_	4	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000128
+# speaker = Stolo
+# edition_loc = 1.2.27
+# text_old = "ego tui memini, medere meis pedibus, terra pestem teneto, salus hic maneto in meis pedibus".
+# text = “ego tui memini, medere meis pedibus, terra pestem teneto, salus hic maneto in meis pedibus”.
+# split_policy = single discourse type reproduced unchanged
+# split_type = Dialogue
+# remerge_policy = single discourse sentence passed through
+1	“	“	PUNCT	_	_	4	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus4=p|FieldStatus8=p|FieldStatus3=p|FieldStatus7=p
+2	ego	ego	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+3	tui	tu	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=2|Person[psor]=2|Poss=Yes|PronType=Prs	4	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=q
+4	memini	memini	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+6	medere	medeor	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Inf|Voice=Act	4	ccomp	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+7	meis	meus	PRON	_	Case=Abl|Gender=Masc|Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	10	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+8	pedibus	pes	NOUN	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	7	nsubj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+9	,	,	PUNCT	_	_	13	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+10	terra	terra	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	12	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+11	pestem	pestis	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+12	teneto	teneo	VERB	_	Aspect=Imp|Case=Abl|Gender=Neut|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+13	,	,	PUNCT	_	_	17	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+14	salus	salus	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	17	nsubj:pass	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+15	hic	hic	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	16	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q
+16	maneto	maneo	VERB	_	Aspect=Imp|Case=Abl|Gender=Neut|Mood=Imp|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+17	in	in	ADP	_	_	19	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+18	meis	meus	PRON	_	Case=Abl|Gender=Masc|Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+19	pedibus	pes	NOUN	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	16	obj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+20	”	”	PUNCT	_	_	5	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+21	.	.	PUNCT	_	_	5	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+
+# sent_id = S000129
+# speaker = Stolo
+# edition_loc = 1.2.27
+# text_old = Hoc ter noviens cantare iubet, terram tangere, despuere, ieiunum cantare.
+# text = hoc ter noviens cantare iubet, terram tangere, despuere, ieiunum cantare.
+# split_policy = single discourse type reproduced unchanged
+# split_type = Dialogue
+# remerge_policy = single discourse sentence passed through
+1	hoc	hic	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	Discourse=Dialogue|OrigForm=Hoc|Speaker=Stolo|FieldStatus7=q|FieldStatus8=q
+2	ter	ter	ADV	_	_	4	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+3	noviens	novio	VERB	_	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	advcl	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=q
+4	cantare	canto	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	ccomp	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+5	iubet	iubeo	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+6	,	,	PUNCT	_	_	8	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+7	terram	terra	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+8	tangere	tango	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+9	,	,	PUNCT	_	_	10	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+10	despuere	despuo	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+11	,	,	PUNCT	_	_	13	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+12	ieiunum	ieiunus	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p
+13	cantare	canto	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+14	.	.	PUNCT	_	_	5	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000130
+# speaker = Varro
+# edition_loc = 1.2.28
+# text_old = Multa, inquam, item alia miracula apud Sasernas invenies, quae omnia sunt diversa ab agri cultura et ideo repudianda.
+# text = multa – inquam – item alia miracula apud Sasernas invenies, quae omnia sunt diversa ab agri cultura et ideo repudianda.
+# split_from = S000130
+# split_type = DIALOGUE
+# split_policy = mixed discourse split into _DIALOGUE and _NARRATIVE
+# remerged_from = S000130_DIALOGUE,S000130_NARRATIVE
+# remerge_policy = NARRATIVE root attached to DIALOGUE root with parataxis:reporting
+1	multa	multus	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|NumType=Card	8	obj	_	Discourse=Dialogue|OrigForm=Multa|Speaker=Varro|OrigForm=,|Speaker=Varro|FieldStatus8=p|FieldStatus7=s
+3	inquam	inquam	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis:reporting	_	Discourse=Narrative|Speaker=Varro|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|OrigForm=,|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+5	item	item	ADV	_	_	10	advmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+6	alia	alius	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+7	miracula	miraculum	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	apud	apud	ADP	_	_	10	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+9	Sasernas	Saserna	PROPN	_	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus7=p
+10	invenies	invenio	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+11	,	,	PUNCT	_	_	15	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+12	quae	qui	PRON	_	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	15	nsubj:pass	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+13	omnia	omnes	PRON	_	Case=Nom|Gender=Neut|Number=Plur|PronType=Tot	15	nsubj	_	Discourse=Dialogue|Speaker=Varro|FieldStatus3=q
+14	sunt	sum	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=q|FieldStatus4=q
+15	diversa	diverto	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|VerbForm=Part|Voice=Pass	7	amod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus7=s|FieldStatus3=q
+16	ab	ab	ADP	_	_	19	case	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+17	agri	ager	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+18	cultura	cultura	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	15	obl:agent	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+19	et	et	CCONJ	_	_	21	cc	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+20	ideo	ideo	ADV	_	_	21	advmod	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+21	repudianda	repudio	VERB	_	Aspect=Prosp|Case=Nom|Gender=Neut|Number=Plur|VerbForm=Gdv|Voice=Pass	15	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+22	.	.	PUNCT	_	_	10	punct	_	Discourse=Dialogue|Speaker=Varro|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000131
+# speaker = Stolo
+# edition_loc = 1.2.28
+# text_old = Quasi vero, inquit, non apud ceteros quoque scriptores talia reperiantur.
+# text = quasi vero – inquit – non apud ceteros quoque scriptores talia reperiantur.
+# split_from = S000131
+# split_type = DIALOGUE
+# split_policy = mixed discourse split into _DIALOGUE and _NARRATIVE
+# remerged_from = S000131_DIALOGUE,S000131_NARRATIVE
+# remerge_policy = NARRATIVE root attached to DIALOGUE root with parataxis:reporting
+1	quasi	quasi	ADV	_	PronType=Rel	12	advmod	_	Discourse=Dialogue|OrigForm=Quasi|Speaker=Stolo|FieldStatus7=p
+2	vero	vero	ADV	_	_	12	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p|FieldStatus8=q
+3	–	–	PUNCT	_	_	4	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Stolo|FieldStatus8=p|FieldStatus7=s
+4	inquit	inquam	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	parataxis:reporting	_	Discourse=Narrative|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|OrigForm=,|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+6	non	non	ADV	_	Polarity=Neg	12	advmod:neg	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p
+7	apud	apud	ADP	_	_	10	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+8	ceteros	ceterus	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	obl	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p
+9	quoque	quoque	ADV	_	_	10	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p|FieldStatus8=q
+10	scriptores	scriptor	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+11	talia	talis	ADJ	_	Case=Nom|Gender=Neut|Number=Plur	12	amod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p|FieldStatus8=q
+12	reperiantur	reperio	VERB	_	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+13	.	.	PUNCT	_	_	12	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+
+# sent_id = S000132
+# speaker = Stolo
+# edition_loc = 1.2.28
+# text_old = An non in magni illius Catonis libro, qui de agri cultura est editus, scripta sunt permulta similia, ut haec, quem ad modum placentam facere oporteat, quo pacto libum, qua ratione pernas sallere?
+# text = an non in magni illius Catonis libro, qui de agri cultura est editus, scripta sunt permulta similia, ut haec, quem ad modum placentam facere oporteat, quo pacto libum, qua ratione pernas sallere?
+# split_policy = single discourse type reproduced unchanged
+# split_type = Dialogue
+# remerge_policy = single discourse sentence passed through
+1	an	an	CCONJ	_	_	16	cc	_	Discourse=Dialogue|OrigForm=An|Speaker=Stolo|FieldStatus7=p
+2	non	non	ADV	_	Polarity=Neg	16	advmod:neg	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus7=p
+3	in	in	ADP	_	_	9	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+4	magni	magnus	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	6	amod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+5	illius	ille	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	6	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+6	Catonis	Cato	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus7=q
+7	libro	liber	NOUN	_	Case=Abl|Gender=Masc|Number=Sing	16	nsubj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+8	,	,	PUNCT	_	_	14	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+9	qui	qui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	14	nsubj:pass	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+10	de	de	ADP	_	_	13	case	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+11	agri	ager	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+12	cultura	cultura	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	13	obj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+13	est	sum	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q|FieldStatus4=q|FieldStatus8=q
+14	editus	edo	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	acl:relcl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+15	,	,	PUNCT	_	_	17	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+16	scripta	scribo	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+17	sunt	sum	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux:pass	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+18	permulta	permultus	ADJ	_	Case=Nom|Gender=Neut|Number=Plur	16	amod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q
+19	similia	similis	ADJ	_	Case=Nom|Gender=Neut|Number=Plur	18	amod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q|FieldStatus8=q
+20	,	,	PUNCT	_	_	23	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+21	ut	ut	ADV	_	PronType=Rel	31	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=q
+22	haec	hic	PRON	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	31	nsubj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo
+23	,	,	PUNCT	_	_	29	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+24	quem	qui	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	26	obj	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus4=q
+25	ad	ad	ADP	_	_	26	case	_	Discourse=Dialogue|Speaker=Stolo
+26	modum	modus	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	28	nmod	_	Discourse=Dialogue|Speaker=Stolo
+27	placentam	placenta	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	28	obj	_	Discourse=Dialogue|Speaker=Stolo
+28	facere	facio	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	ccomp	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+29	oporteat	oportet	VERB	_	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+30	,	,	PUNCT	_	_	33	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+31	quo	qui	PRON	_	Case=Abl|Gender=Neut|Number=Sing|PronType=Rel	33	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=q|FieldStatus8=q
+32	pacto	pactum	NOUN	_	Case=Abl|Gender=Neut|Number=Sing	33	orphan	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+33	libum	libum	NOUN	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo
+34	,	,	PUNCT	_	_	39	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+35	qua	qui	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Int	36	nmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus7=p|FieldStatus8=q
+36	ratione	ratio	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	38	advmod	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p|FieldStatus8=q
+37	pernas	perna	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	38	obj	_	Discourse=Dialogue|Speaker=Stolo
+38	sallere	sallo	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Stolo|FieldStatus3=p|FieldStatus4=p
+39	?	?	PUNCT	_	_	16	punct	_	Discourse=Dialogue|Speaker=Stolo|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=s
+
+# sent_id = S000133
+# speaker = Agrius
+# edition_loc = 1.2.28
+# text_old = Illud non dicis, inquit Agrius, quod scribit, "si velis in convivio multum bibere cenareque libenter, ante esse oportet brassicam crudam ex aceto aliqua folia quinque".
+# text = illud non dicis – inquit Agrius– quod scribit, “si velis in convivio multum bibere cenareque libenter, ante esse oportet brassicam crudam ex aceto aliqua folia quinque”.
+# split_from = S000133
+# split_type = DIALOGUE
+# split_policy = mixed discourse split into _DIALOGUE and _NARRATIVE
+# remerged_from = S000133_DIALOGUE,S000133_NARRATIVE
+# remerge_policy = NARRATIVE root attached to DIALOGUE root with parataxis:reporting
+1	illud	ille	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	Discourse=Dialogue|OrigForm=Illud|Speaker=Agrius|FieldStatus7=p|FieldStatus8=q
+2	non	non	ADV	_	Polarity=Neg	3	advmod:neg	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p
+3	dicis	dico	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+4	–	–	PUNCT	_	_	5	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Agrius|FieldStatus8=p|FieldStatus7=s
+5	inquit	inquam	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis:reporting	_	Discourse=Narrative|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|Gender=Masc|Number=Sing	5	nsubj	_	Discourse=Narrative|Speaker=Agrius|FieldStatus8=p|FieldStatus7=s
+7	–	,	PUNCT	_	_	5	punct	_	Discourse=Narrative|OrigForm=,|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p|FieldStatus3=q
+8	quod	qui	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	9	nsubj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+9	scribit	scribo	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+10	,	,	PUNCT	_	_	14	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+11	“	“	PUNCT	_	_	3	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus4=p|FieldStatus8=p|FieldStatus3=p
+12	si	si	SCONJ	_	_	13	mark	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+13	velis	volo	VERB	_	Aspect=Imp|Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	24	advcl	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus7=p
+14	in	in	ADP	_	_	15	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+15	convivio	convivium	NOUN	_	Case=Abl|Gender=Neut|Number=Sing	17	obl	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+16	multum	multus	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|NumType=Card	17	amod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+17	bibere	bibo	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	ccomp	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p|FieldStatus8=q
+18	cenare	ceno	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	conj	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+19	que	que	CCONJ	_	_	18	cc	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+20	libenter	libenter	ADV	_	_	19	advmod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+21	,	,	PUNCT	_	_	14	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+22	ante	ante	ADV	_	_	24	advmod:tmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+23	esse	sum	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	cop	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus4=q
+24	oportet	oportet	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advmod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+25	brassicam	brassica	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	Discourse=Dialogue|Speaker=Agrius|Gender=Fem|Number=Sing	30	amod	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=q
+27	ex	ex	ADP	_	_	28	case	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
+28	aceto	acetum	NOUN	_	Case=Abl|Gender=Neut|Number=Sing	26	obl	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p
+29	aliqua	aliquis	PRON	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	30	obj	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus7=p|FieldStatus4=q|FieldStatus8=q
+30	folia	folium	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	24	appos	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus3=p|FieldStatus4=p|FieldStatus7=q
+31	quin	quinque	NUM	_	_	30	nummod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus7=p|FieldStatus3=q
+32	que	quinque	NUM	_	_	30	nummod	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus3=q|FieldStatus4=q|FieldStatus8=q
+33	”	”	PUNCT	_	_	24	punct	_	Discourse=Dialogue|SpaceAfter=No|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p
+34	.	.	PUNCT	_	_	3	punct	_	Discourse=Dialogue|Speaker=Agrius|FieldStatus8=p|FieldStatus3=p|FieldStatus4=p|FieldStatus7=p
